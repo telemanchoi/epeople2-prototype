@@ -1,9 +1,10 @@
 import { http, HttpResponse, delay } from 'msw';
 import type { IApiResponse, IApiError, INotification } from '@/types';
 import notificationsData from '../data/notifications.json';
+import { loadData, saveData } from '../persistence';
 
-// Mutable copy
-let notifications = [...notificationsData] as INotification[];
+// Load from localStorage or fall back to JSON
+let notifications = loadData<INotification>('notifications', notificationsData as INotification[]);
 
 export const notificationHandlers = [
   // GET /api/notifications — List notifications
@@ -64,6 +65,7 @@ export const notificationHandlers = [
       ...notifications[notifIndex],
       isRead: true,
     };
+    saveData('notifications', notifications);
 
     return HttpResponse.json(
       {
@@ -84,6 +86,7 @@ export const notificationHandlers = [
       ...n,
       isRead: true,
     }));
+    saveData('notifications', notifications);
 
     return HttpResponse.json(
       {

@@ -1,10 +1,11 @@
 import { http, HttpResponse, delay } from 'msw';
 import type { IApiResponse, IApiError, IProposal, IProposalSummary } from '@/types';
 import proposalsData from '../data/proposals.json';
+import { loadData, saveData, loadCounter, saveCounter } from '../persistence';
 
-// Mutable copy
-let proposals = [...proposalsData] as unknown as IProposal[];
-let nextProposalNumber = proposals.length + 1;
+// Load from localStorage or fall back to JSON
+let proposals = loadData<IProposal>('proposals', proposalsData as unknown as IProposal[]);
+let nextProposalNumber = loadCounter('proposals', proposals.length + 1);
 
 function generateProposalId(): string {
   const id = `PRP-2024-${String(nextProposalNumber).padStart(6, '0')}`;
@@ -138,6 +139,8 @@ export const proposalHandlers = [
     };
 
     proposals.push(newProposal);
+    saveData('proposals', proposals);
+    saveCounter('proposals', nextProposalNumber);
 
     return HttpResponse.json(
       {
@@ -211,6 +214,7 @@ export const proposalHandlers = [
       isLikedByMe: !wasLiked,
       likeCount: newLikeCount,
     };
+    saveData('proposals', proposals);
 
     return HttpResponse.json(
       {
@@ -274,6 +278,7 @@ export const proposalHandlers = [
       review,
       reviewResult: { result: body.result, reviewedAt: now },
     };
+    saveData('proposals', proposals);
 
     return HttpResponse.json(
       {

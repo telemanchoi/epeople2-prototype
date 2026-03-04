@@ -1,10 +1,11 @@
 import { http, HttpResponse, delay } from 'msw';
 import type { IApiResponse, IApiError, ICorruptionReport, ICorruptionReportSummary } from '@/types';
 import reportsData from '../data/reports.json';
+import { loadData, saveData, loadCounter, saveCounter } from '../persistence';
 
-// Mutable copy
-let reports = [...reportsData] as unknown as ICorruptionReport[];
-let nextReportNumber = reports.length + 1;
+// Load from localStorage or fall back to JSON
+let reports = loadData<ICorruptionReport>('reports', reportsData as unknown as ICorruptionReport[]);
+let nextReportNumber = loadCounter('reports', reports.length + 1);
 
 function generateReportId(): string {
   const id = `RPT-2024-${String(nextReportNumber).padStart(6, '0')}`;
@@ -118,6 +119,8 @@ export const reportHandlers = [
     };
 
     reports.push(newReport);
+    saveData('reports', reports);
+    saveCounter('reports', nextReportNumber);
 
     return HttpResponse.json(
       {
@@ -304,6 +307,7 @@ export const reportHandlers = [
     };
 
     reports[reportIndex] = updated;
+    saveData('reports', reports);
 
     return HttpResponse.json(
       {

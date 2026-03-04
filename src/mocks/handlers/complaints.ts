@@ -2,9 +2,10 @@ import { http, HttpResponse, delay } from 'msw';
 import type { IApiResponse, IApiError, IComplaint, IComplaintSummary } from '@/types';
 import complaintsData from '../data/complaints.json';
 import agenciesData from '../data/agencies.json';
+import { loadData, saveData, loadCounter, saveCounter } from '../persistence';
 
-// Mutable copy so we can add/modify complaints at runtime
-let complaints = [...complaintsData] as unknown as IComplaint[];
+// Load from localStorage or fall back to JSON
+let complaints = loadData<IComplaint>('complaints', complaintsData as unknown as IComplaint[]);
 
 // SLA days by complaint type
 const SLA_DAYS: Record<string, number> = {
@@ -16,7 +17,7 @@ const SLA_DAYS: Record<string, number> = {
 };
 
 // Counter for new complaint IDs
-let nextComplaintNumber = complaints.length + 1;
+let nextComplaintNumber = loadCounter('complaints', complaints.length + 1);
 
 // Helper: generate complaint ID
 function generateComplaintId(): string {
@@ -223,6 +224,8 @@ export const complaintHandlers = [
     };
 
     complaints.push(newComplaint);
+    saveData('complaints', complaints);
+    saveCounter('complaints', nextComplaintNumber);
 
     return HttpResponse.json(
       {
@@ -376,6 +379,7 @@ export const complaintHandlers = [
     };
 
     complaints[complaintIndex] = updated;
+    saveData('complaints', complaints);
 
     return HttpResponse.json(
       {
@@ -457,6 +461,7 @@ export const complaintHandlers = [
     };
 
     complaints[complaintIndex] = updated;
+    saveData('complaints', complaints);
 
     return HttpResponse.json(
       {
@@ -609,6 +614,7 @@ export const complaintHandlers = [
         submittedAt: new Date().toISOString(),
       },
     };
+    saveData('complaints', complaints);
 
     return HttpResponse.json(
       {
