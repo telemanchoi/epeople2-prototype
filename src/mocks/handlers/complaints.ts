@@ -250,10 +250,12 @@ export const complaintHandlers = [
 
     const url = new URL(request.url);
     const categoryL2 = url.searchParams.get('categoryL2');
-    const _regionCode = url.searchParams.get('regionCode');
+    const regionCode = url.searchParams.get('regionCode');
 
     let similar = complaints.filter((c) => {
-      if (categoryL2 && c.categoryPath?.l2?.code === categoryL2) return true;
+      const matchesCategory = categoryL2 && c.categoryPath?.l2?.code === categoryL2;
+      const matchesRegion = !regionCode || c.regionCode === regionCode;
+      if (matchesCategory && matchesRegion) return true;
       return false;
     });
 
