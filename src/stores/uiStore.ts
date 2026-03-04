@@ -20,9 +20,16 @@ interface UIState {
   closeModal: () => void;
 }
 
+const storedLang = (typeof window !== 'undefined'
+  ? localStorage.getItem('epeople2-lang')
+  : null) as Language | null;
+const initialLang: Language = storedLang === 'ar' || storedLang === 'fr' || storedLang === 'ko'
+  ? storedLang
+  : 'fr';
+
 export const useUIStore = create<UIState>((set) => ({
-  language: 'fr',
-  isRTL: false,
+  language: initialLang,
+  isRTL: initialLang === 'ar',
   sidebarOpen: true,
   activeModal: null,
 
@@ -36,6 +43,7 @@ export const useUIStore = create<UIState>((set) => ({
       : lang === 'ko'
         ? 'font-korean'
         : 'font-latin';
+    localStorage.setItem('epeople2-lang', lang);
     set({ language: lang, isRTL });
   },
 

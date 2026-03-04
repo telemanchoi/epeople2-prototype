@@ -23,13 +23,18 @@ import koAdmin from './locales/ko/admin.json';
 import koReport from './locales/ko/report.json';
 import koProposal from './locales/ko/proposal.json';
 
+const storedLang = localStorage.getItem('epeople2-lang');
+const initialLng = storedLang === 'ar' || storedLang === 'fr' || storedLang === 'ko'
+  ? storedLang
+  : 'fr';
+
 i18n.use(initReactI18next).init({
   resources: {
     ar: { common: arCommon, complaint: arComplaint, auth: arAuth, admin: arAdmin, report: arReport, proposal: arProposal },
     fr: { common: frCommon, complaint: frComplaint, auth: frAuth, admin: frAdmin, report: frReport, proposal: frProposal },
     ko: { common: koCommon, complaint: koComplaint, auth: koAuth, admin: koAdmin, report: koReport, proposal: koProposal },
   },
-  lng: 'fr',
+  lng: initialLng,
   fallbackLng: 'fr',
   ns: ['common', 'complaint', 'auth', 'admin', 'report', 'proposal'],
   defaultNS: 'common',
