@@ -1,0 +1,51 @@
+{
+  "dashboard": {
+    "title": "لوحة القيادة - المكتب المركزي",
+    "totalComplaints": "إجمالي الشكاوى",
+    "completionRate": "نسبة المعالجة",
+    "avgProcessingDays": "متوسط المدة (أيام)",
+    "satisfactionScore": "درجة الرضا",
+    "overdueCount": "شكاوى متأخرة",
+    "agencyPerformance": "أداء الجهات",
+    "dailyTrend": "الاتجاه اليومي",
+    "typeDistribution": "التوزيع حسب النوع",
+    "transferWarnings": "تنبيهات التحويل"
+  },
+  "performance": {
+    "title": "أداء مكاتب العلاقات",
+    "agency": "الجهة",
+    "received": "المستلمة",
+    "completed": "المعالجة",
+    "completionRate": "النسبة (%)",
+    "avgDays": "متوسط المدة",
+    "slaCompliance": "الامتثال (%)",
+    "satisfaction": "الرضا",
+    "transfers": "التحويلات",
+    "overdue": "متأخرة",
+    "lowPerformanceWarning": "نسبة المعالجة أقل من 80%"
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "name": "الاسم",
+    "role": "الدور",
+    "agency": "الجهة",
+    "status": "الحالة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "changeRole": "تغيير الدور",
+    "toggleStatus": "تفعيل/إلغاء"
+  },
+  "helpdesk": {
+    "title": "مكتب المساعدة",
+    "ticketNumber": "رقم التذكرة",
+    "channel": "القناة",
+    "channels": {
+      "phone": "هاتف",
+      "email": "بريد إلكتروني",
+      "online": "عبر الإنترنت"
+    },
+    "type": "النوع",
+    "status": "الحالة",
+    "assignedAgent": "الموظف المكلف"
+  }
+}

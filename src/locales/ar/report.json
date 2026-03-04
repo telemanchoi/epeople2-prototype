@@ -1,0 +1,45 @@
+{
+  "title": "الإبلاغ عن الفساد",
+  "subtitle": "سيتم التعامل مع بلاغك بسرية تامة من قبل الهيئة العامة",
+  "types": {
+    "bribery": "رشوة",
+    "embezzlement": "اختلاس",
+    "abuse_of_power": "استغلال النفوذ",
+    "nepotism": "محسوبية",
+    "other": "أخرى"
+  },
+  "statuses": {
+    "received": "مستلم",
+    "preliminary_review": "فحص أولي",
+    "under_investigation": "قيد التحقيق",
+    "completed": "معالج",
+    "dismissed": "محفوظ"
+  },
+  "form": {
+    "identityChoice": "طريقة الإبلاغ",
+    "named": "بلاغ باسم المبلّغ",
+    "namedDescription": "ستتم حماية هويتك وفقاً للقانون",
+    "anonymous": "بلاغ مجهول",
+    "anonymousDescription": "لن يتم جمع أي معلومات شخصية",
+    "corruptionType": "نوع الفساد",
+    "targetAgency": "الجهة المعنية",
+    "incidentDate": "تاريخ الوقائع",
+    "location": "المكان",
+    "locationPlaceholder": "حدد مكان الوقائع",
+    "content": "وصف الوقائع",
+    "contentPlaceholder": "صف وقائع الفساد بالتفصيل...",
+    "evidence": "أدلة / مستندات",
+    "evidenceHint": "أرفق أي مستند يدعم بلاغك",
+    "submit": "إرسال البلاغ",
+    "submitSuccess": "تم تسجيل بلاغك",
+    "reportId": "رقم البلاغ",
+    "trackingCode": "رمز التتبع",
+    "trackingCodeHint": "احتفظ بهذا الرمز لمتابعة بلاغك",
+    "anonymousTokenHint": "احتفظ بهذا الرمز — إنه الوسيلة الوحيدة لمتابعة بلاغك"
+  },
+  "track": {
+    "title": "متابعة بلاغي",
+    "enterCode": "أدخل رمز التتبع",
+    "search": "بحث"
+  }
+}

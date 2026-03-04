@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "complaints": "شكاواي",
+    "reports": "الإبلاغ عن الفساد",
+    "proposals": "المقترحات المواطنية",
+    "backoffice": "نظام الإدارة",
+    "admin": "الإدارة",
+    "statistics": "الإحصائيات",
+    "worklist": "قائمة المهام",
+    "helpdesk": "مكتب المساعدة",
+    "users": "إدارة المستخدمين",
+    "performance": "أداء مكاتب العلاقات"
+  },
+  "buttons": {
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "confirm": "تأكيد",
+    "close": "إغلاق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "reset": "إعادة تعيين",
+    "viewDetails": "عرض التفاصيل",
+    "download": "تحميل",
+    "upload": "رفع",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "newComplaint": "شكوى جديدة",
+    "newReport": "بلاغ جديد",
+    "newProposal": "مقترح جديد"
+  },
+  "pagination": {
+    "showing": "عرض {{from}} إلى {{to}} من {{total}}",
+    "perPage": "لكل صفحة",
+    "page": "الصفحة {{current}} من {{total}}"
+  },
+  "form": {
+    "required": "هذا الحقل مطلوب",
+    "minLength": "الحد الأدنى {{count}} حرف",
+    "maxLength": "الحد الأقصى {{count}} حرف",
+    "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+    "selectOption": "اختر خياراً",
+    "noResults": "لا توجد نتائج"
+  },
+  "errors": {
+    "generic": "حدث خطأ",
+    "networkError": "خطأ في الاتصال بالشبكة",
+    "unauthorized": "انتهت الجلسة، يرجى تسجيل الدخول مجدداً",
+    "forbidden": "غير مصرح بالوصول",
+    "notFound": "المورد غير موجود"
+  },
+  "language": {
+    "ar": "العربية",
+    "fr": "Français",
+    "ko": "한국어"
+  },
+  "empty": {
+    "title": "لا توجد بيانات",
+    "description": "لا توجد عناصر للعرض حالياً"
+  },
+  "loading": "جاري التحميل...",
+  "yes": "نعم",
+  "no": "لا",
+  "appName": "e-People II",
+  "appSubtitle": "بوابة العلاقة مع المواطن",
+  "footer": {
+    "contact": "اتصل بالمكتب المركزي",
+    "privacy": "سياسة الخصوصية",
+    "accessibility": "إمكانية الوصول",
+    "copyright": "© 2024 المكتب المركزي للعلاقة مع المواطن"
+  }
+}

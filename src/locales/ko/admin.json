@@ -1,0 +1,51 @@
+{
+  "dashboard": {
+    "title": "BCRC 대시보드",
+    "totalComplaints": "총 민원 수",
+    "completionRate": "처리율",
+    "avgProcessingDays": "평균 처리일",
+    "satisfactionScore": "만족도",
+    "overdueCount": "기한 초과 건수",
+    "agencyPerformance": "기관별 성과",
+    "dailyTrend": "일별 추이",
+    "typeDistribution": "유형별 분포",
+    "transferWarnings": "이관 경고"
+  },
+  "performance": {
+    "title": "BRC 성과 현황",
+    "agency": "기관",
+    "received": "접수",
+    "completed": "처리",
+    "completionRate": "처리율(%)",
+    "avgDays": "평균일수",
+    "slaCompliance": "SLA 준수율(%)",
+    "satisfaction": "만족도",
+    "transfers": "이관",
+    "overdue": "초과",
+    "lowPerformanceWarning": "처리율 80% 미만"
+  },
+  "users": {
+    "title": "사용자 관리",
+    "name": "이름",
+    "role": "역할",
+    "agency": "소속기관",
+    "status": "상태",
+    "active": "활성",
+    "inactive": "비활성",
+    "changeRole": "역할 변경",
+    "toggleStatus": "활성/비활성"
+  },
+  "helpdesk": {
+    "title": "헬프데스크",
+    "ticketNumber": "티켓번호",
+    "channel": "채널",
+    "channels": {
+      "phone": "전화",
+      "email": "이메일",
+      "online": "온라인"
+    },
+    "type": "유형",
+    "status": "상태",
+    "assignedAgent": "담당자"
+  }
+}

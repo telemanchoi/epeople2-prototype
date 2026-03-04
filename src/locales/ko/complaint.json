@@ -1,0 +1,109 @@
+{
+  "types": {
+    "grievance": "고충민원",
+    "proposal": "제안",
+    "inquiry": "질의",
+    "suggestion": "건의",
+    "report": "신고"
+  },
+  "typeDescriptions": {
+    "grievance": "행정 행위로 인한 피해 구제 요청",
+    "proposal": "정책 또는 공공서비스 개선 제안",
+    "inquiry": "법령·규정에 대한 정보 또는 해명 요청",
+    "suggestion": "행정 개선을 위한 의견 또는 권고",
+    "report": "행정 위반 또는 불법 행위 신고"
+  },
+  "sla": {
+    "grievance": "60일",
+    "proposal": "30일",
+    "inquiry": "7일",
+    "suggestion": "30일",
+    "report": "15일"
+  },
+  "statuses": {
+    "received": "접수됨",
+    "assigned": "배분됨",
+    "processing": "처리 중",
+    "completed": "처리 완료",
+    "closed": "종결"
+  },
+  "steps": {
+    "step1": "민원 유형",
+    "step2": "분류 선택",
+    "step3": "내용 작성",
+    "step4": "파일 첨부",
+    "step5": "확인 및 제출"
+  },
+  "form": {
+    "selectType": "민원 유형을 선택하세요",
+    "selectCategory": "분류를 선택하세요",
+    "categoryL1": "대분류",
+    "categoryL2": "중분류",
+    "categoryL3": "소분류",
+    "title": "민원 제목",
+    "titlePlaceholder": "민원 내용을 한 문장으로 요약하세요",
+    "content": "상세 내용",
+    "contentPlaceholder": "민원 내용을 상세히 기술하세요...",
+    "region": "행정구역",
+    "incidentDate": "발생일",
+    "attachments": "첨부파일",
+    "attachmentsHint": "파일을 드래그하거나 클릭하여 선택하세요 (최대 5개, 각 10MB)",
+    "consent": "이용약관에 동의하며 개인정보 처리를 허용합니다",
+    "summary": "민원 접수 내용 요약",
+    "submitting": "제출 중...",
+    "submitSuccess": "민원이 성공적으로 접수되었습니다",
+    "complaintId": "민원 번호",
+    "expectedDeadline": "처리 기한"
+  },
+  "list": {
+    "title": "내 민원",
+    "searchPlaceholder": "제목 또는 번호로 검색...",
+    "filterByStatus": "상태별 필터",
+    "filterByType": "유형별 필터",
+    "allStatuses": "모든 상태",
+    "allTypes": "모든 유형",
+    "dateRange": "기간",
+    "noComplaints": "접수된 민원이 없습니다"
+  },
+  "detail": {
+    "title": "민원 상세",
+    "info": "기본 정보",
+    "timeline": "처리 이력",
+    "attachments": "첨부파일",
+    "answer": "답변",
+    "satisfaction": "만족도 평가",
+    "satisfactionPrompt": "민원 처리 결과에 만족하십니까?",
+    "satisfactionSubmitted": "평가해 주셔서 감사합니다",
+    "appeal": "이의신청",
+    "appealHint": "답변 후 7일 이내에 이의신청이 가능합니다",
+    "deadline": "처리 기한",
+    "daysRemaining": "{{days}}일 남음",
+    "daysOverdue": "{{days}}일 초과",
+    "transferCount": "이관 횟수",
+    "transferWarning": "주의: 다중 이관 발생",
+    "bcrcReportRequired": "BCRC 보고 필요"
+  },
+  "table": {
+    "id": "번호",
+    "type": "유형",
+    "title": "제목",
+    "status": "상태",
+    "agency": "담당기관",
+    "deadline": "기한",
+    "submittedAt": "접수일",
+    "transferCount": "이관"
+  },
+  "process": {
+    "statusChange": "상태 변경",
+    "answer": "답변 작성",
+    "answerPlaceholder": "시민에게 보낼 답변을 작성하세요...",
+    "transfer": "이관",
+    "transferReason": "이관 사유 (최소 50자)",
+    "transferTo": "이관 대상",
+    "extendDeadline": "기한 연장 요청",
+    "jointProcess": "공동처리 요청",
+    "similarCases": "유사 사례",
+    "complete": "처리 완료",
+    "templateSelect": "답변 템플릿 선택"
+  }
+}

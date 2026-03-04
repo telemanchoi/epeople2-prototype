@@ -1,0 +1,109 @@
+{
+  "types": {
+    "grievance": "تظلم",
+    "proposal": "اقتراح",
+    "inquiry": "استفسار",
+    "suggestion": "ملاحظة",
+    "report": "بلاغ"
+  },
+  "typeDescriptions": {
+    "grievance": "طلب إنصاف من ضرر ناتج عن قرار إداري",
+    "proposal": "اقتراح لتحسين السياسات أو الخدمات العامة",
+    "inquiry": "طلب معلومات أو توضيح حول التشريعات",
+    "suggestion": "ملاحظة أو توصية لتحسين الإدارة",
+    "report": "الإبلاغ عن مخالفة أو تجاوز إداري"
+  },
+  "sla": {
+    "grievance": "60 يوم",
+    "proposal": "30 يوم",
+    "inquiry": "7 أيام",
+    "suggestion": "30 يوم",
+    "report": "15 يوم"
+  },
+  "statuses": {
+    "received": "مستلمة",
+    "assigned": "موزعة",
+    "processing": "قيد المعالجة",
+    "completed": "معالجة",
+    "closed": "مغلقة"
+  },
+  "steps": {
+    "step1": "نوع الشكوى",
+    "step2": "التصنيف",
+    "step3": "التفاصيل",
+    "step4": "المرفقات",
+    "step5": "التأكيد"
+  },
+  "form": {
+    "selectType": "اختر نوع الشكوى",
+    "selectCategory": "اختر التصنيف",
+    "categoryL1": "التصنيف الرئيسي",
+    "categoryL2": "التصنيف الفرعي",
+    "categoryL3": "التصنيف التفصيلي",
+    "title": "موضوع الشكوى",
+    "titlePlaceholder": "لخص شكواك في جملة واحدة",
+    "content": "الوصف التفصيلي",
+    "contentPlaceholder": "صف شكواك بالتفصيل...",
+    "region": "الولاية / المنطقة",
+    "incidentDate": "تاريخ الحادثة",
+    "attachments": "المرفقات",
+    "attachmentsHint": "اسحب وأفلت الملفات أو انقر للاختيار (حد أقصى 5 ملفات، 10 ميغا لكل ملف)",
+    "consent": "أوافق على شروط الاستخدام وأسمح بمعالجة بياناتي الشخصية",
+    "summary": "ملخص شكواك",
+    "submitting": "جاري الإرسال...",
+    "submitSuccess": "تم تقديم شكواك بنجاح",
+    "complaintId": "رقم الشكوى",
+    "expectedDeadline": "الموعد النهائي للمعالجة"
+  },
+  "list": {
+    "title": "شكاواي",
+    "searchPlaceholder": "البحث بالموضوع أو الرقم...",
+    "filterByStatus": "تصفية حسب الحالة",
+    "filterByType": "تصفية حسب النوع",
+    "allStatuses": "جميع الحالات",
+    "allTypes": "جميع الأنواع",
+    "dateRange": "الفترة",
+    "noComplaints": "لم تقدم أي شكوى بعد"
+  },
+  "detail": {
+    "title": "تفاصيل الشكوى",
+    "info": "المعلومات",
+    "timeline": "سجل المعالجة",
+    "attachments": "المرفقات",
+    "answer": "الرد",
+    "satisfaction": "تقييم الرضا",
+    "satisfactionPrompt": "هل أنت راضٍ عن معالجة شكواك؟",
+    "satisfactionSubmitted": "شكراً لتقييمك",
+    "appeal": "تقديم اعتراض",
+    "appealHint": "يمكنك تقديم اعتراض خلال 7 أيام من الرد",
+    "deadline": "الموعد النهائي",
+    "daysRemaining": "{{days}} يوم متبقي",
+    "daysOverdue": "{{days}} يوم تأخير",
+    "transferCount": "عدد التحويلات",
+    "transferWarning": "تنبيه: تحويل متعدد",
+    "bcrcReportRequired": "تقرير المكتب المركزي مطلوب"
+  },
+  "table": {
+    "id": "الرقم",
+    "type": "النوع",
+    "title": "الموضوع",
+    "status": "الحالة",
+    "agency": "الجهة",
+    "deadline": "الموعد النهائي",
+    "submittedAt": "تاريخ التقديم",
+    "transferCount": "التحويلات"
+  },
+  "process": {
+    "statusChange": "تغيير الحالة",
+    "answer": "كتابة الرد",
+    "answerPlaceholder": "اكتب ردك للمواطن...",
+    "transfer": "تحويل",
+    "transferReason": "سبب التحويل (50 حرف على الأقل)",
+    "transferTo": "تحويل إلى",
+    "extendDeadline": "طلب تمديد",
+    "jointProcess": "استشارة مشتركة",
+    "similarCases": "حالات مشابهة",
+    "complete": "إنهاء المعالجة",
+    "templateSelect": "اختر نموذج رد"
+  }
+}

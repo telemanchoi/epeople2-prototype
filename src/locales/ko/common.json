@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "홈",
+    "complaints": "내 민원",
+    "reports": "부패 신고",
+    "proposals": "국민제안",
+    "backoffice": "백오피스",
+    "admin": "관리",
+    "statistics": "통계",
+    "worklist": "워크리스트",
+    "helpdesk": "헬프데스크",
+    "users": "사용자 관리",
+    "performance": "BRC 성과"
+  },
+  "buttons": {
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "수정",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "confirm": "확인",
+    "close": "닫기",
+    "search": "검색",
+    "filter": "필터",
+    "reset": "초기화",
+    "viewDetails": "상세보기",
+    "download": "다운로드",
+    "upload": "업로드",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "newComplaint": "새 민원",
+    "newReport": "새 신고",
+    "newProposal": "새 제안"
+  },
+  "pagination": {
+    "showing": "{{total}}개 중 {{from}}~{{to}} 표시",
+    "perPage": "페이지당",
+    "page": "{{total}} 페이지 중 {{current}}"
+  },
+  "form": {
+    "required": "필수 항목입니다",
+    "minLength": "최소 {{count}}자",
+    "maxLength": "최대 {{count}}자",
+    "invalidEmail": "올바른 이메일 주소가 아닙니다",
+    "selectOption": "선택하세요",
+    "noResults": "결과가 없습니다"
+  },
+  "errors": {
+    "generic": "오류가 발생했습니다",
+    "networkError": "네트워크 연결 오류",
+    "unauthorized": "세션이 만료되었습니다. 다시 로그인해주세요",
+    "forbidden": "접근 권한이 없습니다",
+    "notFound": "리소스를 찾을 수 없습니다"
+  },
+  "language": {
+    "ar": "العربية",
+    "fr": "Français",
+    "ko": "한국어"
+  },
+  "empty": {
+    "title": "데이터 없음",
+    "description": "표시할 항목이 없습니다"
+  },
+  "loading": "로딩 중...",
+  "yes": "예",
+  "no": "아니오",
+  "appName": "e-People II",
+  "appSubtitle": "시민관계 포털",
+  "footer": {
+    "contact": "BCRC 연락처",
+    "privacy": "개인정보 처리방침",
+    "accessibility": "접근성",
+    "copyright": "© 2024 BCRC - 중앙시민관계국"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "types": {
+    "grievance": "Réclamation",
+    "proposal": "Suggestion",
+    "inquiry": "Renseignement",
+    "suggestion": "Doléance",
+    "report": "Signalement"
+  },
+  "typeDescriptions": {
+    "grievance": "Demande de réparation d'un préjudice subi suite à un acte administratif",
+    "proposal": "Proposition d'amélioration des politiques ou services publics",
+    "inquiry": "Demande d'information ou de clarification sur la réglementation",
+    "suggestion": "Observation ou recommandation pour améliorer l'administration",
+    "report": "Signalement d'un manquement ou d'une infraction administrative"
+  },
+  "sla": {
+    "grievance": "60 jours",
+    "proposal": "30 jours",
+    "inquiry": "7 jours",
+    "suggestion": "30 jours",
+    "report": "15 jours"
+  },
+  "statuses": {
+    "received": "Reçue",
+    "assigned": "Attribuée",
+    "processing": "En cours de traitement",
+    "completed": "Traitée",
+    "closed": "Clôturée"
+  },
+  "steps": {
+    "step1": "Type de réclamation",
+    "step2": "Classification",
+    "step3": "Détails",
+    "step4": "Pièces jointes",
+    "step5": "Confirmation"
+  },
+  "form": {
+    "selectType": "Sélectionnez le type de réclamation",
+    "selectCategory": "Sélectionnez la catégorie",
+    "categoryL1": "Catégorie principale",
+    "categoryL2": "Sous-catégorie",
+    "categoryL3": "Catégorie détaillée",
+    "title": "Objet de la réclamation",
+    "titlePlaceholder": "Résumez votre réclamation en une phrase",
+    "content": "Description détaillée",
+    "contentPlaceholder": "Décrivez votre réclamation en détail...",
+    "region": "Gouvernorat / Région",
+    "incidentDate": "Date de l'incident",
+    "attachments": "Pièces jointes",
+    "attachmentsHint": "Glissez-déposez vos fichiers ou cliquez pour sélectionner (max 5 fichiers, 10 Mo chacun)",
+    "consent": "J'accepte les conditions d'utilisation et autorise le traitement de mes données personnelles",
+    "summary": "Récapitulatif de votre réclamation",
+    "submitting": "Soumission en cours...",
+    "submitSuccess": "Votre réclamation a été soumise avec succès",
+    "complaintId": "Numéro de réclamation",
+    "expectedDeadline": "Date limite de traitement"
+  },
+  "list": {
+    "title": "Mes réclamations",
+    "searchPlaceholder": "Rechercher par objet ou numéro...",
+    "filterByStatus": "Filtrer par statut",
+    "filterByType": "Filtrer par type",
+    "allStatuses": "Tous les statuts",
+    "allTypes": "Tous les types",
+    "dateRange": "Période",
+    "noComplaints": "Vous n'avez pas encore soumis de réclamation"
+  },
+  "detail": {
+    "title": "Détails de la réclamation",
+    "info": "Informations",
+    "timeline": "Historique de traitement",
+    "attachments": "Pièces jointes",
+    "answer": "Réponse",
+    "satisfaction": "Évaluation de satisfaction",
+    "satisfactionPrompt": "Êtes-vous satisfait du traitement de votre réclamation ?",
+    "satisfactionSubmitted": "Merci pour votre évaluation",
+    "appeal": "Faire appel",
+    "appealHint": "Vous pouvez faire appel dans les 7 jours suivant la réponse",
+    "deadline": "Date limite",
+    "daysRemaining": "{{days}} jours restants",
+    "daysOverdue": "{{days}} jours de retard",
+    "transferCount": "Nombre de transferts",
+    "transferWarning": "Attention : transfert multiple détecté",
+    "bcrcReportRequired": "Rapport BCRC obligatoire"
+  },
+  "table": {
+    "id": "N°",
+    "type": "Type",
+    "title": "Objet",
+    "status": "Statut",
+    "agency": "Organisme",
+    "deadline": "Échéance",
+    "submittedAt": "Date de soumission",
+    "transferCount": "Transferts"
+  },
+  "process": {
+    "statusChange": "Changer le statut",
+    "answer": "Rédiger la réponse",
+    "answerPlaceholder": "Rédigez votre réponse au citoyen...",
+    "transfer": "Transférer",
+    "transferReason": "Motif du transfert (min. 50 caractères)",
+    "transferTo": "Transférer vers",
+    "extendDeadline": "Demander une extension",
+    "jointProcess": "Consultation conjointe",
+    "similarCases": "Cas similaires",
+    "complete": "Terminer le traitement",
+    "templateSelect": "Sélectionner un modèle de réponse"
+  }
+}

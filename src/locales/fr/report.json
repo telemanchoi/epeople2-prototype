@@ -1,0 +1,45 @@
+{
+  "title": "Signalement de corruption",
+  "subtitle": "Ce signalement sera traité par la DGGPC en toute confidentialité",
+  "types": {
+    "bribery": "Corruption / Pot-de-vin",
+    "embezzlement": "Détournement de fonds",
+    "abuse_of_power": "Abus de pouvoir",
+    "nepotism": "Népotisme / Favoritisme",
+    "other": "Autre"
+  },
+  "statuses": {
+    "received": "Reçu",
+    "preliminary_review": "Examen préliminaire",
+    "under_investigation": "Enquête en cours",
+    "completed": "Traité",
+    "dismissed": "Classé sans suite"
+  },
+  "form": {
+    "identityChoice": "Mode de signalement",
+    "named": "Signalement nominatif",
+    "namedDescription": "Votre identité sera protégée conformément à la loi",
+    "anonymous": "Signalement anonyme",
+    "anonymousDescription": "Aucune information personnelle ne sera collectée",
+    "corruptionType": "Type de corruption",
+    "targetAgency": "Organisme concerné",
+    "incidentDate": "Date des faits",
+    "location": "Lieu",
+    "locationPlaceholder": "Précisez le lieu des faits",
+    "content": "Description des faits",
+    "contentPlaceholder": "Décrivez les faits de corruption en détail...",
+    "evidence": "Preuves / Documents",
+    "evidenceHint": "Joignez tout document pouvant étayer votre signalement",
+    "submit": "Soumettre le signalement",
+    "submitSuccess": "Votre signalement a été enregistré",
+    "reportId": "Numéro de signalement",
+    "trackingCode": "Code de suivi",
+    "trackingCodeHint": "Conservez ce code pour suivre votre signalement",
+    "anonymousTokenHint": "Conservez ce jeton — c'est le seul moyen de suivre votre signalement"
+  },
+  "track": {
+    "title": "Suivre mon signalement",
+    "enterCode": "Entrez votre code de suivi",
+    "search": "Rechercher"
+  }
+}

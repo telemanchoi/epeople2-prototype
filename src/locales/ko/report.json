@@ -1,0 +1,45 @@
+{
+  "title": "부패 신고",
+  "subtitle": "신고 내용은 DGGPC에서 기밀로 처리됩니다",
+  "types": {
+    "bribery": "뇌물",
+    "embezzlement": "횡령",
+    "abuse_of_power": "직권 남용",
+    "nepotism": "연고주의",
+    "other": "기타"
+  },
+  "statuses": {
+    "received": "접수됨",
+    "preliminary_review": "예비 검토",
+    "under_investigation": "조사 중",
+    "completed": "처리 완료",
+    "dismissed": "각하"
+  },
+  "form": {
+    "identityChoice": "신고 방식",
+    "named": "실명 신고",
+    "namedDescription": "신원은 법률에 따라 보호됩니다",
+    "anonymous": "익명 신고",
+    "anonymousDescription": "개인정보가 수집되지 않습니다",
+    "corruptionType": "부패 유형",
+    "targetAgency": "대상 기관",
+    "incidentDate": "발생일",
+    "location": "장소",
+    "locationPlaceholder": "발생 장소를 기재하세요",
+    "content": "내용 기술",
+    "contentPlaceholder": "부패 사실을 상세히 기술하세요...",
+    "evidence": "증거 자료",
+    "evidenceHint": "신고를 뒷받침할 자료를 첨부하세요",
+    "submit": "신고 제출",
+    "submitSuccess": "신고가 접수되었습니다",
+    "reportId": "신고 번호",
+    "trackingCode": "추적 코드",
+    "trackingCodeHint": "신고 조회를 위해 이 코드를 보관하세요",
+    "anonymousTokenHint": "이 토큰을 보관하세요 — 신고 조회 유일한 수단입니다"
+  },
+  "track": {
+    "title": "내 신고 조회",
+    "enterCode": "추적 코드를 입력하세요",
+    "search": "조회"
+  }
+}

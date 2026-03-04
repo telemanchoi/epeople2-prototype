@@ -1,0 +1,42 @@
+{
+  "title": "Propositions citoyennes",
+  "subtitle": "Participez à l'amélioration des services publics",
+  "statuses": {
+    "pending": "En attente",
+    "under_review": "En cours d'examen",
+    "accepted": "Acceptée",
+    "rejected": "Non retenue",
+    "implemented": "Mise en œuvre"
+  },
+  "form": {
+    "title": "Soumettre une proposition",
+    "proposalTitle": "Titre de la proposition",
+    "titlePlaceholder": "Un titre clair et concis",
+    "category": "Catégorie",
+    "content": "Description de la proposition",
+    "contentPlaceholder": "Décrivez votre proposition en détail...",
+    "attachments": "Documents complémentaires",
+    "submit": "Soumettre",
+    "submitSuccess": "Votre proposition a été soumise avec succès"
+  },
+  "list": {
+    "sortNewest": "Plus récentes",
+    "sortMostLiked": "Plus soutenues",
+    "sortUnderReview": "En examen",
+    "filterCategory": "Catégorie",
+    "allCategories": "Toutes les catégories",
+    "noProposals": "Aucune proposition pour le moment"
+  },
+  "detail": {
+    "author": "Auteur",
+    "submittedAt": "Soumise le",
+    "likes": "{{count}} soutien(s)",
+    "like": "Soutenir",
+    "unlike": "Retirer le soutien",
+    "loginToLike": "Connectez-vous pour soutenir cette proposition",
+    "review": "Résultat de l'examen",
+    "reviewReason": "Commentaire",
+    "implementation": "Suivi de la mise en œuvre",
+    "progress": "Progression"
+  }
+}

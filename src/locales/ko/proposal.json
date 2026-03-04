@@ -1,0 +1,42 @@
+{
+  "title": "국민제안",
+  "subtitle": "공공서비스 개선에 참여하세요",
+  "statuses": {
+    "pending": "검토 대기",
+    "under_review": "검토 중",
+    "accepted": "채택",
+    "rejected": "미채택",
+    "implemented": "이행 완료"
+  },
+  "form": {
+    "title": "제안 작성",
+    "proposalTitle": "제안 제목",
+    "titlePlaceholder": "명확하고 간결한 제목",
+    "category": "분류",
+    "content": "제안 내용",
+    "contentPlaceholder": "제안 내용을 상세히 기술하세요...",
+    "attachments": "참고 자료",
+    "submit": "제출",
+    "submitSuccess": "제안이 성공적으로 접수되었습니다"
+  },
+  "list": {
+    "sortNewest": "최신순",
+    "sortMostLiked": "공감순",
+    "sortUnderReview": "검토 중",
+    "filterCategory": "분류",
+    "allCategories": "전체",
+    "noProposals": "등록된 제안이 없습니다"
+  },
+  "detail": {
+    "author": "제안자",
+    "submittedAt": "제출일",
+    "likes": "공감 {{count}}",
+    "like": "공감",
+    "unlike": "공감 취소",
+    "loginToLike": "공감하려면 로그인하세요",
+    "review": "심사 결과",
+    "reviewReason": "심사 의견",
+    "implementation": "이행 현황",
+    "progress": "진행률"
+  }
+}

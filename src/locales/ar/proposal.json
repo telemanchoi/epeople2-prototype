@@ -1,0 +1,42 @@
+{
+  "title": "المقترحات المواطنية",
+  "subtitle": "شارك في تحسين الخدمات العامة",
+  "statuses": {
+    "pending": "في الانتظار",
+    "under_review": "قيد الدراسة",
+    "accepted": "مقبول",
+    "rejected": "غير مقبول",
+    "implemented": "تم التنفيذ"
+  },
+  "form": {
+    "title": "تقديم مقترح",
+    "proposalTitle": "عنوان المقترح",
+    "titlePlaceholder": "عنوان واضح وموجز",
+    "category": "الفئة",
+    "content": "وصف المقترح",
+    "contentPlaceholder": "صف مقترحك بالتفصيل...",
+    "attachments": "مستندات إضافية",
+    "submit": "إرسال",
+    "submitSuccess": "تم تقديم مقترحك بنجاح"
+  },
+  "list": {
+    "sortNewest": "الأحدث",
+    "sortMostLiked": "الأكثر دعماً",
+    "sortUnderReview": "قيد الدراسة",
+    "filterCategory": "الفئة",
+    "allCategories": "جميع الفئات",
+    "noProposals": "لا توجد مقترحات حالياً"
+  },
+  "detail": {
+    "author": "صاحب المقترح",
+    "submittedAt": "قُدم في",
+    "likes": "{{count}} دعم",
+    "like": "دعم",
+    "unlike": "إلغاء الدعم",
+    "loginToLike": "سجل الدخول لدعم هذا المقترح",
+    "review": "نتيجة الدراسة",
+    "reviewReason": "ملاحظات",
+    "implementation": "متابعة التنفيذ",
+    "progress": "التقدم"
+  }
+}

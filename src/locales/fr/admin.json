@@ -1,0 +1,51 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord BCRC",
+    "totalComplaints": "Total réclamations",
+    "completionRate": "Taux de traitement",
+    "avgProcessingDays": "Délai moyen (jours)",
+    "satisfactionScore": "Score de satisfaction",
+    "overdueCount": "Réclamations en retard",
+    "agencyPerformance": "Performance des organismes",
+    "dailyTrend": "Tendance journalière",
+    "typeDistribution": "Répartition par type",
+    "transferWarnings": "Alertes de transfert"
+  },
+  "performance": {
+    "title": "Performance des BRC",
+    "agency": "Organisme",
+    "received": "Reçues",
+    "completed": "Traitées",
+    "completionRate": "Taux (%)",
+    "avgDays": "Délai moyen",
+    "slaCompliance": "Conformité SLA (%)",
+    "satisfaction": "Satisfaction",
+    "transfers": "Transferts",
+    "overdue": "En retard",
+    "lowPerformanceWarning": "Taux de traitement inférieur à 80%"
+  },
+  "users": {
+    "title": "Gestion des utilisateurs",
+    "name": "Nom",
+    "role": "Rôle",
+    "agency": "Organisme",
+    "status": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "changeRole": "Changer le rôle",
+    "toggleStatus": "Activer/Désactiver"
+  },
+  "helpdesk": {
+    "title": "Helpdesk",
+    "ticketNumber": "N° Ticket",
+    "channel": "Canal",
+    "channels": {
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "online": "En ligne"
+    },
+    "type": "Type",
+    "status": "Statut",
+    "assignedAgent": "Agent assigné"
+  }
+}

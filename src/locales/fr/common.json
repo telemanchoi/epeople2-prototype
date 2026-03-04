@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "complaints": "Mes réclamations",
+    "reports": "Signalement de corruption",
+    "proposals": "Propositions citoyennes",
+    "backoffice": "Back-office",
+    "admin": "Administration",
+    "statistics": "Statistiques",
+    "worklist": "Liste de travail",
+    "helpdesk": "Helpdesk",
+    "users": "Gestion des utilisateurs",
+    "performance": "Performance des BRC"
+  },
+  "buttons": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "viewDetails": "Voir les détails",
+    "download": "Télécharger",
+    "upload": "Téléverser",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "newComplaint": "Nouvelle réclamation",
+    "newReport": "Nouveau signalement",
+    "newProposal": "Nouvelle proposition"
+  },
+  "pagination": {
+    "showing": "Affichage de {{from}} à {{to}} sur {{total}}",
+    "perPage": "Par page",
+    "page": "Page {{current}} sur {{total}}"
+  },
+  "form": {
+    "required": "Ce champ est obligatoire",
+    "minLength": "Minimum {{count}} caractères",
+    "maxLength": "Maximum {{count}} caractères",
+    "invalidEmail": "Adresse e-mail invalide",
+    "selectOption": "Sélectionner une option",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue",
+    "networkError": "Erreur de connexion réseau",
+    "unauthorized": "Session expirée, veuillez vous reconnecter",
+    "forbidden": "Accès non autorisé",
+    "notFound": "Ressource non trouvée"
+  },
+  "language": {
+    "ar": "العربية",
+    "fr": "Français",
+    "ko": "한국어"
+  },
+  "empty": {
+    "title": "Aucune donnée",
+    "description": "Aucun élément à afficher pour le moment"
+  },
+  "loading": "Chargement...",
+  "yes": "Oui",
+  "no": "Non",
+  "appName": "e-People II",
+  "appSubtitle": "Portail de Relations avec le Citoyen",
+  "footer": {
+    "contact": "Contact BCRC",
+    "privacy": "Politique de confidentialité",
+    "accessibility": "Accessibilité",
+    "copyright": "© 2024 BCRC - Bureau Central des Relations avec le Citoyen"
+  }
+}
