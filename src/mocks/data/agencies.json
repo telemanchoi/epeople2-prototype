@@ -1,0 +1,410 @@
+[
+  {
+    "id": "BRC-BCRC-CEN-001",
+    "nameFr": "Bureau Central des Relations avec le Citoyen",
+    "nameAr": "المكتب المركزي للعلاقات مع المواطن",
+    "type": "BCRC",
+    "parentId": null,
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "contact@bcrc.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-DGGPC-CEN-001",
+    "nameFr": "Direction Générale de la Gouvernance et de la Prévention de la Corruption",
+    "nameAr": "الإدارة العامة للحوكمة ومكافحة الفساد",
+    "type": "DGGPC",
+    "parentId": null,
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "contact@dggpc.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-ENV-TUN-001",
+    "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@environnement.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-EDU-TUN-001",
+    "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@education.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-TRN-TUN-001",
+    "nameFr": "BRC - Ministère du Transport - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@transport.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-SAN-TUN-001",
+    "nameFr": "BRC - Ministère de la Santé - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@sante.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-INT-TUN-001",
+    "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@interieur.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-FIN-TUN-001",
+    "nameFr": "BRC - Ministère des Finances - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@finances.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-JUS-TUN-001",
+    "nameFr": "BRC - Ministère de la Justice - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@justice.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-AGR-TUN-001",
+    "nameFr": "BRC - Ministère de l'Agriculture - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الفلاحة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@agriculture.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-EMP-TUN-001",
+    "nameFr": "BRC - Ministère de l'Emploi et de la Formation Professionnelle - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة التشغيل والتكوين المهني - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@emploi.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-EQP-TUN-001",
+    "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@equipement.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-COM-TUN-001",
+    "nameFr": "BRC - Ministère du Commerce - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@commerce.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-AFS-TUN-001",
+    "nameFr": "BRC - Ministère des Affaires Sociales - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الشؤون الاجتماعية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@social.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-CUL-TUN-001",
+    "nameFr": "BRC - Ministère des Affaires Culturelles - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الشؤون الثقافية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@culture.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-TIC-TUN-001",
+    "nameFr": "BRC - Ministère des Technologies de la Communication - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة تكنولوجيات الاتصال - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@tic.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-TOU-TUN-001",
+    "nameFr": "BRC - Ministère du Tourisme et de l'Artisanat - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة السياحة والصناعات التقليدية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@tourisme.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-FEM-TUN-001",
+    "nameFr": "BRC - Ministère de la Femme, de la Famille et de l'Enfance - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة المرأة والأسرة والطفولة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@femme.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-JEU-TUN-001",
+    "nameFr": "BRC - Ministère de la Jeunesse et des Sports - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الشباب والرياضة - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@jeunesse.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-ENR-TUN-001",
+    "nameFr": "BRC - Ministère de l'Industrie, de l'Énergie et des Mines - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الصناعة والطاقة والمناجم - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@industrie.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-DOM-TUN-001",
+    "nameFr": "BRC - Ministère des Domaines de l'État et des Affaires Foncières - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة أملاك الدولة والشؤون العقارية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@domaines.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-REL-TUN-001",
+    "nameFr": "BRC - Ministère des Affaires Religieuses - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الشؤون الدينية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@religieuses.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-SUP-TUN-001",
+    "nameFr": "BRC - Ministère de l'Enseignement Supérieur et de la Recherche Scientifique - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة التعليم العالي والبحث العلمي - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@mes.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  },
+  {
+    "id": "BRC-COL-TUN-001",
+    "nameFr": "BRC - Ministère des Collectivités Locales - Tunis",
+    "nameAr": "مكتب العلاقات مع المواطن - وزارة الشؤون المحلية - تونس",
+    "type": "BRC",
+    "parentId": "BRC-BCRC-CEN-001",
+    "regionCode": "TUN",
+    "isActive": true,
+    "contactEmail": "brc@collectivites.gov.tn",
+    "slaConfig": {
+      "grievance": 1440,
+      "proposal": 720,
+      "inquiry": 168,
+      "suggestion": 720,
+      "report": 360
+    }
+  }
+]

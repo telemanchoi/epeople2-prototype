@@ -1,0 +1,562 @@
+[
+  {
+    "id": "RPT-2024-000001",
+    "type": "bribery",
+    "status": "received",
+    "targetAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-9F3A7B21",
+    "submittedAt": "2024-04-01T10:30:00Z",
+    "trackingCode": "TRK-RPT-2024-A1B2C3",
+    "contentFr": "Un fonctionnaire du bureau régional de Tunis exige régulièrement des pots-de-vin de 200 dinars pour accélérer le traitement des dossiers de carte d'identité.",
+    "contentAr": "موظف بالمكتب الجهوي بتونس يطلب بانتظام رشاوى بقيمة 200 دينار لتسريع معالجة ملفات بطاقات التعريف.",
+    "incidentDate": "2024-03-25",
+    "locationFr": "Bureau régional du Ministère de l'Intérieur, avenue Habib Bourguiba, Tunis",
+    "locationAr": "المكتب الجهوي لوزارة الداخلية، شارع الحبيب بورقيبة، تونس",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-001",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-04-01T10:30:00Z",
+        "noteFr": "Signalement anonyme reçu via le portail",
+        "noteAr": "بلاغ مجهول الهوية مستلم عبر البوابة"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000002",
+    "type": "embezzlement",
+    "status": "preliminary_review",
+    "targetAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "m***@***.tn",
+    "submittedAt": "2024-03-15T14:00:00Z",
+    "trackingCode": "TRK-RPT-2024-D4E5F6",
+    "contentFr": "J'ai constaté un détournement de fonds publics dans le cadre du projet de rénovation du marché central. Les factures présentées sont gonflées par rapport aux travaux réellement effectués.",
+    "contentAr": "لاحظت اختلاسًا للأموال العمومية في إطار مشروع تجديد السوق المركزي. الفواتير المقدمة مضخمة مقارنة بالأشغال المنجزة فعليًا.",
+    "incidentDate": "2024-02-20",
+    "locationFr": "Marché central de Tunis",
+    "locationAr": "السوق المركزية بتونس",
+    "attachments": [
+      {
+        "id": "ATT-RPT-001",
+        "filename": "att_rpt002_001.pdf",
+        "originalName": "factures_suspectes.pdf",
+        "sizeBytes": 1520000,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-03-15T13:55:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "RHIST-002",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-03-15T14:00:00Z"
+      },
+      {
+        "id": "RHIST-003",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire en cours",
+        "actionLabelAr": "الفحص الأولي جارٍ",
+        "officerId": "USR-000004",
+        "timestamp": "2024-03-18T09:00:00Z",
+        "noteFr": "Dossier transmis à l'équipe d'analyse",
+        "noteAr": "الملف محال إلى فريق التحليل"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000003",
+    "type": "abuse_of_power",
+    "status": "under_investigation",
+    "targetAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-5C8D2E41",
+    "submittedAt": "2024-02-28T08:45:00Z",
+    "trackingCode": "TRK-RPT-2024-G7H8I9",
+    "contentFr": "Le directeur régional de l'éducation à Sfax utilise son poste pour attribuer des postes d'enseignement à des membres de sa famille sans respecter les critères de mérite.",
+    "contentAr": "يستغل المدير الجهوي للتربية بصفاقس منصبه لإسناد مناصب تعليمية لأفراد عائلته دون احترام معايير الكفاءة.",
+    "incidentDate": "2024-02-15",
+    "locationFr": "Direction régionale de l'éducation, Sfax",
+    "locationAr": "المندوبية الجهوية للتربية، صفاقس",
+    "attachments": [
+      {
+        "id": "ATT-RPT-002",
+        "filename": "att_rpt003_001.jpg",
+        "originalName": "preuve_affectations.jpg",
+        "sizeBytes": 890000,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-28T08:40:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "RHIST-004",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-02-28T08:45:00Z"
+      },
+      {
+        "id": "RHIST-005",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire terminé",
+        "actionLabelAr": "انتهى الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-03-05T10:00:00Z"
+      },
+      {
+        "id": "RHIST-006",
+        "action": "investigation_started",
+        "actionLabelFr": "Enquête ouverte",
+        "actionLabelAr": "فتح تحقيق",
+        "officerId": "USR-000004",
+        "timestamp": "2024-03-10T09:00:00Z",
+        "noteFr": "Enquête formelle lancée après vérification des éléments préliminaires",
+        "noteAr": "بدء تحقيق رسمي بعد التحقق من العناصر الأولية"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000004",
+    "type": "nepotism",
+    "status": "under_investigation",
+    "targetAgency": {
+      "id": "BRC-AGR-TUN-001",
+      "nameFr": "BRC - Ministère de l'Agriculture - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الفلاحة - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "a***@***.tn",
+    "submittedAt": "2024-03-20T11:00:00Z",
+    "trackingCode": "TRK-RPT-2024-J1K2L3",
+    "contentFr": "Le responsable des marchés publics au ministère de l'Agriculture favorise systématiquement des entreprises dirigées par des proches pour l'attribution de contrats.",
+    "contentAr": "يحابي المسؤول عن الصفقات العمومية بوزارة الفلاحة بشكل منهجي الشركات التي يديرها أقاربه في إسناد العقود.",
+    "incidentDate": "2024-03-10",
+    "locationFr": "Ministère de l'Agriculture, Tunis",
+    "locationAr": "وزارة الفلاحة، تونس",
+    "attachments": [
+      {
+        "id": "ATT-RPT-003",
+        "filename": "att_rpt004_001.pdf",
+        "originalName": "liste_contrats.pdf",
+        "sizeBytes": 2100000,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-03-20T10:55:00Z"
+      },
+      {
+        "id": "ATT-RPT-004",
+        "filename": "att_rpt004_002.pdf",
+        "originalName": "registre_commerce.pdf",
+        "sizeBytes": 450000,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-03-20T10:56:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "RHIST-007",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-03-20T11:00:00Z"
+      },
+      {
+        "id": "RHIST-008",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire effectué",
+        "actionLabelAr": "تم إجراء الفحص الأولي",
+        "officerId": "USR-000006",
+        "timestamp": "2024-03-25T14:00:00Z"
+      },
+      {
+        "id": "RHIST-009",
+        "action": "investigation_started",
+        "actionLabelFr": "Enquête formelle en cours",
+        "actionLabelAr": "التحقيق الرسمي جارٍ",
+        "officerId": "USR-000004",
+        "timestamp": "2024-04-01T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000005",
+    "type": "bribery",
+    "status": "completed",
+    "targetAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "s***@***.tn",
+    "submittedAt": "2024-01-10T09:00:00Z",
+    "trackingCode": "TRK-RPT-2024-M4N5O6",
+    "contentFr": "Un agent du service des permis de conduire à Sousse demandait des paiements non officiels pour garantir la réussite à l'examen de conduite. L'enquête a confirmé les faits.",
+    "contentAr": "كان عون بمصلحة رخص السياقة بسوسة يطلب مدفوعات غير رسمية لضمان النجاح في امتحان السياقة. أكّد التحقيق الوقائع.",
+    "incidentDate": "2024-01-05",
+    "locationFr": "Centre d'examen de permis de conduire, Sousse",
+    "locationAr": "مركز امتحان رخص السياقة، سوسة",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-010",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-01-10T09:00:00Z"
+      },
+      {
+        "id": "RHIST-011",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire terminé",
+        "actionLabelAr": "انتهى الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-01-15T10:00:00Z"
+      },
+      {
+        "id": "RHIST-012",
+        "action": "investigation_started",
+        "actionLabelFr": "Enquête ouverte",
+        "actionLabelAr": "فتح تحقيق",
+        "officerId": "USR-000004",
+        "timestamp": "2024-01-20T09:00:00Z"
+      },
+      {
+        "id": "RHIST-013",
+        "action": "completed",
+        "actionLabelFr": "Enquête terminée — mesures prises",
+        "actionLabelAr": "انتهى التحقيق — تم اتخاذ إجراءات",
+        "officerId": "USR-000006",
+        "timestamp": "2024-03-01T14:00:00Z",
+        "noteFr": "Agent sanctionné et procédure disciplinaire engagée",
+        "noteAr": "تمت معاقبة العون وبدء إجراء تأديبي"
+      }
+    ],
+    "result": {
+      "summaryFr": "L'enquête a confirmé les accusations de corruption. L'agent a fait l'objet d'une sanction disciplinaire et le dossier a été transmis au parquet.",
+      "summaryAr": "أكد التحقيق تهم الفساد. خضع العون لعقوبة تأديبية وتم إحالة الملف إلى النيابة العمومية.",
+      "completedAt": "2024-03-01T14:00:00Z"
+    }
+  },
+  {
+    "id": "RPT-2024-000006",
+    "type": "other",
+    "status": "dismissed",
+    "targetAgency": {
+      "id": "BRC-COM-TUN-001",
+      "nameFr": "BRC - Ministère du Commerce - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-1A2B3C44",
+    "submittedAt": "2024-02-01T16:30:00Z",
+    "trackingCode": "TRK-RPT-2024-P7Q8R9",
+    "contentFr": "Signalement de pratiques douteuses au sein du département de contrôle économique, sans éléments probants suffisants.",
+    "contentAr": "الإبلاغ عن ممارسات مشبوهة داخل إدارة المراقبة الاقتصادية دون عناصر إثبات كافية.",
+    "locationFr": "Département de contrôle économique, Tunis",
+    "locationAr": "إدارة المراقبة الاقتصادية، تونس",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-014",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-02-01T16:30:00Z"
+      },
+      {
+        "id": "RHIST-015",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire effectué",
+        "actionLabelAr": "تم إجراء الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-02-05T10:00:00Z"
+      },
+      {
+        "id": "RHIST-016",
+        "action": "dismissed",
+        "actionLabelFr": "Signalement classé sans suite",
+        "actionLabelAr": "تم حفظ البلاغ",
+        "officerId": "USR-000006",
+        "timestamp": "2024-02-10T11:00:00Z",
+        "noteFr": "Éléments insuffisants pour poursuivre l'enquête",
+        "noteAr": "عناصر غير كافية لمواصلة التحقيق"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000007",
+    "type": "embezzlement",
+    "status": "preliminary_review",
+    "targetAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "k***@***.tn",
+    "submittedAt": "2024-04-05T09:15:00Z",
+    "trackingCode": "TRK-RPT-2024-S1T2U3",
+    "contentFr": "Des matériaux de construction achetés pour un projet public de logements sociaux à Bizerte ont été détournés vers un chantier privé appartenant à un responsable local.",
+    "contentAr": "مواد بناء اشتُريت لمشروع عمومي للسكن الاجتماعي ببنزرت حُوّلت إلى ورشة خاصة تعود لمسؤول محلي.",
+    "incidentDate": "2024-03-28",
+    "locationFr": "Chantier de logements sociaux, Bizerte",
+    "locationAr": "ورشة السكن الاجتماعي، بنزرت",
+    "attachments": [
+      {
+        "id": "ATT-RPT-005",
+        "filename": "att_rpt007_001.jpg",
+        "originalName": "photo_chantier.jpg",
+        "sizeBytes": 1850000,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-04-05T09:10:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "RHIST-017",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-04-05T09:15:00Z"
+      },
+      {
+        "id": "RHIST-018",
+        "action": "preliminary_review",
+        "actionLabelFr": "En cours d'examen préliminaire",
+        "actionLabelAr": "قيد الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-04-08T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000008",
+    "type": "abuse_of_power",
+    "status": "received",
+    "targetAgency": {
+      "id": "BRC-JUS-TUN-001",
+      "nameFr": "BRC - Ministère de la Justice - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-7E8F9G12",
+    "submittedAt": "2024-04-10T15:00:00Z",
+    "trackingCode": "TRK-RPT-2024-V4W5X6",
+    "contentFr": "Un juge du tribunal de première instance de Tunis fait pression sur les greffiers pour retarder le traitement de certains dossiers au profit de justiciables spécifiques.",
+    "contentAr": "قاضٍ بالمحكمة الابتدائية بتونس يمارس ضغوطًا على كتّاب المحكمة لتأخير معالجة بعض الملفات لصالح متقاضين محددين.",
+    "incidentDate": "2024-04-08",
+    "locationFr": "Tribunal de première instance de Tunis",
+    "locationAr": "المحكمة الابتدائية بتونس",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-019",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-04-10T15:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000009",
+    "type": "nepotism",
+    "status": "completed",
+    "targetAgency": {
+      "id": "BRC-SAN-TUN-001",
+      "nameFr": "BRC - Ministère de la Santé - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "n***@***.tn",
+    "submittedAt": "2024-01-20T08:00:00Z",
+    "trackingCode": "TRK-RPT-2024-Y7Z8A1",
+    "contentFr": "Le directeur de l'hôpital régional de Gabès a nommé son neveu au poste de responsable des achats malgré l'absence de qualifications requises.",
+    "contentAr": "عيّن مدير المستشفى الجهوي بقابس ابن أخيه في منصب مسؤول المشتريات رغم عدم توفّر المؤهلات المطلوبة.",
+    "incidentDate": "2024-01-10",
+    "locationFr": "Hôpital régional de Gabès",
+    "locationAr": "المستشفى الجهوي بقابس",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-020",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-01-20T08:00:00Z"
+      },
+      {
+        "id": "RHIST-021",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire terminé",
+        "actionLabelAr": "انتهى الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-01-25T09:00:00Z"
+      },
+      {
+        "id": "RHIST-022",
+        "action": "investigation_started",
+        "actionLabelFr": "Enquête ouverte",
+        "actionLabelAr": "فتح تحقيق",
+        "officerId": "USR-000006",
+        "timestamp": "2024-02-01T10:00:00Z"
+      },
+      {
+        "id": "RHIST-023",
+        "action": "completed",
+        "actionLabelFr": "Enquête terminée",
+        "actionLabelAr": "انتهى التحقيق",
+        "officerId": "USR-000006",
+        "timestamp": "2024-03-15T14:00:00Z",
+        "noteFr": "Nomination annulée et procédure de recrutement relancée",
+        "noteAr": "تم إلغاء التعيين وإعادة إجراء التوظيف"
+      }
+    ],
+    "result": {
+      "summaryFr": "Le népotisme a été confirmé. La nomination a été annulée et une procédure de recrutement transparente a été engagée.",
+      "summaryAr": "تم تأكيد المحاباة. أُلغي التعيين وبُدئ إجراء توظيف شفاف.",
+      "completedAt": "2024-03-15T14:00:00Z"
+    }
+  },
+  {
+    "id": "RPT-2024-000010",
+    "type": "bribery",
+    "status": "under_investigation",
+    "targetAgency": {
+      "id": "BRC-DOM-TUN-001",
+      "nameFr": "BRC - Ministère des Domaines de l'État et des Affaires Foncières - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة أملاك الدولة والشؤون العقارية - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-3H4I5J67",
+    "submittedAt": "2024-03-01T11:30:00Z",
+    "trackingCode": "TRK-RPT-2024-B2C3D4",
+    "contentFr": "Des agents du bureau foncier de Nabeul demandent des commissions illégales aux agriculteurs pour la régularisation de leurs titres de propriété foncière.",
+    "contentAr": "يطلب أعوان المكتب العقاري بنابل عمولات غير قانونية من الفلاحين لتسوية سندات ملكيتهم العقارية.",
+    "incidentDate": "2024-02-20",
+    "locationFr": "Bureau foncier de Nabeul",
+    "locationAr": "المكتب العقاري بنابل",
+    "attachments": [
+      {
+        "id": "ATT-RPT-006",
+        "filename": "att_rpt010_001.pdf",
+        "originalName": "recus_paiement.pdf",
+        "sizeBytes": 680000,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-03-01T11:25:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "RHIST-024",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-03-01T11:30:00Z"
+      },
+      {
+        "id": "RHIST-025",
+        "action": "preliminary_review",
+        "actionLabelFr": "Examen préliminaire terminé",
+        "actionLabelAr": "انتهى الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-03-08T09:00:00Z"
+      },
+      {
+        "id": "RHIST-026",
+        "action": "investigation_started",
+        "actionLabelFr": "Enquête en cours",
+        "actionLabelAr": "التحقيق جارٍ",
+        "officerId": "USR-000004",
+        "timestamp": "2024-03-15T10:00:00Z",
+        "noteFr": "Collecte de témoignages en cours auprès des agriculteurs concernés",
+        "noteAr": "جمع شهادات جارٍ من الفلاحين المعنيين"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000011",
+    "type": "other",
+    "status": "preliminary_review",
+    "targetAgency": {
+      "id": "BRC-COL-TUN-001",
+      "nameFr": "BRC - Ministère des Collectivités Locales - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الشؤون المحلية - تونس"
+    },
+    "isAnonymous": false,
+    "reporterMasked": "f***@***.tn",
+    "submittedAt": "2024-04-08T13:00:00Z",
+    "trackingCode": "TRK-RPT-2024-E5F6G7",
+    "contentFr": "Des irrégularités constatées dans l'attribution des permis de construction par la municipalité de La Marsa. Certains permis sont délivrés sans respect des procédures légales.",
+    "contentAr": "مخالفات في إسناد رخص البناء من قبل بلدية المرسى. بعض الرخص تُسلَّم دون احترام الإجراءات القانونية.",
+    "incidentDate": "2024-04-01",
+    "locationFr": "Municipalité de La Marsa",
+    "locationAr": "بلدية المرسى",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-027",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-04-08T13:00:00Z"
+      },
+      {
+        "id": "RHIST-028",
+        "action": "preliminary_review",
+        "actionLabelFr": "En cours d'examen préliminaire",
+        "actionLabelAr": "قيد الفحص الأولي",
+        "officerId": "USR-000004",
+        "timestamp": "2024-04-11T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "RPT-2024-000012",
+    "type": "embezzlement",
+    "status": "received",
+    "targetAgency": {
+      "id": "BRC-JEU-TUN-001",
+      "nameFr": "BRC - Ministère de la Jeunesse et des Sports - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الشباب والرياضة - تونس"
+    },
+    "isAnonymous": true,
+    "anonymousToken": "ANON-TK-8K9L0M12",
+    "submittedAt": "2024-04-11T16:45:00Z",
+    "trackingCode": "TRK-RPT-2024-H8I9J1",
+    "contentFr": "Les subventions allouées à la fédération régionale de football de Gafsa ne sont pas utilisées conformément à leur objet. Une partie des fonds serait détournée.",
+    "contentAr": "المنح المخصصة للرابطة الجهوية لكرة القدم بقفصة لا تُستخدم وفق غرضها. يُحتمل أن جزءًا من الأموال حُوِّل عن وجهته.",
+    "incidentDate": "2024-04-05",
+    "locationFr": "Fédération régionale de football, Gafsa",
+    "locationAr": "الرابطة الجهوية لكرة القدم، قفصة",
+    "attachments": [],
+    "history": [
+      {
+        "id": "RHIST-029",
+        "action": "received",
+        "actionLabelFr": "Signalement reçu",
+        "actionLabelAr": "تم استلام البلاغ",
+        "timestamp": "2024-04-11T16:45:00Z"
+      }
+    ]
+  }
+]

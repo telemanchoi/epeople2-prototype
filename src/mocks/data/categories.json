@@ -1,0 +1,251 @@
+[
+  {
+    "code": "01",
+    "nameFr": "Environnement",
+    "nameAr": "البيئة",
+    "children": [
+      {
+        "code": "0101",
+        "nameFr": "Pollution",
+        "nameAr": "التلوث",
+        "children": [
+          { "code": "010101", "nameFr": "Pollution de l'air", "nameAr": "تلوث الهواء" },
+          { "code": "010102", "nameFr": "Pollution de l'eau", "nameAr": "تلوث المياه" },
+          { "code": "010103", "nameFr": "Pollution sonore", "nameAr": "التلوث الضوضائي" },
+          { "code": "010104", "nameFr": "Pollution industrielle", "nameAr": "التلوث الصناعي" }
+        ]
+      },
+      {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي",
+        "children": [
+          { "code": "010201", "nameFr": "Eau potable", "nameAr": "مياه الشرب" },
+          { "code": "010202", "nameFr": "Assainissement", "nameAr": "الصرف الصحي" },
+          { "code": "010203", "nameFr": "Inondations", "nameAr": "الفيضانات" }
+        ]
+      },
+      {
+        "code": "0103",
+        "nameFr": "Déchets",
+        "nameAr": "النفايات",
+        "children": [
+          { "code": "010301", "nameFr": "Collecte des déchets", "nameAr": "جمع النفايات" },
+          { "code": "010302", "nameFr": "Décharges sauvages", "nameAr": "المصبات العشوائية" },
+          { "code": "010303", "nameFr": "Recyclage", "nameAr": "إعادة التدوير" }
+        ]
+      },
+      {
+        "code": "0104",
+        "nameFr": "Espaces verts",
+        "nameAr": "المساحات الخضراء",
+        "children": [
+          { "code": "010401", "nameFr": "Entretien des parcs", "nameAr": "صيانة الحدائق" },
+          { "code": "010402", "nameFr": "Abattage d'arbres", "nameAr": "قطع الأشجار" }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "02",
+    "nameFr": "Éducation",
+    "nameAr": "التعليم",
+    "children": [
+      {
+        "code": "0201",
+        "nameFr": "Enseignement primaire",
+        "nameAr": "التعليم الابتدائي",
+        "children": [
+          { "code": "020101", "nameFr": "Infrastructure scolaire", "nameAr": "البنية التحتية المدرسية" },
+          { "code": "020102", "nameFr": "Inscription et transfert", "nameAr": "التسجيل والنقل" },
+          { "code": "020103", "nameFr": "Transport scolaire", "nameAr": "النقل المدرسي" }
+        ]
+      },
+      {
+        "code": "0202",
+        "nameFr": "Enseignement secondaire",
+        "nameAr": "التعليم الثانوي",
+        "children": [
+          { "code": "020201", "nameFr": "Programmes scolaires", "nameAr": "البرامج الدراسية" },
+          { "code": "020202", "nameFr": "Examens et résultats", "nameAr": "الامتحانات والنتائج" },
+          { "code": "020203", "nameFr": "Bourses d'études", "nameAr": "المنح الدراسية" }
+        ]
+      },
+      {
+        "code": "0203",
+        "nameFr": "Enseignement supérieur",
+        "nameAr": "التعليم العالي",
+        "children": [
+          { "code": "020301", "nameFr": "Inscription universitaire", "nameAr": "التسجيل الجامعي" },
+          { "code": "020302", "nameFr": "Équivalence de diplômes", "nameAr": "معادلة الشهادات" },
+          { "code": "020303", "nameFr": "Recherche scientifique", "nameAr": "البحث العلمي" }
+        ]
+      },
+      {
+        "code": "0204",
+        "nameFr": "Formation professionnelle",
+        "nameAr": "التكوين المهني",
+        "children": [
+          { "code": "020401", "nameFr": "Centres de formation", "nameAr": "مراكز التكوين" },
+          { "code": "020402", "nameFr": "Certification professionnelle", "nameAr": "الشهادات المهنية" }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "03",
+    "nameFr": "Transport",
+    "nameAr": "النقل",
+    "children": [
+      {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية",
+        "children": [
+          { "code": "030101", "nameFr": "État des routes", "nameAr": "حالة الطرقات" },
+          { "code": "030102", "nameFr": "Signalisation routière", "nameAr": "الإشارات المرورية" },
+          { "code": "030103", "nameFr": "Éclairage public", "nameAr": "الإنارة العمومية" }
+        ]
+      },
+      {
+        "code": "0302",
+        "nameFr": "Transport public",
+        "nameAr": "النقل العمومي",
+        "children": [
+          { "code": "030201", "nameFr": "Bus et métro", "nameAr": "الحافلات والمترو" },
+          { "code": "030202", "nameFr": "Train (SNCFT)", "nameAr": "القطار" },
+          { "code": "030203", "nameFr": "Taxis et louages", "nameAr": "سيارات الأجرة واللواج" }
+        ]
+      },
+      {
+        "code": "0303",
+        "nameFr": "Permis et immatriculation",
+        "nameAr": "رخص السياقة والتسجيل",
+        "children": [
+          { "code": "030301", "nameFr": "Permis de conduire", "nameAr": "رخصة السياقة" },
+          { "code": "030302", "nameFr": "Carte grise", "nameAr": "البطاقة الرمادية" },
+          { "code": "030303", "nameFr": "Contrôle technique", "nameAr": "المراقبة الفنية" }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "04",
+    "nameFr": "Urbanisme",
+    "nameAr": "التعمير",
+    "children": [
+      {
+        "code": "0401",
+        "nameFr": "Permis de construire",
+        "nameAr": "رخص البناء",
+        "children": [
+          { "code": "040101", "nameFr": "Demande de permis", "nameAr": "طلب رخصة البناء" },
+          { "code": "040102", "nameFr": "Conformité des constructions", "nameAr": "مطابقة البناءات" },
+          { "code": "040103", "nameFr": "Constructions illicites", "nameAr": "البناء الفوضوي" }
+        ]
+      },
+      {
+        "code": "0402",
+        "nameFr": "Aménagement du territoire",
+        "nameAr": "التهيئة العمرانية",
+        "children": [
+          { "code": "040201", "nameFr": "Plan d'aménagement", "nameAr": "مخطط التهيئة" },
+          { "code": "040202", "nameFr": "Lotissements", "nameAr": "التجزئات العقارية" },
+          { "code": "040203", "nameFr": "Zones industrielles", "nameAr": "المناطق الصناعية" }
+        ]
+      },
+      {
+        "code": "0403",
+        "nameFr": "Logement social",
+        "nameAr": "السكن الاجتماعي",
+        "children": [
+          { "code": "040301", "nameFr": "Attribution de logements", "nameAr": "إسناد المساكن" },
+          { "code": "040302", "nameFr": "Rénovation urbaine", "nameAr": "التجديد الحضري" }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "05",
+    "nameFr": "Fiscalité",
+    "nameAr": "الجباية",
+    "children": [
+      {
+        "code": "0501",
+        "nameFr": "Impôts directs",
+        "nameAr": "الضرائب المباشرة",
+        "children": [
+          { "code": "050101", "nameFr": "Impôt sur le revenu", "nameAr": "الضريبة على الدخل" },
+          { "code": "050102", "nameFr": "Impôt sur les sociétés", "nameAr": "الضريبة على الشركات" },
+          { "code": "050103", "nameFr": "Taxe foncière", "nameAr": "المعلوم العقاري" }
+        ]
+      },
+      {
+        "code": "0502",
+        "nameFr": "Impôts indirects",
+        "nameAr": "الضرائب غير المباشرة",
+        "children": [
+          { "code": "050201", "nameFr": "TVA", "nameAr": "الأداء على القيمة المضافة" },
+          { "code": "050202", "nameFr": "Droits de douane", "nameAr": "المعاليم الديوانية" }
+        ]
+      },
+      {
+        "code": "0503",
+        "nameFr": "Recouvrement",
+        "nameAr": "الاستخلاص",
+        "children": [
+          { "code": "050301", "nameFr": "Réclamation fiscale", "nameAr": "الشكاوى الجبائية" },
+          { "code": "050302", "nameFr": "Échéancier de paiement", "nameAr": "جدول الدفع" },
+          { "code": "050303", "nameFr": "Certificat fiscal", "nameAr": "الشهادة الجبائية" }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "06",
+    "nameFr": "Autres",
+    "nameAr": "أخرى",
+    "children": [
+      {
+        "code": "0601",
+        "nameFr": "Santé publique",
+        "nameAr": "الصحة العمومية",
+        "children": [
+          { "code": "060101", "nameFr": "Hôpitaux et cliniques", "nameAr": "المستشفيات والمصحات" },
+          { "code": "060102", "nameFr": "Médicaments et pharmacie", "nameAr": "الأدوية والصيدلة" },
+          { "code": "060103", "nameFr": "Hygiène alimentaire", "nameAr": "حفظ الصحة الغذائية" }
+        ]
+      },
+      {
+        "code": "0602",
+        "nameFr": "Sécurité et ordre public",
+        "nameAr": "الأمن والنظام العام",
+        "children": [
+          { "code": "060201", "nameFr": "Sécurité du quartier", "nameAr": "أمن الحي" },
+          { "code": "060202", "nameFr": "Nuisances sonores", "nameAr": "الإزعاج الصوتي" },
+          { "code": "060203", "nameFr": "Occupation de voie publique", "nameAr": "احتلال الطريق العام" }
+        ]
+      },
+      {
+        "code": "0603",
+        "nameFr": "État civil et documents",
+        "nameAr": "الحالة المدنية والوثائق",
+        "children": [
+          { "code": "060301", "nameFr": "Carte d'identité nationale", "nameAr": "بطاقة التعريف الوطنية" },
+          { "code": "060302", "nameFr": "Passeport", "nameAr": "جواز السفر" },
+          { "code": "060303", "nameFr": "Extrait de naissance", "nameAr": "مضمون ولادة" },
+          { "code": "060304", "nameFr": "Casier judiciaire", "nameAr": "السجل العدلي" }
+        ]
+      },
+      {
+        "code": "0604",
+        "nameFr": "Commerce et consommation",
+        "nameAr": "التجارة والاستهلاك",
+        "children": [
+          { "code": "060401", "nameFr": "Protection du consommateur", "nameAr": "حماية المستهلك" },
+          { "code": "060402", "nameFr": "Registre du commerce", "nameAr": "السجل التجاري" }
+        ]
+      }
+    ]
+  }
+]

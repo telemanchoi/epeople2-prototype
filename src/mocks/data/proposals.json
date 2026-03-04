@@ -1,0 +1,501 @@
+[
+  {
+    "id": "PRP-2024-000001",
+    "titleFr": "Création d'une application mobile pour les services municipaux",
+    "titleAr": "إنشاء تطبيق جوال للخدمات البلدية",
+    "status": "implemented",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0603", "nameFr": "État civil et documents", "nameAr": "الحالة المدنية والوثائق" },
+      "l3": { "code": "060301", "nameFr": "Carte d'identité nationale", "nameAr": "بطاقة التعريف الوطنية" }
+    },
+    "assignedAgency": { "id": "BRC-INT-TUN-001", "nameFr": "BRC - Ministère de l'Intérieur - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس" },
+    "likeCount": 487,
+    "isLikedByMe": false,
+    "submittedAt": "2024-01-05T09:00:00Z",
+    "reviewResult": { "result": "accepted", "reviewedAt": "2024-02-01T10:00:00Z" },
+    "contentFr": "Je propose la création d'une application mobile permettant aux citoyens d'accéder aux services municipaux : demande de documents, suivi des réclamations, paiement des taxes locales, et consultation des annonces municipales.",
+    "contentAr": "أقترح إنشاء تطبيق جوال يمكّن المواطنين من الوصول إلى الخدمات البلدية: طلب الوثائق ومتابعة الشكاوى ودفع الضرائب المحلية والاطلاع على الإعلانات البلدية.",
+    "attachments": [
+      { "id": "ATT-PRP-001", "filename": "att_prp001_001.pdf", "originalName": "maquette_app.pdf", "sizeBytes": 3500000, "mimeType": "application/pdf", "uploadedAt": "2024-01-05T08:55:00Z" }
+    ],
+    "review": {
+      "result": "accepted",
+      "reviewCommentFr": "Excellente proposition qui s'inscrit dans la stratégie de digitalisation des services publics.",
+      "reviewCommentAr": "اقتراح ممتاز يندرج ضمن استراتيجية رقمنة الخدمات العمومية.",
+      "reviewedAt": "2024-02-01T10:00:00Z",
+      "reviewedBy": "Amine Khelifi",
+      "implementationPlanFr": "Développement de l'application en 3 phases sur 12 mois avec un budget de 150,000 TND.",
+      "implementationPlanAr": "تطوير التطبيق على 3 مراحل خلال 12 شهرًا بميزانية 150,000 دينار."
+    },
+    "implementationUpdates": [
+      { "id": "IMP-001", "contentFr": "Cahier des charges validé", "contentAr": "تمت المصادقة على كراس الشروط", "progress": 25, "updatedAt": "2024-02-15T10:00:00Z" },
+      { "id": "IMP-002", "contentFr": "Phase de développement en cours", "contentAr": "مرحلة التطوير جارية", "progress": 60, "updatedAt": "2024-03-15T10:00:00Z" },
+      { "id": "IMP-003", "contentFr": "Application lancée avec succès", "contentAr": "تم إطلاق التطبيق بنجاح", "progress": 100, "updatedAt": "2024-04-01T10:00:00Z" }
+    ]
+  },
+  {
+    "id": "PRP-2024-000002",
+    "titleFr": "Installation de panneaux solaires sur les bâtiments publics",
+    "titleAr": "تركيب ألواح شمسية على المباني العمومية",
+    "status": "accepted",
+    "categoryPath": {
+      "l1": { "code": "01", "nameFr": "Environnement", "nameAr": "البيئة" },
+      "l2": { "code": "0104", "nameFr": "Espaces verts", "nameAr": "المساحات الخضراء" },
+      "l3": { "code": "010401", "nameFr": "Entretien des parcs", "nameAr": "صيانة الحدائق" }
+    },
+    "assignedAgency": { "id": "BRC-ENR-TUN-001", "nameFr": "BRC - Ministère de l'Industrie, de l'Énergie et des Mines - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة الصناعة والطاقة والمناجم - تونس" },
+    "likeCount": 342,
+    "isLikedByMe": true,
+    "submittedAt": "2024-01-15T14:00:00Z",
+    "reviewResult": { "result": "accepted", "reviewedAt": "2024-03-01T09:00:00Z" },
+    "contentFr": "Je propose l'installation progressive de panneaux solaires sur les toits des écoles, hôpitaux et bâtiments administratifs pour réduire la facture énergétique de l'État et promouvoir les énergies renouvelables.",
+    "contentAr": "أقترح التركيب التدريجي لألواح شمسية على أسطح المدارس والمستشفيات والمباني الإدارية لتخفيض فاتورة الدولة الطاقية وتعزيز الطاقات المتجددة.",
+    "attachments": [],
+    "review": {
+      "result": "accepted",
+      "reviewCommentFr": "Proposition pertinente qui sera intégrée dans le plan national de transition énergétique.",
+      "reviewCommentAr": "اقتراح وجيه سيتم إدراجه في المخطط الوطني للانتقال الطاقي.",
+      "reviewedAt": "2024-03-01T09:00:00Z",
+      "reviewedBy": "Leila Hammami",
+      "implementationPlanFr": "Phase pilote dans 10 bâtiments publics à Tunis au cours du premier semestre 2025.",
+      "implementationPlanAr": "مرحلة تجريبية في 10 مبانٍ عمومية بتونس خلال النصف الأول من 2025."
+    },
+    "implementationUpdates": [
+      { "id": "IMP-004", "contentFr": "Étude de faisabilité en cours", "contentAr": "دراسة الجدوى جارية", "progress": 15, "updatedAt": "2024-04-01T10:00:00Z" }
+    ]
+  },
+  {
+    "id": "PRP-2024-000003",
+    "titleFr": "Mise en place du tri sélectif dans les quartiers résidentiels",
+    "titleAr": "تطبيق الفرز الانتقائي للنفايات في الأحياء السكنية",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "01", "nameFr": "Environnement", "nameAr": "البيئة" },
+      "l2": { "code": "0103", "nameFr": "Déchets", "nameAr": "النفايات" },
+      "l3": { "code": "010303", "nameFr": "Recyclage", "nameAr": "إعادة التدوير" }
+    },
+    "assignedAgency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس" },
+    "likeCount": 256,
+    "isLikedByMe": false,
+    "submittedAt": "2024-02-10T11:00:00Z",
+    "contentFr": "Je propose la mise en place d'un système de tri sélectif des déchets dans les quartiers résidentiels de Tunis, avec distribution de poubelles colorées et campagnes de sensibilisation.",
+    "contentAr": "أقترح إرساء نظام للفرز الانتقائي للنفايات في الأحياء السكنية بتونس مع توزيع حاويات ملونة وحملات توعوية.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000004",
+    "titleFr": "Création de pistes cyclables dans le Grand Tunis",
+    "titleAr": "إنشاء مسارات للدراجات الهوائية في تونس الكبرى",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "03", "nameFr": "Transport", "nameAr": "النقل" },
+      "l2": { "code": "0301", "nameFr": "Routes et voirie", "nameAr": "الطرقات والبنية الطرقية" },
+      "l3": { "code": "030101", "nameFr": "État des routes", "nameAr": "حالة الطرقات" }
+    },
+    "likeCount": 198,
+    "isLikedByMe": true,
+    "submittedAt": "2024-03-01T08:30:00Z",
+    "contentFr": "Proposition d'aménagement d'un réseau de pistes cyclables sécurisées reliant les principaux quartiers du Grand Tunis pour encourager la mobilité douce.",
+    "contentAr": "اقتراح إنشاء شبكة مسارات آمنة للدراجات الهوائية تربط بين الأحياء الرئيسية بتونس الكبرى لتشجيع التنقل الناعم.",
+    "attachments": [
+      { "id": "ATT-PRP-002", "filename": "att_prp004_001.pdf", "originalName": "plan_pistes_cyclables.pdf", "sizeBytes": 5200000, "mimeType": "application/pdf", "uploadedAt": "2024-03-01T08:25:00Z" }
+    ],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000005",
+    "titleFr": "Plateforme de covoiturage pour les fonctionnaires",
+    "titleAr": "منصة مشاركة السيارات للموظفين العموميين",
+    "status": "rejected",
+    "categoryPath": {
+      "l1": { "code": "03", "nameFr": "Transport", "nameAr": "النقل" },
+      "l2": { "code": "0302", "nameFr": "Transport public", "nameAr": "النقل العمومي" },
+      "l3": { "code": "030201", "nameFr": "Bus et métro", "nameAr": "الحافلات والمترو" }
+    },
+    "assignedAgency": { "id": "BRC-TRN-TUN-001", "nameFr": "BRC - Ministère du Transport - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس" },
+    "likeCount": 89,
+    "isLikedByMe": false,
+    "submittedAt": "2024-01-20T10:00:00Z",
+    "reviewResult": { "result": "rejected", "reviewedAt": "2024-02-15T14:00:00Z" },
+    "contentFr": "Je propose la création d'une plateforme numérique de covoiturage exclusivement réservée aux fonctionnaires de l'État pour réduire le trafic et les coûts de transport.",
+    "contentAr": "أقترح إنشاء منصة رقمية لمشاركة السيارات مخصصة حصريًا لموظفي الدولة لتقليل الازدحام وتكاليف النقل.",
+    "attachments": [],
+    "review": {
+      "result": "rejected",
+      "reviewCommentFr": "Proposition intéressante mais nécessite un cadre juridique spécifique non disponible actuellement. Des solutions de transport public existantes sont prioritaires.",
+      "reviewCommentAr": "اقتراح مثير للاهتمام لكنه يتطلب إطارًا قانونيًا خاصًا غير متوفر حاليًا. حلول النقل العمومي الحالية ذات أولوية.",
+      "reviewedAt": "2024-02-15T14:00:00Z",
+      "reviewedBy": "Karim Jebali"
+    },
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000006",
+    "titleFr": "Guichet unique numérique pour les entrepreneurs",
+    "titleAr": "شباك موحد رقمي لأصحاب المشاريع",
+    "status": "accepted",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0604", "nameFr": "Commerce et consommation", "nameAr": "التجارة والاستهلاك" },
+      "l3": { "code": "060402", "nameFr": "Registre du commerce", "nameAr": "السجل التجاري" }
+    },
+    "assignedAgency": { "id": "BRC-COM-TUN-001", "nameFr": "BRC - Ministère du Commerce - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس" },
+    "likeCount": 415,
+    "isLikedByMe": false,
+    "submittedAt": "2024-01-25T13:00:00Z",
+    "reviewResult": { "result": "accepted", "reviewedAt": "2024-03-10T11:00:00Z" },
+    "contentFr": "Je propose la mise en place d'un guichet unique numérique regroupant toutes les démarches administratives nécessaires à la création d'entreprise en un seul portail.",
+    "contentAr": "أقترح إنشاء شباك موحد رقمي يجمع كل الإجراءات الإدارية اللازمة لإنشاء المشاريع في بوابة واحدة.",
+    "attachments": [],
+    "review": {
+      "result": "accepted",
+      "reviewCommentFr": "Proposition alignée avec la stratégie nationale de simplification administrative.",
+      "reviewCommentAr": "اقتراح يتماشى مع الاستراتيجية الوطنية لتبسيط الإجراءات الإدارية.",
+      "reviewedAt": "2024-03-10T11:00:00Z",
+      "reviewedBy": "Amine Khelifi",
+      "implementationPlanFr": "Lancement prévu au T3 2024 avec intégration progressive des services.",
+      "implementationPlanAr": "الإطلاق المبرمج في الثلاثي الثالث 2024 مع إدراج تدريجي للخدمات."
+    },
+    "implementationUpdates": [
+      { "id": "IMP-005", "contentFr": "Cartographie des services en cours", "contentAr": "رسم خريطة الخدمات جارٍ", "progress": 20, "updatedAt": "2024-04-05T10:00:00Z" }
+    ]
+  },
+  {
+    "id": "PRP-2024-000007",
+    "titleFr": "Espaces de jeux pour enfants dans chaque quartier",
+    "titleAr": "فضاءات ألعاب للأطفال في كل حي",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "04", "nameFr": "Urbanisme", "nameAr": "التعمير" },
+      "l2": { "code": "0402", "nameFr": "Aménagement du territoire", "nameAr": "التهيئة العمرانية" },
+      "l3": { "code": "040201", "nameFr": "Plan d'aménagement", "nameAr": "مخطط التهيئة" }
+    },
+    "likeCount": 312,
+    "isLikedByMe": false,
+    "submittedAt": "2024-03-10T10:00:00Z",
+    "contentFr": "Je propose l'aménagement d'espaces de jeux sécurisés pour enfants dans chaque quartier, avec des équipements adaptés à différents groupes d'âge.",
+    "contentAr": "أقترح تهيئة فضاءات ألعاب آمنة للأطفال في كل حي بمعدات ملائمة لمختلف الفئات العمرية.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000008",
+    "titleFr": "Système de rendez-vous en ligne pour les services publics",
+    "titleAr": "نظام مواعيد إلكتروني للخدمات العمومية",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0603", "nameFr": "État civil et documents", "nameAr": "الحالة المدنية والوثائق" },
+      "l3": { "code": "060302", "nameFr": "Passeport", "nameAr": "جواز السفر" }
+    },
+    "assignedAgency": { "id": "BRC-INT-TUN-001", "nameFr": "BRC - Ministère de l'Intérieur - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس" },
+    "likeCount": 523,
+    "isLikedByMe": true,
+    "submittedAt": "2024-02-20T09:30:00Z",
+    "contentFr": "Je propose l'instauration d'un système de prise de rendez-vous en ligne pour tous les services publics afin d'éliminer les longues files d'attente.",
+    "contentAr": "أقترح إرساء نظام حجز مواعيد عبر الإنترنت لجميع الخدمات العمومية للقضاء على طوابير الانتظار الطويلة.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000009",
+    "titleFr": "Programme de bourses pour les étudiants en zones rurales",
+    "titleAr": "برنامج منح للطلبة في المناطق الريفية",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "02", "nameFr": "Éducation", "nameAr": "التعليم" },
+      "l2": { "code": "0202", "nameFr": "Enseignement secondaire", "nameAr": "التعليم الثانوي" },
+      "l3": { "code": "020203", "nameFr": "Bourses d'études", "nameAr": "المنح الدراسية" }
+    },
+    "likeCount": 278,
+    "isLikedByMe": false,
+    "submittedAt": "2024-03-15T11:00:00Z",
+    "contentFr": "Je propose la création d'un programme de bourses spécifique pour les étudiants issus des zones rurales défavorisées, couvrant les frais de transport et d'hébergement.",
+    "contentAr": "أقترح إنشاء برنامج منح مخصص للطلبة من المناطق الريفية المحرومة يغطي تكاليف النقل والإيواء.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000010",
+    "titleFr": "Centres de santé de proximité dans les zones enclavées",
+    "titleAr": "مراكز صحية جوارية في المناطق المعزولة",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0601", "nameFr": "Santé publique", "nameAr": "الصحة العمومية" },
+      "l3": { "code": "060101", "nameFr": "Hôpitaux et cliniques", "nameAr": "المستشفيات والمصحات" }
+    },
+    "assignedAgency": { "id": "BRC-SAN-TUN-001", "nameFr": "BRC - Ministère de la Santé - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس" },
+    "likeCount": 445,
+    "isLikedByMe": false,
+    "submittedAt": "2024-02-05T08:00:00Z",
+    "contentFr": "Je propose la création de centres de santé de proximité équipés dans les zones rurales enclavées du nord-ouest pour réduire les déplacements vers les hôpitaux régionaux.",
+    "contentAr": "أقترح إنشاء مراكز صحية جوارية مجهزة في المناطق الريفية المعزولة بالشمال الغربي للتقليل من التنقل إلى المستشفيات الجهوية.",
+    "attachments": [
+      { "id": "ATT-PRP-003", "filename": "att_prp010_001.pdf", "originalName": "etude_besoins_sante.pdf", "sizeBytes": 2800000, "mimeType": "application/pdf", "uploadedAt": "2024-02-05T07:55:00Z" }
+    ],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000011",
+    "titleFr": "Bibliothèques numériques dans les établissements scolaires",
+    "titleAr": "مكتبات رقمية في المؤسسات التربوية",
+    "status": "accepted",
+    "categoryPath": {
+      "l1": { "code": "02", "nameFr": "Éducation", "nameAr": "التعليم" },
+      "l2": { "code": "0201", "nameFr": "Enseignement primaire", "nameAr": "التعليم الابتدائي" },
+      "l3": { "code": "020101", "nameFr": "Infrastructure scolaire", "nameAr": "البنية التحتية المدرسية" }
+    },
+    "assignedAgency": { "id": "BRC-EDU-TUN-001", "nameFr": "BRC - Ministère de l'Éducation - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس" },
+    "likeCount": 367,
+    "isLikedByMe": true,
+    "submittedAt": "2024-01-30T15:00:00Z",
+    "reviewResult": { "result": "accepted", "reviewedAt": "2024-03-15T10:00:00Z" },
+    "contentFr": "Équiper chaque école d'une bibliothèque numérique avec tablettes et accès internet pour démocratiser l'accès au savoir.",
+    "contentAr": "تجهيز كل مدرسة بمكتبة رقمية مع لوحات إلكترونية واتصال بالإنترنت لتعميم النفاذ إلى المعرفة.",
+    "attachments": [],
+    "review": {
+      "result": "accepted",
+      "reviewCommentFr": "Proposition retenue dans le cadre du programme de modernisation de l'infrastructure scolaire.",
+      "reviewCommentAr": "اقتراح مقبول في إطار برنامج تحديث البنية التحتية المدرسية.",
+      "reviewedAt": "2024-03-15T10:00:00Z",
+      "reviewedBy": "Leila Hammami"
+    },
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000012",
+    "titleFr": "Amélioration de l'accessibilité des bâtiments publics pour les personnes handicapées",
+    "titleAr": "تحسين نفاذية المباني العمومية لذوي الاحتياجات الخاصة",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "04", "nameFr": "Urbanisme", "nameAr": "التعمير" },
+      "l2": { "code": "0402", "nameFr": "Aménagement du territoire", "nameAr": "التهيئة العمرانية" },
+      "l3": { "code": "040201", "nameFr": "Plan d'aménagement", "nameAr": "مخطط التهيئة" }
+    },
+    "likeCount": 401,
+    "isLikedByMe": false,
+    "submittedAt": "2024-03-20T09:00:00Z",
+    "contentFr": "Je propose un audit national de l'accessibilité des bâtiments publics et un plan de mise en conformité avec les normes internationales pour les personnes à mobilité réduite.",
+    "contentAr": "أقترح إجراء تدقيق وطني لنفاذية المباني العمومية ووضع مخطط لمطابقتها مع المعايير الدولية لذوي الاحتياجات الخاصة.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000013",
+    "titleFr": "Marchés de producteurs locaux hebdomadaires",
+    "titleAr": "أسواق أسبوعية للمنتجين المحليين",
+    "status": "rejected",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0604", "nameFr": "Commerce et consommation", "nameAr": "التجارة والاستهلاك" },
+      "l3": { "code": "060401", "nameFr": "Protection du consommateur", "nameAr": "حماية المستهلك" }
+    },
+    "assignedAgency": { "id": "BRC-COM-TUN-001", "nameFr": "BRC - Ministère du Commerce - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس" },
+    "likeCount": 156,
+    "isLikedByMe": false,
+    "submittedAt": "2024-02-01T10:00:00Z",
+    "reviewResult": { "result": "rejected", "reviewedAt": "2024-03-05T14:00:00Z" },
+    "contentFr": "Je propose l'organisation de marchés hebdomadaires réservés aux petits producteurs locaux dans les centres-villes.",
+    "contentAr": "أقترح تنظيم أسواق أسبوعية مخصصة لصغار المنتجين المحليين في وسط المدن.",
+    "attachments": [],
+    "review": {
+      "result": "rejected",
+      "reviewCommentFr": "Un dispositif similaire existe déjà dans le cadre des marchés municipaux. Suggestion de s'orienter vers l'amélioration du dispositif existant.",
+      "reviewCommentAr": "يوجد نظام مماثل في إطار الأسواق البلدية. نقترح التوجه نحو تحسين النظام القائم.",
+      "reviewedAt": "2024-03-05T14:00:00Z",
+      "reviewedBy": "Mohamed Trabelsi"
+    },
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000014",
+    "titleFr": "Formation numérique gratuite pour les seniors",
+    "titleAr": "تكوين رقمي مجاني لكبار السن",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "02", "nameFr": "Éducation", "nameAr": "التعليم" },
+      "l2": { "code": "0204", "nameFr": "Formation professionnelle", "nameAr": "التكوين المهني" },
+      "l3": { "code": "020401", "nameFr": "Centres de formation", "nameAr": "مراكز التكوين" }
+    },
+    "likeCount": 234,
+    "isLikedByMe": false,
+    "submittedAt": "2024-03-25T14:00:00Z",
+    "contentFr": "Proposition de créer des ateliers de formation numérique gratuits pour les personnes âgées dans les maisons de culture et bibliothèques publiques.",
+    "contentAr": "اقتراح إنشاء ورشات تكوين رقمي مجانية لكبار السن في دور الثقافة والمكتبات العمومية.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000015",
+    "titleFr": "Système d'alerte précoce pour les inondations",
+    "titleAr": "نظام إنذار مبكر للفيضانات",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "01", "nameFr": "Environnement", "nameAr": "البيئة" },
+      "l2": { "code": "0102", "nameFr": "Eau et Assainissement", "nameAr": "الماء والصرف الصحي" },
+      "l3": { "code": "010203", "nameFr": "Inondations", "nameAr": "الفيضانات" }
+    },
+    "assignedAgency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس" },
+    "likeCount": 389,
+    "isLikedByMe": false,
+    "submittedAt": "2024-02-15T08:00:00Z",
+    "contentFr": "Installation d'un système d'alerte précoce par SMS pour prévenir les habitants des zones à risque d'inondation, en connectant les capteurs de niveau d'eau aux opérateurs télécom.",
+    "contentAr": "تركيب نظام إنذار مبكر عبر الرسائل القصيرة لتحذير سكان المناطق المعرّضة للفيضانات بربط مجسات مستوى المياه بمشغلي الاتصالات.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000016",
+    "titleFr": "Dématérialisation des procédures fiscales",
+    "titleAr": "رقمنة الإجراءات الجبائية",
+    "status": "implemented",
+    "categoryPath": {
+      "l1": { "code": "05", "nameFr": "Fiscalité", "nameAr": "الجباية" },
+      "l2": { "code": "0503", "nameFr": "Recouvrement", "nameAr": "الاستخلاص" },
+      "l3": { "code": "050302", "nameFr": "Échéancier de paiement", "nameAr": "جدول الدفع" }
+    },
+    "assignedAgency": { "id": "BRC-FIN-TUN-001", "nameFr": "BRC - Ministère des Finances - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس" },
+    "likeCount": 502,
+    "isLikedByMe": false,
+    "submittedAt": "2023-11-15T09:00:00Z",
+    "reviewResult": { "result": "accepted", "reviewedAt": "2024-01-10T10:00:00Z" },
+    "contentFr": "Proposition de dématérialiser entièrement les déclarations et paiements fiscaux pour les particuliers via un portail web sécurisé.",
+    "contentAr": "اقتراح رقمنة التصريحات والدفوعات الجبائية بالكامل للأفراد عبر بوابة إلكترونية آمنة.",
+    "attachments": [],
+    "review": {
+      "result": "accepted",
+      "reviewCommentFr": "Proposition prioritaire intégrée dans le plan de modernisation fiscale 2024.",
+      "reviewCommentAr": "اقتراح ذو أولوية مدرج في مخطط تحديث المنظومة الجبائية 2024.",
+      "reviewedAt": "2024-01-10T10:00:00Z",
+      "reviewedBy": "Amine Khelifi",
+      "implementationPlanFr": "Déploiement en 2 phases: déclarations (T1 2024) puis paiements (T2 2024).",
+      "implementationPlanAr": "نشر على مرحلتين: التصريحات (الثلاثي الأول 2024) ثم الدفوعات (الثلاثي الثاني 2024)."
+    },
+    "implementationUpdates": [
+      { "id": "IMP-006", "contentFr": "Phase 1 : portail de déclaration lancé", "contentAr": "المرحلة 1: بوابة التصريح أُطلقت", "progress": 50, "updatedAt": "2024-02-15T10:00:00Z" },
+      { "id": "IMP-007", "contentFr": "Phase 2 : paiement en ligne opérationnel", "contentAr": "المرحلة 2: الدفع الإلكتروني شغّال", "progress": 100, "updatedAt": "2024-04-01T10:00:00Z" }
+    ]
+  },
+  {
+    "id": "PRP-2024-000017",
+    "titleFr": "Jardins communautaires dans les quartiers populaires",
+    "titleAr": "حدائق جماعية في الأحياء الشعبية",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "01", "nameFr": "Environnement", "nameAr": "البيئة" },
+      "l2": { "code": "0104", "nameFr": "Espaces verts", "nameAr": "المساحات الخضراء" },
+      "l3": { "code": "010401", "nameFr": "Entretien des parcs", "nameAr": "صيانة الحدائق" }
+    },
+    "likeCount": 178,
+    "isLikedByMe": false,
+    "submittedAt": "2024-04-01T12:00:00Z",
+    "contentFr": "Création de jardins communautaires dans les quartiers populaires pour favoriser le lien social et l'agriculture urbaine.",
+    "contentAr": "إنشاء حدائق جماعية في الأحياء الشعبية لتعزيز الرابط الاجتماعي والزراعة الحضرية.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000018",
+    "titleFr": "Programme de mentorat pour les jeunes diplômés chômeurs",
+    "titleAr": "برنامج مرافقة للشباب حاملي الشهادات العاطلين عن العمل",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "02", "nameFr": "Éducation", "nameAr": "التعليم" },
+      "l2": { "code": "0204", "nameFr": "Formation professionnelle", "nameAr": "التكوين المهني" },
+      "l3": { "code": "020402", "nameFr": "Certification professionnelle", "nameAr": "الشهادات المهنية" }
+    },
+    "assignedAgency": { "id": "BRC-EMP-TUN-001", "nameFr": "BRC - Ministère de l'Emploi et de la Formation Professionnelle - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة التشغيل والتكوين المهني - تونس" },
+    "likeCount": 298,
+    "isLikedByMe": true,
+    "submittedAt": "2024-02-25T10:00:00Z",
+    "contentFr": "Mise en place d'un programme national de mentorat connectant les cadres expérimentés aux jeunes diplômés en recherche d'emploi.",
+    "contentAr": "إرساء برنامج وطني للمرافقة يربط الإطارات ذات الخبرة بالشباب حاملي الشهادات الباحثين عن عمل.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000019",
+    "titleFr": "Rénovation des gares ferroviaires régionales",
+    "titleAr": "تجديد محطات القطار الجهوية",
+    "status": "rejected",
+    "categoryPath": {
+      "l1": { "code": "03", "nameFr": "Transport", "nameAr": "النقل" },
+      "l2": { "code": "0302", "nameFr": "Transport public", "nameAr": "النقل العمومي" },
+      "l3": { "code": "030202", "nameFr": "Train (SNCFT)", "nameAr": "القطار" }
+    },
+    "assignedAgency": { "id": "BRC-TRN-TUN-001", "nameFr": "BRC - Ministère du Transport - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس" },
+    "likeCount": 67,
+    "isLikedByMe": false,
+    "submittedAt": "2024-02-10T09:00:00Z",
+    "reviewResult": { "result": "rejected", "reviewedAt": "2024-03-20T11:00:00Z" },
+    "contentFr": "Proposition de rénovation complète des gares ferroviaires de la ligne Tunis-Gabès pour améliorer le confort des voyageurs.",
+    "contentAr": "اقتراح تجديد شامل لمحطات القطار على خط تونس-قابس لتحسين راحة المسافرين.",
+    "attachments": [],
+    "review": {
+      "result": "rejected",
+      "reviewCommentFr": "Un programme de rénovation est déjà en cours dans le cadre du plan quinquennal de la SNCFT. La proposition fait doublon.",
+      "reviewCommentAr": "برنامج تجديد قيد التنفيذ في إطار المخطط الخماسي للشركة الوطنية للسكك الحديدية. الاقتراح مكرر.",
+      "reviewedAt": "2024-03-20T11:00:00Z",
+      "reviewedBy": "Karim Jebali"
+    },
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000020",
+    "titleFr": "Plateforme de signalement citoyen pour l'environnement",
+    "titleAr": "منصة بلاغات مواطنية للبيئة",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "01", "nameFr": "Environnement", "nameAr": "البيئة" },
+      "l2": { "code": "0101", "nameFr": "Pollution", "nameAr": "التلوث" },
+      "l3": { "code": "010104", "nameFr": "Pollution industrielle", "nameAr": "التلوث الصناعي" }
+    },
+    "likeCount": 215,
+    "isLikedByMe": false,
+    "submittedAt": "2024-04-05T08:00:00Z",
+    "contentFr": "Création d'une plateforme mobile permettant aux citoyens de géolocaliser et photographier les atteintes à l'environnement pour alerter les autorités en temps réel.",
+    "contentAr": "إنشاء منصة جوّالة تمكّن المواطنين من تحديد مواقع الاعتداءات على البيئة وتصويرها لتنبيه السلطات آنيًا.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000021",
+    "titleFr": "Simplification des procédures d'obtention du passeport",
+    "titleAr": "تبسيط إجراءات الحصول على جواز السفر",
+    "status": "under_review",
+    "categoryPath": {
+      "l1": { "code": "06", "nameFr": "Autres", "nameAr": "أخرى" },
+      "l2": { "code": "0603", "nameFr": "État civil et documents", "nameAr": "الحالة المدنية والوثائق" },
+      "l3": { "code": "060302", "nameFr": "Passeport", "nameAr": "جواز السفر" }
+    },
+    "assignedAgency": { "id": "BRC-INT-TUN-001", "nameFr": "BRC - Ministère de l'Intérieur - Tunis", "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس" },
+    "likeCount": 0,
+    "isLikedByMe": false,
+    "submittedAt": "2024-04-10T16:00:00Z",
+    "contentFr": "Proposition de réduire le nombre de pièces justificatives exigées pour le renouvellement du passeport et d'autoriser le dépôt de dossier en ligne.",
+    "contentAr": "اقتراح تقليص عدد الوثائق المطلوبة لتجديد جواز السفر والسماح بإيداع الملف إلكترونيًا.",
+    "attachments": [],
+    "implementationUpdates": []
+  },
+  {
+    "id": "PRP-2024-000022",
+    "titleFr": "Éducation à la citoyenneté dans les programmes scolaires",
+    "titleAr": "التربية على المواطنة في البرامج الدراسية",
+    "status": "pending",
+    "categoryPath": {
+      "l1": { "code": "02", "nameFr": "Éducation", "nameAr": "التعليم" },
+      "l2": { "code": "0202", "nameFr": "Enseignement secondaire", "nameAr": "التعليم الثانوي" },
+      "l3": { "code": "020201", "nameFr": "Programmes scolaires", "nameAr": "البرامج الدراسية" }
+    },
+    "likeCount": 145,
+    "isLikedByMe": false,
+    "submittedAt": "2024-04-08T10:00:00Z",
+    "contentFr": "Intégrer des modules obligatoires d'éducation à la citoyenneté et à la gouvernance dans les programmes scolaires du secondaire.",
+    "contentAr": "إدراج وحدات إلزامية للتربية على المواطنة والحوكمة في البرامج الدراسية للتعليم الثانوي.",
+    "attachments": [],
+    "implementationUpdates": []
+  }
+]

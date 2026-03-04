@@ -1,0 +1,195 @@
+{
+  "overview": {
+    "totalReceived": 1247,
+    "totalCompleted": 983,
+    "completionRate": 78.8,
+    "avgProcessingDays": 18.4,
+    "overdueCount": 42,
+    "avgSatisfactionScore": 3.7,
+    "changeVsLastPeriod": {
+      "received": 12.3,
+      "completionRate": -2.1
+    }
+  },
+  "trend": [
+    { "period": "2023-05", "received": 87, "completed": 72, "overdue": 3 },
+    { "period": "2023-06", "received": 95, "completed": 78, "overdue": 5 },
+    { "period": "2023-07", "received": 78, "completed": 71, "overdue": 2 },
+    { "period": "2023-08", "received": 65, "completed": 62, "overdue": 1 },
+    { "period": "2023-09", "received": 102, "completed": 85, "overdue": 4 },
+    { "period": "2023-10", "received": 110, "completed": 91, "overdue": 6 },
+    { "period": "2023-11", "received": 118, "completed": 95, "overdue": 5 },
+    { "period": "2023-12", "received": 92, "completed": 88, "overdue": 2 },
+    { "period": "2024-01", "received": 125, "completed": 98, "overdue": 4 },
+    { "period": "2024-02", "received": 131, "completed": 105, "overdue": 5 },
+    { "period": "2024-03", "received": 128, "completed": 102, "overdue": 3 },
+    { "period": "2024-04", "received": 116, "completed": 36, "overdue": 2 }
+  ],
+  "byType": [
+    { "type": "grievance", "count": 598, "percentage": 47.9, "avgProcessingDays": 24.2 },
+    { "type": "inquiry", "count": 374, "percentage": 30.0, "avgProcessingDays": 5.1 },
+    { "type": "suggestion", "count": 150, "percentage": 12.0, "avgProcessingDays": 18.7 },
+    { "type": "proposal", "count": 75, "percentage": 6.0, "avgProcessingDays": 22.3 },
+    { "type": "report", "count": 50, "percentage": 4.0, "avgProcessingDays": 11.8 }
+  ],
+  "byAgency": [
+    {
+      "agency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement", "nameAr": "مكتب العلاقات - وزارة البيئة" },
+      "received": 187, "completed": 156, "completionRate": 83.4, "avgProcessingDays": 16.2, "slaComplianceRate": 88.5, "satisfactionScore": 3.8, "transferCount": 12, "overdueCount": 5
+    },
+    {
+      "agency": { "id": "BRC-EDU-TUN-001", "nameFr": "BRC - Ministère de l'Éducation", "nameAr": "مكتب العلاقات - وزارة التربية" },
+      "received": 156, "completed": 134, "completionRate": 85.9, "avgProcessingDays": 14.8, "slaComplianceRate": 91.2, "satisfactionScore": 4.0, "transferCount": 8, "overdueCount": 3
+    },
+    {
+      "agency": { "id": "BRC-TRN-TUN-001", "nameFr": "BRC - Ministère du Transport", "nameAr": "مكتب العلاقات - وزارة النقل" },
+      "received": 142, "completed": 108, "completionRate": 76.1, "avgProcessingDays": 21.5, "slaComplianceRate": 79.3, "satisfactionScore": 3.4, "transferCount": 15, "overdueCount": 7
+    },
+    {
+      "agency": { "id": "BRC-SAN-TUN-001", "nameFr": "BRC - Ministère de la Santé", "nameAr": "مكتب العلاقات - وزارة الصحة" },
+      "received": 128, "completed": 102, "completionRate": 79.7, "avgProcessingDays": 19.3, "slaComplianceRate": 82.1, "satisfactionScore": 3.5, "transferCount": 10, "overdueCount": 4
+    },
+    {
+      "agency": { "id": "BRC-INT-TUN-001", "nameFr": "BRC - Ministère de l'Intérieur", "nameAr": "مكتب العلاقات - وزارة الداخلية" },
+      "received": 115, "completed": 95, "completionRate": 82.6, "avgProcessingDays": 17.1, "slaComplianceRate": 86.4, "satisfactionScore": 3.6, "transferCount": 9, "overdueCount": 3
+    },
+    {
+      "agency": { "id": "BRC-FIN-TUN-001", "nameFr": "BRC - Ministère des Finances", "nameAr": "مكتب العلاقات - وزارة المالية" },
+      "received": 98, "completed": 82, "completionRate": 83.7, "avgProcessingDays": 15.6, "slaComplianceRate": 89.2, "satisfactionScore": 3.9, "transferCount": 6, "overdueCount": 2
+    },
+    {
+      "agency": { "id": "BRC-EQP-TUN-001", "nameFr": "BRC - Ministère de l'Équipement", "nameAr": "مكتب العلاقات - وزارة التجهيز" },
+      "received": 89, "completed": 61, "completionRate": 68.5, "avgProcessingDays": 28.4, "slaComplianceRate": 71.3, "satisfactionScore": 3.1, "transferCount": 18, "overdueCount": 8
+    },
+    {
+      "agency": { "id": "BRC-AGR-TUN-001", "nameFr": "BRC - Ministère de l'Agriculture", "nameAr": "مكتب العلاقات - وزارة الفلاحة" },
+      "received": 67, "completed": 54, "completionRate": 80.6, "avgProcessingDays": 20.1, "slaComplianceRate": 83.7, "satisfactionScore": 3.6, "transferCount": 5, "overdueCount": 2
+    },
+    {
+      "agency": { "id": "BRC-COM-TUN-001", "nameFr": "BRC - Ministère du Commerce", "nameAr": "مكتب العلاقات - وزارة التجارة" },
+      "received": 54, "completed": 45, "completionRate": 83.3, "avgProcessingDays": 12.7, "slaComplianceRate": 90.1, "satisfactionScore": 4.1, "transferCount": 3, "overdueCount": 1
+    },
+    {
+      "agency": { "id": "BRC-JUS-TUN-001", "nameFr": "BRC - Ministère de la Justice", "nameAr": "مكتب العلاقات - وزارة العدل" },
+      "received": 48, "completed": 38, "completionRate": 79.2, "avgProcessingDays": 22.8, "slaComplianceRate": 81.5, "satisfactionScore": 3.4, "transferCount": 7, "overdueCount": 3
+    },
+    {
+      "agency": { "id": "BRC-EMP-TUN-001", "nameFr": "BRC - Ministère de l'Emploi", "nameAr": "مكتب العلاقات - وزارة التشغيل" },
+      "received": 42, "completed": 35, "completionRate": 83.3, "avgProcessingDays": 16.9, "slaComplianceRate": 87.8, "satisfactionScore": 3.7, "transferCount": 4, "overdueCount": 1
+    },
+    {
+      "agency": { "id": "BRC-AFS-TUN-001", "nameFr": "BRC - Ministère des Affaires Sociales", "nameAr": "مكتب العلاقات - وزارة الشؤون الاجتماعية" },
+      "received": 38, "completed": 30, "completionRate": 78.9, "avgProcessingDays": 19.5, "slaComplianceRate": 82.4, "satisfactionScore": 3.5, "transferCount": 3, "overdueCount": 1
+    },
+    {
+      "agency": { "id": "BRC-CUL-TUN-001", "nameFr": "BRC - Ministère des Affaires Culturelles", "nameAr": "مكتب العلاقات - وزارة الشؤون الثقافية" },
+      "received": 18, "completed": 16, "completionRate": 88.9, "avgProcessingDays": 10.3, "slaComplianceRate": 93.8, "satisfactionScore": 4.2, "transferCount": 1, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-TIC-TUN-001", "nameFr": "BRC - Ministère des Technologies", "nameAr": "مكتب العلاقات - وزارة التكنولوجيات" },
+      "received": 15, "completed": 13, "completionRate": 86.7, "avgProcessingDays": 11.2, "slaComplianceRate": 92.3, "satisfactionScore": 4.0, "transferCount": 1, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-TOU-TUN-001", "nameFr": "BRC - Ministère du Tourisme", "nameAr": "مكتب العلاقات - وزارة السياحة" },
+      "received": 12, "completed": 10, "completionRate": 83.3, "avgProcessingDays": 13.5, "slaComplianceRate": 88.0, "satisfactionScore": 3.8, "transferCount": 0, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-FEM-TUN-001", "nameFr": "BRC - Ministère de la Femme", "nameAr": "مكتب العلاقات - وزارة المرأة" },
+      "received": 10, "completed": 9, "completionRate": 90.0, "avgProcessingDays": 9.8, "slaComplianceRate": 95.0, "satisfactionScore": 4.3, "transferCount": 0, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-JEU-TUN-001", "nameFr": "BRC - Ministère de la Jeunesse", "nameAr": "مكتب العلاقات - وزارة الشباب" },
+      "received": 8, "completed": 7, "completionRate": 87.5, "avgProcessingDays": 11.0, "slaComplianceRate": 91.0, "satisfactionScore": 3.9, "transferCount": 0, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-ENR-TUN-001", "nameFr": "BRC - Ministère de l'Industrie et de l'Énergie", "nameAr": "مكتب العلاقات - وزارة الصناعة والطاقة" },
+      "received": 7, "completed": 6, "completionRate": 85.7, "avgProcessingDays": 14.3, "slaComplianceRate": 88.5, "satisfactionScore": 3.7, "transferCount": 1, "overdueCount": 0
+    },
+    {
+      "agency": { "id": "BRC-DOM-TUN-001", "nameFr": "BRC - Ministère des Domaines de l'État", "nameAr": "مكتب العلاقات - وزارة أملاك الدولة" },
+      "received": 6, "completed": 4, "completionRate": 66.7, "avgProcessingDays": 32.1, "slaComplianceRate": 68.0, "satisfactionScore": 2.9, "transferCount": 2, "overdueCount": 2
+    },
+    {
+      "agency": { "id": "BRC-SUP-TUN-001", "nameFr": "BRC - Ministère de l'Enseignement Supérieur", "nameAr": "مكتب العلاقات - وزارة التعليم العالي" },
+      "received": 7, "completed": 6, "completionRate": 85.7, "avgProcessingDays": 15.8, "slaComplianceRate": 87.0, "satisfactionScore": 3.6, "transferCount": 1, "overdueCount": 0
+    }
+  ],
+  "repeatedComplaints": [
+    { "citizenId": "CIT-***m001***", "repeatCount": 7, "categories": ["Eau potable", "Assainissement"], "lastComplaintAt": "2024-04-10T09:00:00Z", "totalUnresolved": 4 },
+    { "citizenId": "CIT-***m002***", "repeatCount": 6, "categories": ["État des routes", "Éclairage public"], "lastComplaintAt": "2024-04-08T11:00:00Z", "totalUnresolved": 3 },
+    { "citizenId": "CIT-***m003***", "repeatCount": 5, "categories": ["Collecte des déchets"], "lastComplaintAt": "2024-04-05T14:00:00Z", "totalUnresolved": 3 },
+    { "citizenId": "CIT-***m004***", "repeatCount": 5, "categories": ["Pollution industrielle", "Pollution de l'air"], "lastComplaintAt": "2024-04-01T08:00:00Z", "totalUnresolved": 2 },
+    { "citizenId": "CIT-***m005***", "repeatCount": 4, "categories": ["Impôt sur le revenu", "Réclamation fiscale"], "lastComplaintAt": "2024-03-28T10:00:00Z", "totalUnresolved": 2 },
+    { "citizenId": "CIT-***m006***", "repeatCount": 4, "categories": ["Transport scolaire", "Infrastructure scolaire"], "lastComplaintAt": "2024-03-25T09:00:00Z", "totalUnresolved": 1 },
+    { "citizenId": "CIT-***m007***", "repeatCount": 4, "categories": ["Permis de construire"], "lastComplaintAt": "2024-03-20T16:00:00Z", "totalUnresolved": 2 },
+    { "citizenId": "CIT-***m008***", "repeatCount": 3, "categories": ["Hôpitaux et cliniques"], "lastComplaintAt": "2024-04-02T13:00:00Z", "totalUnresolved": 1 },
+    { "citizenId": "CIT-***m009***", "repeatCount": 3, "categories": ["Sécurité du quartier", "Nuisances sonores"], "lastComplaintAt": "2024-03-30T07:00:00Z", "totalUnresolved": 2 },
+    { "citizenId": "CIT-***m010***", "repeatCount": 3, "categories": ["Bus et métro", "Train (SNCFT)"], "lastComplaintAt": "2024-03-18T11:00:00Z", "totalUnresolved": 1 }
+  ],
+  "longOverdue": [
+    {
+      "complaintId": "CMP-2024-000032",
+      "type": "grievance",
+      "titleFr": "Déversement d'eaux usées dans l'oued Medjerda",
+      "daysOverdue": 5,
+      "assignedAgency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement", "nameAr": "مكتب العلاقات - وزارة البيئة" },
+      "assignedOfficer": { "name": "Mohamed Trabelsi" }
+    },
+    {
+      "complaintId": "CMP-2024-000033",
+      "type": "proposal",
+      "titleFr": "Proposition de mise en place d'un système de suivi numérique des bourses",
+      "daysOverdue": 10,
+      "assignedAgency": { "id": "BRC-EDU-TUN-001", "nameFr": "BRC - Ministère de l'Éducation", "nameAr": "مكتب العلاقات - وزارة التربية" },
+      "assignedOfficer": { "name": "Hana Mansouri" }
+    },
+    {
+      "complaintId": "CMP-2024-000034",
+      "type": "suggestion",
+      "titleFr": "Suggestion d'amélioration de la propreté du marché municipal de Kairouan",
+      "daysOverdue": 3,
+      "assignedAgency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement", "nameAr": "مكتب العلاقات - وزارة البيئة" },
+      "assignedOfficer": { "name": "Mohamed Trabelsi" }
+    },
+    {
+      "complaintId": "CMP-2024-000031",
+      "type": "grievance",
+      "titleFr": "Refus injustifié de délivrance du casier judiciaire",
+      "daysOverdue": 0,
+      "assignedAgency": { "id": "BRC-JUS-TUN-001", "nameFr": "BRC - Ministère de la Justice", "nameAr": "مكتب العلاقات - وزارة العدل" },
+      "assignedOfficer": { "name": "Rania Belhadj" }
+    },
+    {
+      "complaintId": "CMP-2024-000030",
+      "type": "grievance",
+      "titleFr": "Urgence : effondrement de la chaussée devant l'école de Bardo",
+      "daysOverdue": 1,
+      "assignedAgency": { "id": "BRC-TRN-TUN-001", "nameFr": "BRC - Ministère du Transport", "nameAr": "مكتب العلاقات - وزارة النقل" },
+      "assignedOfficer": { "name": "Karim Jebali" }
+    },
+    {
+      "complaintId": "CMP-2024-000019",
+      "type": "grievance",
+      "titleFr": "Fuite d'eau importante dans la rue Ibn Khaldoun",
+      "daysOverdue": 7,
+      "assignedAgency": { "id": "BRC-ENV-TUN-001", "nameFr": "BRC - Ministère de l'Environnement", "nameAr": "مكتب العلاقات - وزارة البيئة" },
+      "assignedOfficer": { "name": "Mohamed Trabelsi" }
+    },
+    {
+      "complaintId": "CMP-2024-000020",
+      "type": "grievance",
+      "titleFr": "Absence de médecin spécialiste à l'hôpital régional de Kasserine",
+      "daysOverdue": 10,
+      "assignedAgency": { "id": "BRC-SAN-TUN-001", "nameFr": "BRC - Ministère de la Santé", "nameAr": "مكتب العلاقات - وزارة الصحة" },
+      "assignedOfficer": { "name": "Hana Mansouri" }
+    },
+    {
+      "complaintId": "CMP-2024-000022",
+      "type": "grievance",
+      "titleFr": "Construction illicite dans le quartier de La Marsa",
+      "daysOverdue": 8,
+      "assignedAgency": { "id": "BRC-EQP-TUN-001", "nameFr": "BRC - Ministère de l'Équipement", "nameAr": "مكتب العلاقات - وزارة التجهيز" },
+      "assignedOfficer": { "name": "Rania Belhadj" }
+    }
+  ]
+}

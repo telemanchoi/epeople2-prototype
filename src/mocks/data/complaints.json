@@ -1,0 +1,4387 @@
+[
+  {
+    "id": "CMP-2024-000001",
+    "type": "grievance",
+    "titleFr": "Coupure d'eau prolongée dans le quartier El Menzah",
+    "titleAr": "انقطاع مطوّل للمياه في حي المنزه",
+    "contentFr": "Notre quartier souffre d'une coupure d'eau qui dure depuis plus de deux semaines sans aucune explication de la part des autorités compétentes. Les habitants sont obligés d'acheter de l'eau en bouteille.",
+    "contentAr": "يعاني حيّنا من انقطاع في المياه يدوم منذ أكثر من أسبوعين دون أي تفسير من الجهات المختصة. يضطر السكان لشراء المياه المعلّبة.",
+    "status": "received",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010201",
+        "nameFr": "Eau potable",
+        "nameAr": "مياه الشرب"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked001***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-03-01T12:00:00Z",
+    "deadline": "2024-05-23T12:00:00Z",
+    "daysRemaining": 41,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000011",
+        "filename": "att_cmp001_001.jpg",
+        "originalName": "photo_1.jpg",
+        "sizeBytes": 2128680,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-000101",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-01T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "CMP-2024-000002",
+    "type": "grievance",
+    "titleFr": "Dégradation de la chaussée sur la route GP8",
+    "titleAr": "تدهور حالة الطريق الوطنية رقم 8",
+    "contentFr": "La route GP8 entre Tunis et Bizerte présente des nids-de-poule dangereux qui ont causé plusieurs accidents. Aucun entretien n'a été effectué depuis des mois.",
+    "contentAr": "تحتوي الطريق الوطنية رقم 8 بين تونس وبنزرت على حفر خطيرة تسببت في عدة حوادث. لم يتم إجراء أي صيانة منذ أشهر.",
+    "status": "received",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked002***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-27T12:00:00Z",
+    "deadline": "2024-05-23T12:00:00Z",
+    "daysRemaining": 41,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000201",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-27T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "CMP-2024-000003",
+    "type": "grievance",
+    "titleFr": "Pollution industrielle près de la zone de Radès",
+    "titleAr": "تلوث صناعي بالقرب من منطقة رادس",
+    "contentFr": "L'usine située dans la zone industrielle de Radès dégage des fumées toxiques et des odeurs nauséabondes qui affectent la santé des habitants du quartier avoisinant.",
+    "contentAr": "يصدر المصنع الكائن بالمنطقة الصناعية برادس أدخنة سامة وروائح كريهة تؤثر على صحة سكان الحي المجاور.",
+    "status": "received",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0101",
+        "nameFr": "Pollution",
+        "nameAr": "التلوث"
+      },
+      "l3": {
+        "code": "010101",
+        "nameFr": "Pollution de l'air",
+        "nameAr": "تلوث الهواء"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked003***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-22T12:00:00Z",
+    "deadline": "2024-05-24T12:00:00Z",
+    "daysRemaining": 42,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000301",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-22T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "CMP-2024-000004",
+    "type": "inquiry",
+    "titleFr": "Demande d'information sur les inscriptions scolaires",
+    "titleAr": "طلب معلومات حول التسجيل المدرسي",
+    "contentFr": "Je souhaite obtenir des informations concernant les procédures d'inscription pour l'année scolaire prochaine et les documents nécessaires pour transférer mon enfant d'une école à une autre.",
+    "contentAr": "أرغب في الحصول على معلومات تتعلق بإجراءات التسجيل للسنة الدراسية القادمة والوثائق اللازمة لنقل طفلي من مدرسة إلى أخرى.",
+    "status": "received",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0201",
+        "nameFr": "Enseignement primaire",
+        "nameAr": "التعليم الابتدائي"
+      },
+      "l3": {
+        "code": "020101",
+        "nameFr": "Infrastructure scolaire",
+        "nameAr": "البنية التحتية المدرسية"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked004***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-02-23T12:00:00Z",
+    "deadline": "2024-05-15T12:00:00Z",
+    "daysRemaining": 33,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000041",
+        "filename": "att_cmp004_001.jpg",
+        "originalName": "photo_4.jpg",
+        "sizeBytes": 1786282,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-23T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-000401",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-23T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "CMP-2024-000005",
+    "type": "inquiry",
+    "titleFr": "Renseignement sur le renouvellement de la carte d'identité",
+    "titleAr": "استفسار حول تجديد بطاقة التعريف الوطنية",
+    "contentFr": "Quelles sont les démarches et les pièces justificatives nécessaires pour renouveler ma carte d'identité nationale qui arrive à expiration le mois prochain ?",
+    "contentAr": "ما هي الإجراءات والوثائق المطلوبة لتجديد بطاقة التعريف الوطنية التي تنتهي صلاحيتها الشهر المقبل؟",
+    "status": "received",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0603",
+        "nameFr": "État civil et documents",
+        "nameAr": "الحالة المدنية والوثائق"
+      },
+      "l3": {
+        "code": "060301",
+        "nameFr": "Carte d'identité nationale",
+        "nameAr": "بطاقة التعريف الوطنية"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked005***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-02-13T12:00:00Z",
+    "deadline": "2024-05-28T12:00:00Z",
+    "daysRemaining": 46,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000501",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-13T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "CMP-2024-000006",
+    "type": "grievance",
+    "titleFr": "Effondrement partiel du mur de l'école primaire de Bab Souika",
+    "titleAr": "انهيار جزئي لسور المدرسة الابتدائية بباب سويقة",
+    "contentFr": "Le mur d'enceinte de l'école primaire de Bab Souika s'est partiellement effondré suite aux dernières pluies, mettant en danger la sécurité des élèves.",
+    "contentAr": "انهار جزئيًا سور المدرسة الابتدائية بباب سويقة بعد الأمطار الأخيرة مما يهدد سلامة التلاميذ.",
+    "status": "assigned",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0201",
+        "nameFr": "Enseignement primaire",
+        "nameAr": "التعليم الابتدائي"
+      },
+      "l3": {
+        "code": "020101",
+        "nameFr": "Infrastructure scolaire",
+        "nameAr": "البنية التحتية المدرسية"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked006***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-03-09T12:00:00Z",
+    "deadline": "2024-05-16T12:00:00Z",
+    "daysRemaining": 34,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000601",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-09T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-000602",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-03-10T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000007",
+    "type": "grievance",
+    "titleFr": "Retard dans la délivrance du permis de construire",
+    "titleAr": "تأخر في تسليم رخصة البناء",
+    "contentFr": "J'ai déposé une demande de permis de construire il y a 4 mois et je n'ai toujours pas reçu de réponse malgré mes relances auprès de la municipalité.",
+    "contentAr": "قدمت طلب رخصة بناء منذ 4 أشهر ولم أتلقَ ردًا بعد رغم مراسلاتي المتكررة للبلدية.",
+    "status": "assigned",
+    "categoryPath": {
+      "l1": {
+        "code": "04",
+        "nameFr": "Urbanisme",
+        "nameAr": "التعمير"
+      },
+      "l2": {
+        "code": "0401",
+        "nameFr": "Permis de construire",
+        "nameAr": "رخص البناء"
+      },
+      "l3": {
+        "code": "040101",
+        "nameFr": "Demande de permis",
+        "nameAr": "طلب رخصة البناء"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked007***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "submittedAt": "2024-03-07T12:00:00Z",
+    "deadline": "2024-05-15T12:00:00Z",
+    "daysRemaining": 33,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000071",
+        "filename": "att_cmp007_001.jpg",
+        "originalName": "photo_7.jpg",
+        "sizeBytes": 1829635,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-03-07T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-000701",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-07T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-000702",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "timestamp": "2024-03-08T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000008",
+    "type": "inquiry",
+    "titleFr": "Question sur les conditions d'obtention d'un prêt logement",
+    "titleAr": "سؤال حول شروط الحصول على قرض سكني",
+    "contentFr": "Quelles sont les conditions et les critères d'éligibilité pour bénéficier d'un prêt logement dans le cadre du programme de logement social ?",
+    "contentAr": "ما هي الشروط ومعايير الأهلية للاستفادة من قرض سكني في إطار برنامج السكن الاجتماعي؟",
+    "status": "assigned",
+    "categoryPath": {
+      "l1": {
+        "code": "04",
+        "nameFr": "Urbanisme",
+        "nameAr": "التعمير"
+      },
+      "l2": {
+        "code": "0403",
+        "nameFr": "Logement social",
+        "nameAr": "السكن الاجتماعي"
+      },
+      "l3": {
+        "code": "040301",
+        "nameFr": "Attribution de logements",
+        "nameAr": "إسناد المساكن"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked008***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "submittedAt": "2024-02-24T12:00:00Z",
+    "deadline": "2024-05-17T12:00:00Z",
+    "daysRemaining": 35,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000801",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-24T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-000802",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "timestamp": "2024-02-25T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000009",
+    "type": "inquiry",
+    "titleFr": "Renseignement sur les modalités de paiement de la taxe foncière",
+    "titleAr": "استفسار حول طرق دفع المعلوم العقاري",
+    "contentFr": "Je souhaite connaître les modalités de paiement en ligne de la taxe foncière et les délais de grâce accordés.",
+    "contentAr": "أرغب في معرفة طرق الدفع الإلكتروني للمعلوم العقاري والآجال الممنوحة.",
+    "status": "assigned",
+    "categoryPath": {
+      "l1": {
+        "code": "05",
+        "nameFr": "Fiscalité",
+        "nameAr": "الجباية"
+      },
+      "l2": {
+        "code": "0503",
+        "nameFr": "Recouvrement",
+        "nameAr": "الاستخلاص"
+      },
+      "l3": {
+        "code": "050301",
+        "nameFr": "Réclamation fiscale",
+        "nameAr": "الشكاوى الجبائية"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked009***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "submittedAt": "2024-02-23T12:00:00Z",
+    "deadline": "2024-05-22T12:00:00Z",
+    "daysRemaining": 40,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-000901",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-23T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-000902",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "timestamp": "2024-02-24T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000010",
+    "type": "suggestion",
+    "titleFr": "Amélioration de l'éclairage public dans la cité Ettahrir",
+    "titleAr": "تحسين الإنارة العمومية في حي التحرير",
+    "contentFr": "L'éclairage public dans la cité Ettahrir est insuffisant, ce qui crée un sentiment d'insécurité chez les habitants, surtout le soir. Je suggère l'installation de lampadaires LED.",
+    "contentAr": "الإنارة العمومية في حي التحرير غير كافية مما يولّد شعورًا بانعدام الأمان لدى السكان خاصة في المساء. أقترح تركيب مصابيح LED.",
+    "status": "assigned",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked010***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-25T12:00:00Z",
+    "deadline": "2024-05-28T12:00:00Z",
+    "daysRemaining": 46,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000101",
+        "filename": "att_cmp010_001.jpg",
+        "originalName": "photo_10.jpg",
+        "sizeBytes": 2305107,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-25T12:00:00Z"
+      },
+      {
+        "id": "ATT-000102",
+        "filename": "att_cmp010_002.pdf",
+        "originalName": "document_10.pdf",
+        "sizeBytes": 675413,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-02-25T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-001001",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-25T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001002",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-26T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000011",
+    "type": "grievance",
+    "titleFr": "Problème de raccordement d'eau potable dans le quartier",
+    "titleAr": "مشكلة في توصيل مياه الشرب في الحي",
+    "contentFr": "Depuis plus de 3 mois, l'eau potable ne parvient plus à notre quartier de manière régulière. Les coupures fréquentes perturbent la vie quotidienne des familles.",
+    "contentAr": "منذ أكثر من 3 أشهر لا تصل مياه الشرب إلى حيّنا بشكل منتظم. الانقطاعات المتكررة تعطّل الحياة اليومية للعائلات.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010201",
+        "nameFr": "Eau potable",
+        "nameAr": "مياه الشرب"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked011***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-14T12:00:00Z",
+    "deadline": "2024-04-30T12:00:00Z",
+    "daysRemaining": 18,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001101",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-14T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001102",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-15T12:00:00Z"
+      },
+      {
+        "id": "HIST-001103",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-17T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000012",
+    "type": "grievance",
+    "titleFr": "Manque de transport scolaire dans la zone rurale de Jendouba",
+    "titleAr": "نقص النقل المدرسي في المنطقة الريفية بجندوبة",
+    "contentFr": "Les élèves de la zone rurale de Jendouba sont obligés de marcher plus de 5 km pour rejoindre l'école la plus proche faute de transport scolaire.",
+    "contentAr": "يضطر تلاميذ المنطقة الريفية بجندوبة إلى المشي أكثر من 5 كيلومترات للوصول إلى أقرب مدرسة بسبب غياب النقل المدرسي.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0201",
+        "nameFr": "Enseignement primaire",
+        "nameAr": "التعليم الابتدائي"
+      },
+      "l3": {
+        "code": "020101",
+        "nameFr": "Infrastructure scolaire",
+        "nameAr": "البنية التحتية المدرسية"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked012***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-03-02T12:00:00Z",
+    "deadline": "2024-05-02T12:00:00Z",
+    "daysRemaining": 20,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001201",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-02T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001202",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-03-03T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000013",
+    "type": "grievance",
+    "titleFr": "Demande de réparation du réseau d'assainissement à Sfax",
+    "titleAr": "طلب إصلاح شبكة الصرف الصحي بصفاقس",
+    "contentFr": "Le réseau d'assainissement dans le quartier Hay Ennour à Sfax est défaillant. Les eaux usées débordent dans les rues causant des risques sanitaires.",
+    "contentAr": "شبكة الصرف الصحي في حي النور بصفاقس متعطلة. تفيض المياه المستعملة في الشوارع مما يتسبب في مخاطر صحية.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010202",
+        "nameFr": "Assainissement",
+        "nameAr": "الصرف الصحي"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked013***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-18T12:00:00Z",
+    "deadline": "2024-05-07T12:00:00Z",
+    "daysRemaining": 25,
+    "transferCount": 1,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000131",
+        "filename": "att_cmp013_001.jpg",
+        "originalName": "photo_13.jpg",
+        "sizeBytes": 2066830,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-18T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-001301",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-18T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001302",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-19T12:00:00Z"
+      },
+      {
+        "id": "HIST-001303",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-21T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000014",
+    "type": "inquiry",
+    "titleFr": "Renseignement sur les horaires du bus ligne 32",
+    "titleAr": "استفسار حول مواعيد الحافلة خط 32",
+    "contentFr": "Je souhaite obtenir les horaires actualisés de la ligne de bus 32 reliant Ariana à Tunis centre, notamment les fréquences aux heures de pointe.",
+    "contentAr": "أرغب في الحصول على المواعيد المحدّثة لخط الحافلة 32 الرابط بين أريانة ووسط تونس وخاصة التردّدات في ساعات الذروة.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0302",
+        "nameFr": "Transport public",
+        "nameAr": "النقل العمومي"
+      },
+      "l3": {
+        "code": "030201",
+        "nameFr": "Bus et métro",
+        "nameAr": "الحافلات والمترو"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked014***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-20T12:00:00Z",
+    "deadline": "2024-05-12T12:00:00Z",
+    "daysRemaining": 30,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001401",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001402",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-21T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000015",
+    "type": "inquiry",
+    "titleFr": "Question sur la procédure d'équivalence de diplôme étranger",
+    "titleAr": "سؤال حول إجراءات معادلة الشهادة الأجنبية",
+    "contentFr": "J'ai obtenu un diplôme d'ingénieur en France et je souhaite connaître la procédure complète pour obtenir l'équivalence en Tunisie.",
+    "contentAr": "حصلت على شهادة مهندس في فرنسا وأرغب في معرفة الإجراء الكامل للحصول على المعادلة في تونس.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0202",
+        "nameFr": "Enseignement secondaire",
+        "nameAr": "التعليم الثانوي"
+      },
+      "l3": {
+        "code": "020201",
+        "nameFr": "Programmes scolaires",
+        "nameAr": "البرامج الدراسية"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked015***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-03-10T12:00:00Z",
+    "deadline": "2024-04-28T12:00:00Z",
+    "daysRemaining": 16,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001501",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-10T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001502",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-03-11T12:00:00Z"
+      },
+      {
+        "id": "HIST-001503",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000016",
+    "type": "inquiry",
+    "titleFr": "Renseignement sur le programme d'aide aux familles nécessiteuses",
+    "titleAr": "استفسار حول برنامج مساعدة العائلات المعوزة",
+    "contentFr": "Quels sont les critères pour bénéficier du programme national d'aide aux familles nécessiteuses et quelles sont les démarches à suivre ?",
+    "contentAr": "ما هي المعايير للاستفادة من البرنامج الوطني لمساعدة العائلات المعوزة وما هي الإجراءات المتبعة؟",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0602",
+        "nameFr": "Sécurité et ordre public",
+        "nameAr": "الأمن والنظام العام"
+      },
+      "l3": {
+        "code": "060201",
+        "nameFr": "Sécurité du quartier",
+        "nameAr": "أمن الحي"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked016***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-02-25T12:00:00Z",
+    "deadline": "2024-04-27T12:00:00Z",
+    "daysRemaining": 15,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000161",
+        "filename": "att_cmp016_001.jpg",
+        "originalName": "photo_16.jpg",
+        "sizeBytes": 2779932,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-25T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-001601",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-25T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001602",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "timestamp": "2024-02-26T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000017",
+    "type": "suggestion",
+    "titleFr": "Suggestion d'installation de caméras de surveillance dans le quartier",
+    "titleAr": "اقتراح تركيب كاميرات مراقبة في الحي",
+    "contentFr": "Face à la recrudescence des vols dans notre quartier, je suggère l'installation de caméras de surveillance aux entrées principales pour renforcer la sécurité.",
+    "contentAr": "في ظلّ تزايد السرقات في حيّنا، أقترح تركيب كاميرات مراقبة عند المداخل الرئيسية لتعزيز الأمن.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0602",
+        "nameFr": "Sécurité et ordre public",
+        "nameAr": "الأمن والنظام العام"
+      },
+      "l3": {
+        "code": "060201",
+        "nameFr": "Sécurité du quartier",
+        "nameAr": "أمن الحي"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked017***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-02-14T12:00:00Z",
+    "deadline": "2024-05-04T12:00:00Z",
+    "daysRemaining": 22,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001701",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-14T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001702",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "timestamp": "2024-02-15T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000018",
+    "type": "grievance",
+    "titleFr": "Déchets non collectés depuis 10 jours à Cité El Khadra",
+    "titleAr": "نفايات غير مجمّعة منذ 10 أيام في حي الخضراء",
+    "contentFr": "Les déchets ménagers s'accumulent dans les rues de la Cité El Khadra depuis plus de 10 jours. L'odeur est insupportable et attire les insectes nuisibles.",
+    "contentAr": "تتراكم النفايات المنزلية في شوارع حي الخضراء منذ أكثر من 10 أيام. الرائحة لا تطاق وتجذب الحشرات الضارة.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0103",
+        "nameFr": "Déchets",
+        "nameAr": "النفايات"
+      },
+      "l3": {
+        "code": "010301",
+        "nameFr": "Collecte des déchets",
+        "nameAr": "جمع النفايات"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked018***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-29T12:00:00Z",
+    "deadline": "2024-04-29T12:00:00Z",
+    "daysRemaining": 17,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-001801",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-29T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001802",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000019",
+    "type": "grievance",
+    "titleFr": "Fuite d'eau importante dans la rue Ibn Khaldoun",
+    "titleAr": "تسرّب مياه كبير في شارع ابن خلدون",
+    "contentFr": "Une fuite d'eau importante persiste depuis des jours dans la rue Ibn Khaldoun, provoquant un gaspillage d'eau potable et des dégâts sur la chaussée.",
+    "contentAr": "تسرّب مياه كبير مستمر منذ أيام في شارع ابن خلدون يتسبب في هدر مياه الشرب وأضرار في الطريق.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010201",
+        "nameFr": "Eau potable",
+        "nameAr": "مياه الشرب"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked019***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-03-10T12:00:00Z",
+    "deadline": "2024-04-19T12:00:00Z",
+    "daysRemaining": 7,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000191",
+        "filename": "att_cmp019_001.jpg",
+        "originalName": "photo_19.jpg",
+        "sizeBytes": 910175,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-03-10T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-001901",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-10T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-001902",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-03-11T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000020",
+    "type": "grievance",
+    "titleFr": "Absence de médecin spécialiste à l'hôpital régional de Kasserine",
+    "titleAr": "غياب طبيب مختص في المستشفى الجهوي بالقصرين",
+    "contentFr": "L'hôpital régional de Kasserine manque cruellement de médecins spécialistes, obligeant les patients à se déplacer jusqu'à Tunis pour des consultations de base.",
+    "contentAr": "يفتقر المستشفى الجهوي بالقصرين بشكل حاد إلى أطباء مختصين مما يجبر المرضى على التنقل إلى تونس العاصمة لإجراء استشارات أساسية.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0601",
+        "nameFr": "Santé publique",
+        "nameAr": "الصحة العمومية"
+      },
+      "l3": {
+        "code": "060101",
+        "nameFr": "Hôpitaux et cliniques",
+        "nameAr": "المستشفيات والمصحات"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked020***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-SAN-TUN-001",
+      "nameFr": "BRC - Ministère de la Santé - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+    },
+    "submittedAt": "2024-03-10T12:00:00Z",
+    "deadline": "2024-04-22T12:00:00Z",
+    "daysRemaining": 10,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002001",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-10T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002002",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "timestamp": "2024-03-11T12:00:00Z"
+      },
+      {
+        "id": "HIST-002003",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000012",
+      "name": "Rania Belhadj",
+      "nameAr": "رانية بالحاج"
+    }
+  },
+  {
+    "id": "CMP-2024-000021",
+    "type": "inquiry",
+    "titleFr": "Question sur le calendrier des examens du baccalauréat",
+    "titleAr": "سؤال حول روزنامة امتحانات البكالوريا",
+    "contentFr": "Pouvez-vous me confirmer les dates officielles des examens du baccalauréat pour cette année et les mesures spéciales prévues ?",
+    "contentAr": "هل يمكنكم تأكيد المواعيد الرسمية لامتحانات البكالوريا لهذه السنة والإجراءات الخاصة المقررة؟",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0202",
+        "nameFr": "Enseignement secondaire",
+        "nameAr": "التعليم الثانوي"
+      },
+      "l3": {
+        "code": "020201",
+        "nameFr": "Programmes scolaires",
+        "nameAr": "البرامج الدراسية"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked021***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-02-13T12:00:00Z",
+    "deadline": "2024-04-17T12:00:00Z",
+    "daysRemaining": 5,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002101",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-13T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002102",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-02-14T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000022",
+    "type": "grievance",
+    "titleFr": "Construction illicite dans le quartier de La Marsa",
+    "titleAr": "بناء فوضوي في حي المرسى",
+    "contentFr": "Un bâtiment de 4 étages est en construction sans permis dans notre quartier résidentiel de La Marsa, en violation flagrante du plan d'aménagement urbain.",
+    "contentAr": "مبنى من 4 طوابق قيد البناء بدون رخصة في حيّنا السكني بالمرسى وذلك في خرق صارخ لمخطط التهيئة العمرانية.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "04",
+        "nameFr": "Urbanisme",
+        "nameAr": "التعمير"
+      },
+      "l2": {
+        "code": "0401",
+        "nameFr": "Permis de construire",
+        "nameAr": "رخص البناء"
+      },
+      "l3": {
+        "code": "040101",
+        "nameFr": "Demande de permis",
+        "nameAr": "طلب رخصة البناء"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked022***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "submittedAt": "2024-02-29T12:00:00Z",
+    "deadline": "2024-04-20T12:00:00Z",
+    "daysRemaining": 8,
+    "transferCount": 2,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000221",
+        "filename": "att_cmp022_001.jpg",
+        "originalName": "photo_22.jpg",
+        "sizeBytes": 2133566,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-29T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-002201",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-29T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002202",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "timestamp": "2024-03-01T12:00:00Z"
+      },
+      {
+        "id": "HIST-002203",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-AGR-TUN-001",
+          "nameFr": "BRC - Ministère de l'Agriculture - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الفلاحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-03T12:00:00Z"
+      },
+      {
+        "id": "HIST-002204",
+        "action": "transferred",
+        "actionLabelFr": "Deuxième transfert",
+        "actionLabelAr": "تحويل ثانٍ",
+        "fromAgency": {
+          "id": "BRC-COM-TUN-001",
+          "nameFr": "BRC - Ministère du Commerce - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "reasonFr": "Réorientation après analyse",
+        "reasonAr": "إعادة توجيه بعد التحليل",
+        "timestamp": "2024-03-06T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000023",
+    "type": "proposal",
+    "titleFr": "Proposition d'aménagement d'une piste cyclable à Sousse",
+    "titleAr": "اقتراح إنشاء مسار للدراجات الهوائية بسوسة",
+    "contentFr": "Je propose l'aménagement d'une piste cyclable le long de la corniche de Sousse pour encourager les déplacements écologiques et réduire la congestion.",
+    "contentAr": "أقترح إنشاء مسار للدراجات الهوائية على طول كورنيش سوسة لتشجيع التنقل البيئي وتخفيف الازدحام.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked023***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-24T12:00:00Z",
+    "deadline": "2024-04-24T12:00:00Z",
+    "daysRemaining": 12,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002301",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-24T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002302",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-25T12:00:00Z"
+      },
+      {
+        "id": "HIST-002303",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-27T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000024",
+    "type": "inquiry",
+    "titleFr": "Demande d'information sur le permis de conduire international",
+    "titleAr": "طلب معلومات حول رخصة السياقة الدولية",
+    "contentFr": "Quelles sont les pièces nécessaires et les frais pour obtenir un permis de conduire international en Tunisie ?",
+    "contentAr": "ما هي الوثائق المطلوبة والرسوم للحصول على رخصة سياقة دولية في تونس؟",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0303",
+        "nameFr": "Permis et immatriculation",
+        "nameAr": "رخص السياقة والتسجيل"
+      },
+      "l3": {
+        "code": "030301",
+        "nameFr": "Permis de conduire",
+        "nameAr": "رخصة السياقة"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked024***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-03-12T12:00:00Z",
+    "deadline": "2024-04-16T12:00:00Z",
+    "daysRemaining": 4,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002401",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-12T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002402",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000025",
+    "type": "suggestion",
+    "titleFr": "Amélioration des services de l'hôpital Charles Nicolle",
+    "titleAr": "تحسين خدمات مستشفى شارل نيكول",
+    "contentFr": "Je suggère l'amélioration de l'accueil et de l'orientation des patients à l'hôpital Charles Nicolle. Les temps d'attente aux urgences sont excessifs.",
+    "contentAr": "أقترح تحسين استقبال وتوجيه المرضى في مستشفى شارل نيكول. أوقات الانتظار في قسم الطوارئ مفرطة.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0601",
+        "nameFr": "Santé publique",
+        "nameAr": "الصحة العمومية"
+      },
+      "l3": {
+        "code": "060101",
+        "nameFr": "Hôpitaux et cliniques",
+        "nameAr": "المستشفيات والمصحات"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked025***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-SAN-TUN-001",
+      "nameFr": "BRC - Ministère de la Santé - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+    },
+    "submittedAt": "2024-03-13T12:00:00Z",
+    "deadline": "2024-04-18T12:00:00Z",
+    "daysRemaining": 6,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000251",
+        "filename": "att_cmp025_001.jpg",
+        "originalName": "photo_25.jpg",
+        "sizeBytes": 2431427,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-03-13T12:00:00Z"
+      },
+      {
+        "id": "ATT-000252",
+        "filename": "att_cmp025_002.pdf",
+        "originalName": "document_25.pdf",
+        "sizeBytes": 677571,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-002501",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-13T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002502",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "timestamp": "2024-03-14T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000012",
+      "name": "Rania Belhadj",
+      "nameAr": "رانية بالحاج"
+    }
+  },
+  {
+    "id": "CMP-2024-000026",
+    "type": "grievance",
+    "titleFr": "Nids-de-poule dangereux sur la route de Bizerte",
+    "titleAr": "حفر خطيرة في طريق بنزرت",
+    "contentFr": "La route reliant Tunis à Bizerte au niveau du pont de Bizerte présente des nids-de-poule très dangereux, particulièrement la nuit.",
+    "contentAr": "تحتوي الطريق الرابطة بين تونس وبنزرت على مستوى جسر بنزرت على حفر خطيرة جدًا خاصة في الليل.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked026***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-25T12:00:00Z",
+    "deadline": "2024-04-15T12:00:00Z",
+    "daysRemaining": 3,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002601",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-25T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002602",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-26T12:00:00Z"
+      },
+      {
+        "id": "HIST-002603",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-28T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000027",
+    "type": "grievance",
+    "titleFr": "Réclamation concernant une erreur dans l'avis d'imposition",
+    "titleAr": "شكوى بخصوص خطأ في الإعلام بالضريبة",
+    "contentFr": "Mon avis d'imposition 2023 contient une erreur de calcul significative. Le montant indiqué ne correspond pas à mes revenus déclarés.",
+    "contentAr": "يحتوي إعلامي بالضريبة لسنة 2023 على خطأ حسابي كبير. المبلغ المذكور لا يتطابق مع مداخيلي المصرّح بها.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "05",
+        "nameFr": "Fiscalité",
+        "nameAr": "الجباية"
+      },
+      "l2": {
+        "code": "0503",
+        "nameFr": "Recouvrement",
+        "nameAr": "الاستخلاص"
+      },
+      "l3": {
+        "code": "050301",
+        "nameFr": "Réclamation fiscale",
+        "nameAr": "الشكاوى الجبائية"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked027***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "submittedAt": "2024-03-11T12:00:00Z",
+    "deadline": "2024-04-14T12:00:00Z",
+    "daysRemaining": 2,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002701",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-11T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002702",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "timestamp": "2024-03-12T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000028",
+    "type": "report",
+    "titleFr": "Signalement d'un commerce de produits alimentaires périmés",
+    "titleAr": "الإبلاغ عن تجارة مواد غذائية منتهية الصلاحية",
+    "contentFr": "Un commerce de détail situé au marché central de Tunis vend régulièrement des produits alimentaires périmés, mettant en danger la santé des consommateurs.",
+    "contentAr": "محل تجاري بسوق تونس المركزي يبيع بانتظام مواد غذائية منتهية الصلاحية مما يهدد صحة المستهلكين.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0604",
+        "nameFr": "Commerce et consommation",
+        "nameAr": "التجارة والاستهلاك"
+      },
+      "l3": {
+        "code": "060401",
+        "nameFr": "Protection du consommateur",
+        "nameAr": "حماية المستهلك"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked028***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-COM-TUN-001",
+      "nameFr": "BRC - Ministère du Commerce - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+    },
+    "submittedAt": "2024-03-09T12:00:00Z",
+    "deadline": "2024-04-15T12:00:00Z",
+    "daysRemaining": 3,
+    "transferCount": 2,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000281",
+        "filename": "att_cmp028_001.jpg",
+        "originalName": "photo_28.jpg",
+        "sizeBytes": 1101483,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-03-09T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-002801",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-09T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002802",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-COM-TUN-001",
+          "nameFr": "BRC - Ministère du Commerce - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+        },
+        "timestamp": "2024-03-10T12:00:00Z"
+      },
+      {
+        "id": "HIST-002803",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-JUS-TUN-001",
+          "nameFr": "BRC - Ministère de la Justice - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-COM-TUN-001",
+          "nameFr": "BRC - Ministère du Commerce - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-12T12:00:00Z"
+      },
+      {
+        "id": "HIST-002804",
+        "action": "transferred",
+        "actionLabelFr": "Deuxième transfert",
+        "actionLabelAr": "تحويل ثانٍ",
+        "fromAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-COM-TUN-001",
+          "nameFr": "BRC - Ministère du Commerce - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجارة - تونس"
+        },
+        "reasonFr": "Réorientation après analyse",
+        "reasonAr": "إعادة توجيه بعد التحليل",
+        "timestamp": "2024-03-15T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000029",
+    "type": "inquiry",
+    "titleFr": "Renseignement sur la TVA applicable aux services numériques",
+    "titleAr": "استفسار حول الأداء على القيمة المضافة المطبق على الخدمات الرقمية",
+    "contentFr": "Quel est le taux de TVA applicable aux prestations de services numériques fournis par une entreprise tunisienne ?",
+    "contentAr": "ما هو معدل الأداء على القيمة المضافة المطبق على الخدمات الرقمية المقدمة من شركة تونسية؟",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "05",
+        "nameFr": "Fiscalité",
+        "nameAr": "الجباية"
+      },
+      "l2": {
+        "code": "0502",
+        "nameFr": "Impôts indirects",
+        "nameAr": "الضرائب غير المباشرة"
+      },
+      "l3": {
+        "code": "050201",
+        "nameFr": "TVA",
+        "nameAr": "الأداء على القيمة المضافة"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked029***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "submittedAt": "2024-02-16T12:00:00Z",
+    "deadline": "2024-04-14T12:00:00Z",
+    "daysRemaining": 2,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-002901",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-16T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-002902",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "timestamp": "2024-02-17T12:00:00Z"
+      },
+      {
+        "id": "HIST-002903",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-19T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000030",
+    "type": "grievance",
+    "titleFr": "Urgence : effondrement de la chaussée devant l'école de Bardo",
+    "titleAr": "عاجل: انهيار الطريق أمام مدرسة باردو",
+    "contentFr": "La chaussée devant l'école primaire du Bardo s'est effondrée ce matin, créant un trou de 2 mètres de diamètre. Danger immédiat pour les piétons et les véhicules.",
+    "contentAr": "انهار الطريق أمام المدرسة الابتدائية بباردو هذا الصباح مما خلّف حفرة بقطر مترين. خطر فوري على المشاة والسيارات.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked030***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-20T12:00:00Z",
+    "deadline": "2024-04-13T12:00:00Z",
+    "daysRemaining": 1,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003001",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003002",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-21T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000031",
+    "type": "grievance",
+    "titleFr": "Refus injustifié de délivrance du casier judiciaire",
+    "titleAr": "رفض غير مبرر لتسليم السجل العدلي",
+    "contentFr": "Le tribunal de première instance de Sousse refuse de me délivrer mon casier judiciaire sans fournir de justification légale. J'en ai besoin pour un dossier d'emploi urgent.",
+    "contentAr": "ترفض المحكمة الابتدائية بسوسة تسليمي السجل العدلي بدون تقديم مبرر قانوني. أحتاجه لملف توظيف عاجل.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0603",
+        "nameFr": "État civil et documents",
+        "nameAr": "الحالة المدنية والوثائق"
+      },
+      "l3": {
+        "code": "060301",
+        "nameFr": "Carte d'identité nationale",
+        "nameAr": "بطاقة التعريف الوطنية"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked031***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-JUS-TUN-001",
+      "nameFr": "BRC - Ministère de la Justice - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+    },
+    "submittedAt": "2024-02-21T12:00:00Z",
+    "deadline": "2024-04-12T12:00:00Z",
+    "daysRemaining": 0,
+    "transferCount": 3,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000311",
+        "filename": "att_cmp031_001.jpg",
+        "originalName": "photo_31.jpg",
+        "sizeBytes": 1676261,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-21T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-003101",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-21T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003102",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-JUS-TUN-001",
+          "nameFr": "BRC - Ministère de la Justice - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+        },
+        "timestamp": "2024-02-22T12:00:00Z"
+      },
+      {
+        "id": "HIST-003103",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-JUS-TUN-001",
+          "nameFr": "BRC - Ministère de la Justice - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-24T12:00:00Z"
+      },
+      {
+        "id": "HIST-003104",
+        "action": "transferred",
+        "actionLabelFr": "Deuxième transfert",
+        "actionLabelAr": "تحويل ثانٍ",
+        "fromAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-JUS-TUN-001",
+          "nameFr": "BRC - Ministère de la Justice - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+        },
+        "reasonFr": "Réorientation après analyse",
+        "reasonAr": "إعادة توجيه بعد التحليل",
+        "timestamp": "2024-02-27T12:00:00Z"
+      },
+      {
+        "id": "HIST-003105",
+        "action": "transferred",
+        "actionLabelFr": "Troisième transfert — rapport BCRC requis",
+        "actionLabelAr": "تحويل ثالث — تقرير المكتب المركزي مطلوب",
+        "fromAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-JUS-TUN-001",
+          "nameFr": "BRC - Ministère de la Justice - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة العدل - تونس"
+        },
+        "reasonFr": "Troisième transfert, dossier signalé au BCRC",
+        "reasonAr": "تحويل ثالث، الملف مبلَّغ للمكتب المركزي",
+        "timestamp": "2024-03-02T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000032",
+    "type": "grievance",
+    "titleFr": "Non-respect des normes de sécurité dans un chantier de construction",
+    "titleAr": "عدم احترام معايير السلامة في ورشة بناء",
+    "contentFr": "Un chantier de construction à El Menzah 9 ne respecte pas les normes de sécurité de base : pas de clôture, pas de panneaux de signalisation, matériaux sur la voie publique.",
+    "contentAr": "ورشة بناء في المنزه 9 لا تحترم معايير السلامة الأساسية: لا سياج ولا لوحات إرشادية ومواد بناء على الطريق العام.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "04",
+        "nameFr": "Urbanisme",
+        "nameAr": "التعمير"
+      },
+      "l2": {
+        "code": "0401",
+        "nameFr": "Permis de construire",
+        "nameAr": "رخص البناء"
+      },
+      "l3": {
+        "code": "040101",
+        "nameFr": "Demande de permis",
+        "nameAr": "طلب رخصة البناء"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked032***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "submittedAt": "2024-02-29T12:00:00Z",
+    "deadline": "2024-04-13T12:00:00Z",
+    "daysRemaining": 1,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003201",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-29T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003202",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "timestamp": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    }
+  },
+  {
+    "id": "CMP-2024-000033",
+    "type": "report",
+    "titleFr": "Signalement de déversement illégal d'eaux usées dans l'oued Medjerda",
+    "titleAr": "الإبلاغ عن تصريف غير قانوني لمياه مستعملة في وادي مجردة",
+    "contentFr": "Des eaux usées industrielles sont déversées directement dans l'oued Medjerda sans aucun traitement, en violation de la loi environnementale. Cela pollue la principale source d'eau du pays.",
+    "contentAr": "تُصرَّف مياه مستعملة صناعية مباشرة في وادي مجردة دون أي معالجة بالمخالفة للقانون البيئي مما يلوّث المصدر الرئيسي للمياه في البلاد.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0101",
+        "nameFr": "Pollution",
+        "nameAr": "التلوث"
+      },
+      "l3": {
+        "code": "010101",
+        "nameFr": "Pollution de l'air",
+        "nameAr": "تلوث الهواء"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked033***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-29T12:00:00Z",
+    "deadline": "2024-04-07T12:00:00Z",
+    "daysRemaining": -5,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003301",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-29T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003302",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000034",
+    "type": "proposal",
+    "titleFr": "Proposition de mise en place d'un système de suivi numérique des bourses",
+    "titleAr": "اقتراح إنشاء نظام رقمي لمتابعة المنح الجامعية",
+    "contentFr": "Je propose la mise en place d'une plateforme numérique permettant aux étudiants de suivre en temps réel l'état de leurs demandes de bourses universitaires.",
+    "contentAr": "أقترح إنشاء منصة رقمية تمكّن الطلبة من متابعة حالة طلبات المنح الجامعية بشكل آني.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0203",
+        "nameFr": "Enseignement supérieur",
+        "nameAr": "التعليم العالي"
+      },
+      "l3": {
+        "code": "020301",
+        "nameFr": "Inscription universitaire",
+        "nameAr": "التسجيل الجامعي"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked034***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-02-28T12:00:00Z",
+    "deadline": "2024-04-02T12:00:00Z",
+    "daysRemaining": -10,
+    "transferCount": 2,
+    "hasAttachments": true,
+    "satisfactionScore": null,
+    "attachments": [
+      {
+        "id": "ATT-000341",
+        "filename": "att_cmp034_001.jpg",
+        "originalName": "photo_34.jpg",
+        "sizeBytes": 2276822,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-28T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-003401",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-28T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003402",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-02-29T12:00:00Z"
+      },
+      {
+        "id": "HIST-003403",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-02T12:00:00Z"
+      },
+      {
+        "id": "HIST-003404",
+        "action": "transferred",
+        "actionLabelFr": "Deuxième transfert",
+        "actionLabelAr": "تحويل ثانٍ",
+        "fromAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "reasonFr": "Réorientation après analyse",
+        "reasonAr": "إعادة توجيه بعد التحليل",
+        "timestamp": "2024-03-05T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    }
+  },
+  {
+    "id": "CMP-2024-000035",
+    "type": "suggestion",
+    "titleFr": "Suggestion d'amélioration de la propreté du marché municipal de Kairouan",
+    "titleAr": "اقتراح تحسين نظافة السوق البلدية بالقيروان",
+    "contentFr": "Je suggère la mise en place d'un programme de nettoyage quotidien renforcé et l'installation de poubelles supplémentaires au marché municipal de Kairouan.",
+    "contentAr": "أقترح وضع برنامج تنظيف يومي معزّز وتركيب حاويات نفايات إضافية في السوق البلدية بالقيروان.",
+    "status": "processing",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0103",
+        "nameFr": "Déchets",
+        "nameAr": "النفايات"
+      },
+      "l3": {
+        "code": "010301",
+        "nameFr": "Collecte des déchets",
+        "nameAr": "جمع النفايات"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked035***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-20T12:00:00Z",
+    "deadline": "2024-04-09T12:00:00Z",
+    "daysRemaining": -3,
+    "transferCount": 3,
+    "hasAttachments": false,
+    "satisfactionScore": null,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003501",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003502",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-21T12:00:00Z"
+      },
+      {
+        "id": "HIST-003503",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-23T12:00:00Z"
+      },
+      {
+        "id": "HIST-003504",
+        "action": "transferred",
+        "actionLabelFr": "Deuxième transfert",
+        "actionLabelAr": "تحويل ثانٍ",
+        "fromAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Réorientation après analyse",
+        "reasonAr": "إعادة توجيه بعد التحليل",
+        "timestamp": "2024-02-26T12:00:00Z"
+      },
+      {
+        "id": "HIST-003505",
+        "action": "transferred",
+        "actionLabelFr": "Troisième transfert — rapport BCRC requis",
+        "actionLabelAr": "تحويل ثالث — تقرير المكتب المركزي مطلوب",
+        "fromAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Troisième transfert, dossier signalé au BCRC",
+        "reasonAr": "تحويل ثالث، الملف مبلَّغ للمكتب المركزي",
+        "timestamp": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    }
+  },
+  {
+    "id": "CMP-2024-000036",
+    "type": "grievance",
+    "titleFr": "Réparation du réseau d'eau potable à Sousse",
+    "titleAr": "إصلاح شبكة مياه الشرب بسوسة",
+    "contentFr": "Le réseau d'eau potable dans la cité Riadh à Sousse présentait des fuites multiples causant des coupures fréquentes. La réparation a été effectuée.",
+    "contentAr": "كانت شبكة مياه الشرب في حي الرياض بسوسة تعاني من تسربات متعددة تتسبب في انقطاعات متكررة. تم إجراء الإصلاح.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010201",
+        "nameFr": "Eau potable",
+        "nameAr": "مياه الشرب"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked036***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-19T12:00:00Z",
+    "deadline": "2024-04-19T12:00:00Z",
+    "daysRemaining": 7,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 5,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003601",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-19T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003602",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-20T12:00:00Z"
+      },
+      {
+        "id": "HIST-003603",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-05T12:00:00Z"
+      },
+      {
+        "id": "HIST-003604",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-06T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-05T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    }
+  },
+  {
+    "id": "CMP-2024-000037",
+    "type": "grievance",
+    "titleFr": "Restauration de la signalisation routière à Nabeul",
+    "titleAr": "إعادة تركيب الإشارات المرورية بنابل",
+    "contentFr": "Les panneaux de signalisation manquants sur la route principale de Nabeul ont été signalés. Ils ont été installés avec succès.",
+    "contentAr": "تم الإبلاغ عن لوحات الإشارات المفقودة على الطريق الرئيسية بنابل. تم تركيبها بنجاح.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked037***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-02-20T12:00:00Z",
+    "deadline": "2024-04-20T12:00:00Z",
+    "daysRemaining": 8,
+    "transferCount": 1,
+    "hasAttachments": true,
+    "satisfactionScore": 4,
+    "attachments": [
+      {
+        "id": "ATT-000371",
+        "filename": "att_cmp037_001.jpg",
+        "originalName": "photo_37.jpg",
+        "sizeBytes": 1415094,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-20T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-003701",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003702",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-02-21T12:00:00Z"
+      },
+      {
+        "id": "HIST-003703",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-SAN-TUN-001",
+          "nameFr": "BRC - Ministère de la Santé - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-02-23T12:00:00Z"
+      },
+      {
+        "id": "HIST-003704",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000010",
+          "name": "Karim Jebali"
+        },
+        "timestamp": "2024-03-06T12:00:00Z"
+      },
+      {
+        "id": "HIST-003705",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-07T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-06T12:00:00Z",
+      "answeredBy": "Karim Jebali"
+    }
+  },
+  {
+    "id": "CMP-2024-000038",
+    "type": "inquiry",
+    "titleFr": "Réponse à la demande de certificat fiscal",
+    "titleAr": "الرد على طلب الشهادة الجبائية",
+    "contentFr": "Ma demande de certificat fiscal pour l'exercice 2023 a été traitée et le document m'a été délivré.",
+    "contentAr": "تمت معالجة طلبي للشهادة الجبائية للسنة المالية 2023 وتم تسليمي الوثيقة.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "05",
+        "nameFr": "Fiscalité",
+        "nameAr": "الجباية"
+      },
+      "l2": {
+        "code": "0503",
+        "nameFr": "Recouvrement",
+        "nameAr": "الاستخلاص"
+      },
+      "l3": {
+        "code": "050301",
+        "nameFr": "Réclamation fiscale",
+        "nameAr": "الشكاوى الجبائية"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked038***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "submittedAt": "2024-02-26T12:00:00Z",
+    "deadline": "2024-03-04T12:00:00Z",
+    "daysRemaining": -39,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 2,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003801",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-26T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003802",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "timestamp": "2024-02-27T12:00:00Z"
+      },
+      {
+        "id": "HIST-003803",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000009",
+          "name": "Hana Mansouri"
+        },
+        "timestamp": "2024-03-12T12:00:00Z"
+      },
+      {
+        "id": "HIST-003804",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-12T12:00:00Z",
+      "answeredBy": "Hana Mansouri"
+    }
+  },
+  {
+    "id": "CMP-2024-000039",
+    "type": "inquiry",
+    "titleFr": "Réponse concernant les conditions d'obtention du passeport",
+    "titleAr": "الرد بخصوص شروط الحصول على جواز السفر",
+    "contentFr": "Les informations demandées concernant les procédures d'obtention du passeport biométrique ont été fournies.",
+    "contentAr": "تم تقديم المعلومات المطلوبة بخصوص إجراءات الحصول على جواز السفر البيومتري.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0603",
+        "nameFr": "État civil et documents",
+        "nameAr": "الحالة المدنية والوثائق"
+      },
+      "l3": {
+        "code": "060301",
+        "nameFr": "Carte d'identité nationale",
+        "nameAr": "بطاقة التعريف الوطنية"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked039***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-03-02T12:00:00Z",
+    "deadline": "2024-03-09T12:00:00Z",
+    "daysRemaining": -34,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": 5,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-003901",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-02T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-003902",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "timestamp": "2024-03-03T12:00:00Z"
+      },
+      {
+        "id": "HIST-003903",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-05T12:00:00Z"
+      },
+      {
+        "id": "HIST-003904",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-17T12:00:00Z"
+      },
+      {
+        "id": "HIST-003905",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-18T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-17T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    }
+  },
+  {
+    "id": "CMP-2024-000040",
+    "type": "grievance",
+    "titleFr": "Résolution du problème de drainage des eaux pluviales",
+    "titleAr": "حل مشكلة تصريف مياه الأمطار",
+    "contentFr": "Le problème de drainage des eaux pluviales dans la rue de la République à Bizerte a été résolu par le curage des canalisations obstruées.",
+    "contentAr": "تم حل مشكلة تصريف مياه الأمطار في شارع الجمهورية ببنزرت من خلال تنظيف القنوات المسدودة.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010202",
+        "nameFr": "Assainissement",
+        "nameAr": "الصرف الصحي"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked040***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-23T12:00:00Z",
+    "deadline": "2024-04-23T12:00:00Z",
+    "daysRemaining": 11,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": 4,
+    "attachments": [
+      {
+        "id": "ATT-000401",
+        "filename": "att_cmp040_001.jpg",
+        "originalName": "photo_40.jpg",
+        "sizeBytes": 1629630,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-23T12:00:00Z"
+      },
+      {
+        "id": "ATT-000402",
+        "filename": "att_cmp040_002.pdf",
+        "originalName": "document_40.pdf",
+        "sizeBytes": 480595,
+        "mimeType": "application/pdf",
+        "uploadedAt": "2024-02-23T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-004001",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-23T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004002",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-24T12:00:00Z"
+      },
+      {
+        "id": "HIST-004003",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-09T12:00:00Z"
+      },
+      {
+        "id": "HIST-004004",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-10T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-09T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    }
+  },
+  {
+    "id": "CMP-2024-000041",
+    "type": "suggestion",
+    "titleFr": "Mise en place d'un passage piéton devant le lycée",
+    "titleAr": "إنشاء ممر مشاة أمام المعهد الثانوي",
+    "contentFr": "La suggestion d'installer un passage piéton protégé devant le lycée de Mégrine a été acceptée et mise en œuvre avec succès.",
+    "contentAr": "تم قبول اقتراح إنشاء ممر مشاة محمي أمام المعهد الثانوي بمقرين وتم تنفيذه بنجاح.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0301",
+        "nameFr": "Routes et voirie",
+        "nameAr": "الطرقات والبنية الطرقية"
+      },
+      "l3": {
+        "code": "030101",
+        "nameFr": "État des routes",
+        "nameAr": "حالة الطرقات"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked041***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-03-01T12:00:00Z",
+    "deadline": "2024-03-31T12:00:00Z",
+    "daysRemaining": -12,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 3,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004101",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-01T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004102",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-03-02T12:00:00Z"
+      },
+      {
+        "id": "HIST-004103",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000010",
+          "name": "Karim Jebali"
+        },
+        "timestamp": "2024-03-16T12:00:00Z"
+      },
+      {
+        "id": "HIST-004104",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-17T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-16T12:00:00Z",
+      "answeredBy": "Karim Jebali"
+    }
+  },
+  {
+    "id": "CMP-2024-000042",
+    "type": "grievance",
+    "titleFr": "Résolution de la réclamation fiscale numéro 2023-4521",
+    "titleAr": "حل الشكوى الجبائية رقم 2023-4521",
+    "contentFr": "Après vérification, l'erreur dans mon avis d'imposition a été corrigée et un nouvel avis rectificatif m'a été envoyé.",
+    "contentAr": "بعد التحقق تم تصحيح الخطأ في إعلامي بالضريبة وتم إرسال إعلام تصحيحي جديد.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "05",
+        "nameFr": "Fiscalité",
+        "nameAr": "الجباية"
+      },
+      "l2": {
+        "code": "0503",
+        "nameFr": "Recouvrement",
+        "nameAr": "الاستخلاص"
+      },
+      "l3": {
+        "code": "050301",
+        "nameFr": "Réclamation fiscale",
+        "nameAr": "الشكاوى الجبائية"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked042***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-FIN-TUN-001",
+      "nameFr": "BRC - Ministère des Finances - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+    },
+    "submittedAt": "2024-02-20T12:00:00Z",
+    "deadline": "2024-04-20T12:00:00Z",
+    "daysRemaining": 8,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 4,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004201",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-20T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004202",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-FIN-TUN-001",
+          "nameFr": "BRC - Ministère des Finances - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة المالية - تونس"
+        },
+        "timestamp": "2024-02-21T12:00:00Z"
+      },
+      {
+        "id": "HIST-004203",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000009",
+          "name": "Hana Mansouri"
+        },
+        "timestamp": "2024-03-06T12:00:00Z"
+      },
+      {
+        "id": "HIST-004204",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-07T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-06T12:00:00Z",
+      "answeredBy": "Hana Mansouri"
+    }
+  },
+  {
+    "id": "CMP-2024-000043",
+    "type": "inquiry",
+    "titleFr": "Réponse à la question sur les bourses de mobilité",
+    "titleAr": "الرد على السؤال حول منح التنقل",
+    "contentFr": "Les informations complètes sur les bourses de mobilité internationale pour les étudiants tunisiens ont été transmises.",
+    "contentAr": "تم إرسال المعلومات الكاملة حول منح التنقل الدولي للطلبة التونسيين.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "02",
+        "nameFr": "Éducation",
+        "nameAr": "التعليم"
+      },
+      "l2": {
+        "code": "0203",
+        "nameFr": "Enseignement supérieur",
+        "nameAr": "التعليم العالي"
+      },
+      "l3": {
+        "code": "020301",
+        "nameFr": "Inscription universitaire",
+        "nameAr": "التسجيل الجامعي"
+      }
+    },
+    "regionCode": "SFX-01",
+    "citizenId": "CIT-***masked043***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "submittedAt": "2024-02-14T12:00:00Z",
+    "deadline": "2024-02-21T12:00:00Z",
+    "daysRemaining": -51,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": 5,
+    "attachments": [
+      {
+        "id": "ATT-000431",
+        "filename": "att_cmp043_001.jpg",
+        "originalName": "photo_43.jpg",
+        "sizeBytes": 2759814,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-14T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-004301",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-14T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004302",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "timestamp": "2024-02-15T12:00:00Z"
+      },
+      {
+        "id": "HIST-004303",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000009",
+          "name": "Hana Mansouri"
+        },
+        "timestamp": "2024-02-29T12:00:00Z"
+      },
+      {
+        "id": "HIST-004304",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-01T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000009",
+      "name": "Hana Mansouri",
+      "nameAr": "هناء المنصوري"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-02-29T12:00:00Z",
+      "answeredBy": "Hana Mansouri"
+    }
+  },
+  {
+    "id": "CMP-2024-000044",
+    "type": "proposal",
+    "titleFr": "Proposition de création d'un jardin public à Manouba",
+    "titleAr": "اقتراح إنشاء حديقة عمومية بمنوبة",
+    "contentFr": "La proposition de créer un jardin public dans le quartier de la Manouba a été acceptée et intégrée dans le plan d'aménagement communal.",
+    "contentAr": "تم قبول اقتراح إنشاء حديقة عمومية في حي منوبة وإدراجه في مخطط التهيئة البلدي.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0104",
+        "nameFr": "Espaces verts",
+        "nameAr": "المساحات الخضراء"
+      },
+      "l3": {
+        "code": "010401",
+        "nameFr": "Entretien des parcs",
+        "nameAr": "صيانة الحدائق"
+      }
+    },
+    "regionCode": "SUS-01",
+    "citizenId": "CIT-***masked044***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-02-16T12:00:00Z",
+    "deadline": "2024-03-17T12:00:00Z",
+    "daysRemaining": -26,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 3,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004401",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-16T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004402",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-02-17T12:00:00Z"
+      },
+      {
+        "id": "HIST-004403",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-02T12:00:00Z"
+      },
+      {
+        "id": "HIST-004404",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-03T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-02T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    }
+  },
+  {
+    "id": "CMP-2024-000045",
+    "type": "grievance",
+    "titleFr": "Raccordement au réseau d'assainissement effectué",
+    "titleAr": "تم الربط بشبكة الصرف الصحي",
+    "contentFr": "Le raccordement de notre quartier au réseau d'assainissement a été réalisé conformément à la demande soumise il y a 3 mois.",
+    "contentAr": "تم ربط حيّنا بشبكة الصرف الصحي وفقًا للطلب المقدم منذ 3 أشهر.",
+    "status": "completed",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0102",
+        "nameFr": "Eau et Assainissement",
+        "nameAr": "الماء والصرف الصحي"
+      },
+      "l3": {
+        "code": "010202",
+        "nameFr": "Assainissement",
+        "nameAr": "الصرف الصحي"
+      }
+    },
+    "regionCode": "BIZ-01",
+    "citizenId": "CIT-***masked045***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-03-11T12:00:00Z",
+    "deadline": "2024-05-10T12:00:00Z",
+    "daysRemaining": 28,
+    "transferCount": 1,
+    "hasAttachments": false,
+    "satisfactionScore": 4,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004501",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-11T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004502",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-03-12T12:00:00Z"
+      },
+      {
+        "id": "HIST-004503",
+        "action": "transferred",
+        "actionLabelFr": "Transférée à un autre organisme",
+        "actionLabelAr": "محوّلة إلى جهة أخرى",
+        "fromAgency": {
+          "id": "BRC-EDU-TUN-001",
+          "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+        },
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "reasonFr": "Changement d'organisme compétent",
+        "reasonAr": "تغيير الجهة المختصة",
+        "timestamp": "2024-03-14T12:00:00Z"
+      },
+      {
+        "id": "HIST-004504",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-26T12:00:00Z"
+      },
+      {
+        "id": "HIST-004505",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-27T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-26T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    }
+  },
+  {
+    "id": "CMP-2024-000046",
+    "type": "grievance",
+    "titleFr": "Nuisances sonores causées par un atelier de menuiserie",
+    "titleAr": "إزعاج صوتي ناتج عن ورشة نجارة",
+    "contentFr": "L'atelier de menuiserie situé au rez-de-chaussée de notre immeuble causait des nuisances sonores inacceptables. Suite à l'intervention des autorités, le problème est réglé.",
+    "contentAr": "كانت ورشة النجارة الكائنة بالطابق الأرضي لعمارتنا تتسبب في إزعاج صوتي لا يطاق. بعد تدخل السلطات تم حل المشكلة.",
+    "status": "closed",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0602",
+        "nameFr": "Sécurité et ordre public",
+        "nameAr": "الأمن والنظام العام"
+      },
+      "l3": {
+        "code": "060201",
+        "nameFr": "Sécurité du quartier",
+        "nameAr": "أمن الحي"
+      }
+    },
+    "regionCode": "NAB-01",
+    "citizenId": "CIT-***masked046***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-02-22T12:00:00Z",
+    "deadline": "2024-04-22T12:00:00Z",
+    "daysRemaining": 10,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": 3,
+    "attachments": [
+      {
+        "id": "ATT-000461",
+        "filename": "att_cmp046_001.jpg",
+        "originalName": "photo_46.jpg",
+        "sizeBytes": 807485,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-22T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-004601",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-22T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004602",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "timestamp": "2024-02-23T12:00:00Z"
+      },
+      {
+        "id": "HIST-004603",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-08T12:00:00Z"
+      },
+      {
+        "id": "HIST-004604",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-09T12:00:00Z"
+      },
+      {
+        "id": "HIST-004605",
+        "action": "closed",
+        "actionLabelFr": "Dossier clôturé",
+        "actionLabelAr": "تم إغلاق الملف",
+        "timestamp": "2024-03-13T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-08T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    },
+    "satisfactionDetail": {
+      "score": 3,
+      "commentFr": "Délai de réponse un peu long",
+      "commentAr": "مدة الرد طويلة بعض الشيء",
+      "submittedAt": "2024-03-11T12:00:00Z"
+    }
+  },
+  {
+    "id": "CMP-2024-000047",
+    "type": "inquiry",
+    "titleFr": "Problème de permis de conduire résolu",
+    "titleAr": "حل مشكلة رخصة السياقة",
+    "contentFr": "Le problème de renouvellement de mon permis de conduire a été résolu après clarification des pièces justificatives nécessaires.",
+    "contentAr": "تم حل مشكلة تجديد رخصة السياقة بعد توضيح الوثائق المطلوبة.",
+    "status": "closed",
+    "categoryPath": {
+      "l1": {
+        "code": "03",
+        "nameFr": "Transport",
+        "nameAr": "النقل"
+      },
+      "l2": {
+        "code": "0303",
+        "nameFr": "Permis et immatriculation",
+        "nameAr": "رخص السياقة والتسجيل"
+      },
+      "l3": {
+        "code": "030301",
+        "nameFr": "Permis de conduire",
+        "nameAr": "رخصة السياقة"
+      }
+    },
+    "regionCode": "GAB-01",
+    "citizenId": "CIT-***masked047***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "submittedAt": "2024-03-05T12:00:00Z",
+    "deadline": "2024-03-12T12:00:00Z",
+    "daysRemaining": -31,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 4,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004701",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-05T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004702",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-TRN-TUN-001",
+          "nameFr": "BRC - Ministère du Transport - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+        },
+        "timestamp": "2024-03-06T12:00:00Z"
+      },
+      {
+        "id": "HIST-004703",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000010",
+          "name": "Karim Jebali"
+        },
+        "timestamp": "2024-03-20T12:00:00Z"
+      },
+      {
+        "id": "HIST-004704",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-21T12:00:00Z"
+      },
+      {
+        "id": "HIST-004705",
+        "action": "closed",
+        "actionLabelFr": "Dossier clôturé",
+        "actionLabelAr": "تم إغلاق الملف",
+        "timestamp": "2024-03-25T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-20T12:00:00Z",
+      "answeredBy": "Karim Jebali"
+    },
+    "satisfactionDetail": {
+      "score": 4,
+      "commentFr": "Traitement satisfaisant",
+      "commentAr": "معالجة مرضية",
+      "submittedAt": "2024-03-23T12:00:00Z"
+    }
+  },
+  {
+    "id": "CMP-2024-000048",
+    "type": "inquiry",
+    "titleFr": "Réponse obtenue concernant la demande de logement social",
+    "titleAr": "الحصول على الرد بخصوص طلب السكن الاجتماعي",
+    "contentFr": "J'ai reçu une réponse complète concernant l'état d'avancement de ma demande de logement social et les critères de priorité.",
+    "contentAr": "تلقيت ردًا كاملًا بخصوص مدى تقدم طلب السكن الاجتماعي ومعايير الأولوية.",
+    "status": "closed",
+    "categoryPath": {
+      "l1": {
+        "code": "04",
+        "nameFr": "Urbanisme",
+        "nameAr": "التعمير"
+      },
+      "l2": {
+        "code": "0403",
+        "nameFr": "Logement social",
+        "nameAr": "السكن الاجتماعي"
+      },
+      "l3": {
+        "code": "040301",
+        "nameFr": "Attribution de logements",
+        "nameAr": "إسناد المساكن"
+      }
+    },
+    "regionCode": "KAI-01",
+    "citizenId": "CIT-***masked048***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-EQP-TUN-001",
+      "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+    },
+    "submittedAt": "2024-02-26T12:00:00Z",
+    "deadline": "2024-03-04T12:00:00Z",
+    "daysRemaining": -39,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 5,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-004801",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-26T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004802",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-EQP-TUN-001",
+          "nameFr": "BRC - Ministère de l'Équipement et de l'Habitat - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة التجهيز والإسكان - تونس"
+        },
+        "timestamp": "2024-02-27T12:00:00Z"
+      },
+      {
+        "id": "HIST-004803",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000010",
+          "name": "Karim Jebali"
+        },
+        "timestamp": "2024-03-12T12:00:00Z"
+      },
+      {
+        "id": "HIST-004804",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-13T12:00:00Z"
+      },
+      {
+        "id": "HIST-004805",
+        "action": "closed",
+        "actionLabelFr": "Dossier clôturé",
+        "actionLabelAr": "تم إغلاق الملف",
+        "timestamp": "2024-03-17T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000010",
+      "name": "Karim Jebali",
+      "nameAr": "كريم الجبالي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-12T12:00:00Z",
+      "answeredBy": "Karim Jebali"
+    },
+    "satisfactionDetail": {
+      "score": 5,
+      "commentFr": "Traitement satisfaisant",
+      "commentAr": "معالجة مرضية",
+      "submittedAt": "2024-03-15T12:00:00Z"
+    }
+  },
+  {
+    "id": "CMP-2024-000049",
+    "type": "suggestion",
+    "titleFr": "Suggestion d'amélioration du site web des services municipaux",
+    "titleAr": "اقتراح تحسين الموقع الإلكتروني للخدمات البلدية",
+    "contentFr": "Ma suggestion d'ajouter un système de prise de rendez-vous en ligne sur le site web municipal a été évaluée et acceptée.",
+    "contentAr": "تم تقييم وقبول اقتراحي بإضافة نظام حجز مواعيد عبر الإنترنت على الموقع البلدي.",
+    "status": "closed",
+    "categoryPath": {
+      "l1": {
+        "code": "06",
+        "nameFr": "Autres",
+        "nameAr": "أخرى"
+      },
+      "l2": {
+        "code": "0602",
+        "nameFr": "Sécurité et ordre public",
+        "nameAr": "الأمن والنظام العام"
+      },
+      "l3": {
+        "code": "060201",
+        "nameFr": "Sécurité du quartier",
+        "nameAr": "أمن الحي"
+      }
+    },
+    "regionCode": "TUN-01",
+    "citizenId": "CIT-***masked049***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "submittedAt": "2024-02-19T12:00:00Z",
+    "deadline": "2024-03-20T12:00:00Z",
+    "daysRemaining": -23,
+    "transferCount": 0,
+    "hasAttachments": true,
+    "satisfactionScore": 4,
+    "attachments": [
+      {
+        "id": "ATT-000491",
+        "filename": "att_cmp049_001.jpg",
+        "originalName": "photo_49.jpg",
+        "sizeBytes": 2448425,
+        "mimeType": "image/jpeg",
+        "uploadedAt": "2024-02-19T12:00:00Z"
+      }
+    ],
+    "history": [
+      {
+        "id": "HIST-004901",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-02-19T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-004902",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-INT-TUN-001",
+          "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+        },
+        "timestamp": "2024-02-20T12:00:00Z"
+      },
+      {
+        "id": "HIST-004903",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-05T12:00:00Z"
+      },
+      {
+        "id": "HIST-004904",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-06T12:00:00Z"
+      },
+      {
+        "id": "HIST-004905",
+        "action": "closed",
+        "actionLabelFr": "Dossier clôturé",
+        "actionLabelAr": "تم إغلاق الملف",
+        "timestamp": "2024-03-10T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-05T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    },
+    "satisfactionDetail": {
+      "score": 4,
+      "commentFr": "Traitement satisfaisant",
+      "commentAr": "معالجة مرضية",
+      "submittedAt": "2024-03-08T12:00:00Z"
+    }
+  },
+  {
+    "id": "CMP-2024-000050",
+    "type": "grievance",
+    "titleFr": "Résolution du problème de coupure d'électricité récurrente",
+    "titleAr": "حل مشكلة انقطاع الكهرباء المتكرر",
+    "contentFr": "Les coupures d'électricité récurrentes dans la zone industrielle de Ben Arous ont été résolues après remplacement du transformateur défectueux.",
+    "contentAr": "تم حل مشكلة انقطاع الكهرباء المتكرر في المنطقة الصناعية ببن عروس بعد تغيير المحول المعطل.",
+    "status": "closed",
+    "categoryPath": {
+      "l1": {
+        "code": "01",
+        "nameFr": "Environnement",
+        "nameAr": "البيئة"
+      },
+      "l2": {
+        "code": "0101",
+        "nameFr": "Pollution",
+        "nameAr": "التلوث"
+      },
+      "l3": {
+        "code": "010101",
+        "nameFr": "Pollution de l'air",
+        "nameAr": "تلوث الهواء"
+      }
+    },
+    "regionCode": "TUN-02",
+    "citizenId": "CIT-***masked050***",
+    "isAnonymous": false,
+    "assignedAgency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "submittedAt": "2024-03-05T12:00:00Z",
+    "deadline": "2024-05-04T12:00:00Z",
+    "daysRemaining": 22,
+    "transferCount": 0,
+    "hasAttachments": false,
+    "satisfactionScore": 3,
+    "attachments": [],
+    "history": [
+      {
+        "id": "HIST-005001",
+        "action": "received",
+        "actionLabelFr": "Plainte reçue",
+        "actionLabelAr": "استلام الشكوى",
+        "timestamp": "2024-03-05T12:00:00Z",
+        "noteFr": "Dépôt en ligne via le portail e-People",
+        "noteAr": "تقديم إلكتروني عبر بوابة الشعب الإلكترونية"
+      },
+      {
+        "id": "HIST-005002",
+        "action": "assigned",
+        "actionLabelFr": "Transmise au BRC compétent",
+        "actionLabelAr": "إحالة إلى مكتب العلاقات المختص",
+        "toAgency": {
+          "id": "BRC-ENV-TUN-001",
+          "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+          "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+        },
+        "timestamp": "2024-03-06T12:00:00Z"
+      },
+      {
+        "id": "HIST-005003",
+        "action": "processed",
+        "actionLabelFr": "Réponse rédigée",
+        "actionLabelAr": "تمت صياغة الرد",
+        "officer": {
+          "id": "USR-000002",
+          "name": "Mohamed Trabelsi"
+        },
+        "timestamp": "2024-03-20T12:00:00Z"
+      },
+      {
+        "id": "HIST-005004",
+        "action": "completed",
+        "actionLabelFr": "Traitement terminé",
+        "actionLabelAr": "انتهت المعالجة",
+        "timestamp": "2024-03-21T12:00:00Z"
+      },
+      {
+        "id": "HIST-005005",
+        "action": "closed",
+        "actionLabelFr": "Dossier clôturé",
+        "actionLabelAr": "تم إغلاق الملف",
+        "timestamp": "2024-03-25T12:00:00Z"
+      }
+    ],
+    "assignedOfficer": {
+      "id": "USR-000002",
+      "name": "Mohamed Trabelsi",
+      "nameAr": "محمد الطرابلسي"
+    },
+    "answer": {
+      "contentFr": "Votre demande a été traitée conformément à la réglementation en vigueur. Nous vous invitons à consulter les détails dans l'espace dédié.",
+      "contentAr": "تمت معالجة طلبكم وفقًا للتنظيم المعمول به. ندعوكم للاطلاع على التفاصيل في الفضاء المخصص.",
+      "answeredAt": "2024-03-20T12:00:00Z",
+      "answeredBy": "Mohamed Trabelsi"
+    },
+    "satisfactionDetail": {
+      "score": 3,
+      "commentFr": "Délai de réponse un peu long",
+      "commentAr": "مدة الرد طويلة بعض الشيء",
+      "submittedAt": "2024-03-23T12:00:00Z"
+    }
+  }
+]

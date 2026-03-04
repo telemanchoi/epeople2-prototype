@@ -1,0 +1,149 @@
+[
+  {
+    "id": "USR-000001",
+    "username": "citizen@test.tn",
+    "name": "Fatma Bouazizi",
+    "nameAr": "فاطمة بوعزيزي",
+    "role": "CITIZEN",
+    "isActive": true,
+    "lastLoginAt": "2024-04-10T08:15:00Z"
+  },
+  {
+    "id": "USR-000002",
+    "username": "officer@brc.tn",
+    "name": "Mohamed Trabelsi",
+    "nameAr": "محمد الطرابلسي",
+    "role": "BRC_OFFICER",
+    "agency": {
+      "id": "BRC-ENV-TUN-001",
+      "nameFr": "BRC - Ministère de l'Environnement - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة البيئة - تونس"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-12T07:45:00Z"
+  },
+  {
+    "id": "USR-000003",
+    "username": "admin@bcrc.tn",
+    "name": "Amine Khelifi",
+    "nameAr": "أمين الخليفي",
+    "role": "BCRC_ADMIN",
+    "agency": {
+      "id": "BRC-BCRC-CEN-001",
+      "nameFr": "Bureau Central des Relations avec le Citoyen",
+      "nameAr": "المكتب المركزي للعلاقات مع المواطن"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-12T09:00:00Z"
+  },
+  {
+    "id": "USR-000004",
+    "username": "dggpc@gov.tn",
+    "name": "Sami Gharbi",
+    "nameAr": "سامي الغربي",
+    "role": "DGGPC_OFFICER",
+    "agency": {
+      "id": "BRC-DGGPC-CEN-001",
+      "nameFr": "Direction Générale de la Gouvernance et de la Prévention de la Corruption",
+      "nameAr": "الإدارة العامة للحوكمة ومكافحة الفساد"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-11T14:30:00Z"
+  },
+  {
+    "id": "USR-000005",
+    "username": "manager@brc-edu.tn",
+    "name": "Leila Hammami",
+    "nameAr": "ليلى الهمامي",
+    "role": "BRC_MANAGER",
+    "agency": {
+      "id": "BRC-EDU-TUN-001",
+      "nameFr": "BRC - Ministère de l'Éducation - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة التربية - تونس"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-12T08:20:00Z"
+  },
+  {
+    "id": "USR-000006",
+    "username": "dggpc-mgr@gov.tn",
+    "name": "Nabil Marzougui",
+    "nameAr": "نبيل المرزوقي",
+    "role": "DGGPC_MANAGER",
+    "agency": {
+      "id": "BRC-DGGPC-CEN-001",
+      "nameFr": "Direction Générale de la Gouvernance et de la Prévention de la Corruption",
+      "nameAr": "الإدارة العامة للحوكمة ومكافحة الفساد"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-10T16:00:00Z"
+  },
+  {
+    "id": "USR-000007",
+    "username": "sysadmin@epeople.tn",
+    "name": "Youssef Ben Salah",
+    "nameAr": "يوسف بن صالح",
+    "role": "SYS_ADMIN",
+    "isActive": true,
+    "lastLoginAt": "2024-04-12T06:00:00Z"
+  },
+  {
+    "id": "USR-000008",
+    "username": "anonymous",
+    "name": "Anonymous User",
+    "nameAr": "مستخدم مجهول",
+    "role": "ANONYMOUS",
+    "isActive": true
+  },
+  {
+    "id": "USR-000009",
+    "username": "officer2@brc-san.tn",
+    "name": "Hana Mansouri",
+    "nameAr": "هناء المنصوري",
+    "role": "BRC_OFFICER",
+    "agency": {
+      "id": "BRC-SAN-TUN-001",
+      "nameFr": "BRC - Ministère de la Santé - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الصحة - تونس"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-11T09:30:00Z"
+  },
+  {
+    "id": "USR-000010",
+    "username": "officer3@brc-trn.tn",
+    "name": "Karim Jebali",
+    "nameAr": "كريم الجبالي",
+    "role": "BRC_OFFICER",
+    "agency": {
+      "id": "BRC-TRN-TUN-001",
+      "nameFr": "BRC - Ministère du Transport - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة النقل - تونس"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-12T07:00:00Z"
+  },
+  {
+    "id": "USR-000011",
+    "username": "citizen2@test.tn",
+    "name": "Ahmed Chaabane",
+    "nameAr": "أحمد شعبان",
+    "role": "CITIZEN",
+    "isActive": true,
+    "lastLoginAt": "2024-04-09T11:00:00Z"
+  },
+  {
+    "id": "USR-000012",
+    "username": "officer4@brc-int.tn",
+    "name": "Rania Belhadj",
+    "nameAr": "رانية بالحاج",
+    "role": "BRC_OFFICER",
+    "agency": {
+      "id": "BRC-INT-TUN-001",
+      "nameFr": "BRC - Ministère de l'Intérieur - Tunis",
+      "nameAr": "مكتب العلاقات مع المواطن - وزارة الداخلية - تونس"
+    },
+    "isActive": true,
+    "lastLoginAt": "2024-04-11T13:45:00Z"
+  }
+]
