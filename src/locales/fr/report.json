@@ -35,7 +35,13 @@
     "reportId": "Numéro de signalement",
     "trackingCode": "Code de suivi",
     "trackingCodeHint": "Conservez ce code pour suivre votre signalement",
-    "anonymousTokenHint": "Conservez ce jeton — c'est le seul moyen de suivre votre signalement"
+    "anonymousTokenHint": "Conservez ce jeton — c'est le seul moyen de suivre votre signalement",
+    "anonymousWarning": "En mode anonyme, aucune information personnelle ne sera collectée. Un jeton unique vous sera attribué pour suivre votre signalement.",
+    "copyToken": "Copier le jeton",
+    "copied": "Copié !",
+    "trackMyReport": "Suivre mon signalement",
+    "selectCorruptionType": "Sélectionnez le type de corruption",
+    "selectAgency": "Sélectionnez l'organisme concerné"
   },
   "track": {
     "title": "Suivre mon signalement",

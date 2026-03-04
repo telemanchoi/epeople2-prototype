@@ -35,7 +35,13 @@
     "reportId": "رقم البلاغ",
     "trackingCode": "رمز التتبع",
     "trackingCodeHint": "احتفظ بهذا الرمز لمتابعة بلاغك",
-    "anonymousTokenHint": "احتفظ بهذا الرمز — إنه الوسيلة الوحيدة لمتابعة بلاغك"
+    "anonymousTokenHint": "احتفظ بهذا الرمز — إنه الوسيلة الوحيدة لمتابعة بلاغك",
+    "anonymousWarning": "في الوضع المجهول، لن يتم جمع أي معلومات شخصية. سيتم إصدار رمز فريد لمتابعة بلاغك.",
+    "copyToken": "نسخ الرمز",
+    "copied": "تم النسخ!",
+    "trackMyReport": "متابعة بلاغي",
+    "selectCorruptionType": "اختر نوع الفساد",
+    "selectAgency": "اختر الجهة المعنية"
   },
   "track": {
     "title": "متابعة بلاغي",

@@ -35,7 +35,13 @@
     "reportId": "신고 번호",
     "trackingCode": "추적 코드",
     "trackingCodeHint": "신고 조회를 위해 이 코드를 보관하세요",
-    "anonymousTokenHint": "이 토큰을 보관하세요 — 신고 조회 유일한 수단입니다"
+    "anonymousTokenHint": "이 토큰을 보관하세요 — 신고 조회 유일한 수단입니다",
+    "anonymousWarning": "익명 모드에서는 개인정보가 수집되지 않습니다. 신고 조회용 고유 토큰이 발급됩니다.",
+    "copyToken": "토큰 복사",
+    "copied": "복사됨!",
+    "trackMyReport": "내 신고 조회",
+    "selectCorruptionType": "부패 유형을 선택하세요",
+    "selectAgency": "대상 기관을 선택하세요"
   },
   "track": {
     "title": "내 신고 조회",
