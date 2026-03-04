@@ -17,7 +17,13 @@
     "contentPlaceholder": "제안 내용을 상세히 기술하세요...",
     "attachments": "참고 자료",
     "submit": "제출",
-    "submitSuccess": "제안이 성공적으로 접수되었습니다"
+    "submitting": "제출 중...",
+    "submitSuccess": "제안이 성공적으로 접수되었습니다",
+    "proposalId": "제안 번호",
+    "charCount": "{{current}} / {{max}}자",
+    "titleMaxLength": "최대 200자",
+    "contentMaxLength": "최대 5000자",
+    "backToList": "제안 목록으로 돌아가기"
   },
   "list": {
     "sortNewest": "최신순",

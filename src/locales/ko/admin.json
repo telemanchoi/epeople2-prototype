@@ -9,7 +9,11 @@
     "agencyPerformance": "기관별 성과",
     "dailyTrend": "일별 추이",
     "typeDistribution": "유형별 분포",
-    "transferWarnings": "이관 경고"
+    "transferWarnings": "이관 경고",
+    "transferCount": "이관 횟수",
+    "transferCountWarning": "BCRC 보고 필요",
+    "top10Agencies": "처리율 상위 10개 기관",
+    "recentTrend": "최근 추이 (30일)"
   },
   "performance": {
     "title": "BRC 성과 현황",
@@ -22,18 +26,63 @@
     "satisfaction": "만족도",
     "transfers": "이관",
     "overdue": "초과",
-    "lowPerformanceWarning": "처리율 80% 미만"
+    "lowPerformanceWarning": "처리율 80% 미만",
+    "searchAgency": "기관 검색...",
+    "export": "내보내기"
+  },
+  "statistics": {
+    "title": "통계",
+    "periodSelector": "기간",
+    "dateFrom": "시작일",
+    "dateTo": "종료일",
+    "monthlyTrend": "월별 추이",
+    "received": "접수",
+    "completed": "처리",
+    "overdue": "기한 초과",
+    "byType": "유형별 분포",
+    "byAgency": "기관별",
+    "topAgencies": "민원량 상위 기관",
+    "repeatedComplaints": "반복 민원 TOP 10",
+    "repeatedDesc": "3회 이상 접수한 시민",
+    "citizenId": "시민 ID",
+    "repeatCount": "반복 횟수",
+    "categories": "분류",
+    "lastComplaintAt": "최근 민원일",
+    "totalUnresolved": "미해결",
+    "longOverdue": "장기 미처리 민원",
+    "longOverdueDesc": "30일 이상 기한 초과 민원",
+    "complaintId": "민원 번호",
+    "type": "유형",
+    "daysOverdue": "초과 일수",
+    "assignedAgency": "담당 기관",
+    "assignedOfficer": "담당자",
+    "count": "건수",
+    "volume": "건수"
   },
   "users": {
     "title": "사용자 관리",
     "name": "이름",
+    "nameAr": "아랍어 이름",
     "role": "역할",
     "agency": "소속기관",
     "status": "상태",
     "active": "활성",
     "inactive": "비활성",
     "changeRole": "역할 변경",
-    "toggleStatus": "활성/비활성"
+    "toggleStatus": "활성/비활성",
+    "searchPlaceholder": "이름으로 검색...",
+    "allRoles": "전체 역할",
+    "actions": "작업",
+    "roles": {
+      "CITIZEN": "시민",
+      "ANONYMOUS": "익명",
+      "BRC_OFFICER": "BRC 담당자",
+      "BRC_MANAGER": "BRC 관리자",
+      "BCRC_ADMIN": "BCRC 관리자",
+      "DGGPC_OFFICER": "DGGPC 담당자",
+      "DGGPC_MANAGER": "DGGPC 관리자",
+      "SYS_ADMIN": "시스템 관리자"
+    }
   },
   "helpdesk": {
     "title": "헬프데스크",
@@ -45,7 +94,24 @@
       "online": "온라인"
     },
     "type": "유형",
+    "types": {
+      "complaint_assist": "민원 지원",
+      "general_inquiry": "일반 문의",
+      "technical_issue": "기술 문제",
+      "status_inquiry": "진행 상황 문의",
+      "other": "기타"
+    },
     "status": "상태",
-    "assignedAgent": "담당자"
+    "statuses": {
+      "open": "접수",
+      "in_progress": "처리 중",
+      "resolved": "해결",
+      "closed": "종결"
+    },
+    "assignedAgent": "담당자",
+    "searchPlaceholder": "번호 또는 유형으로 검색...",
+    "allChannels": "전체 채널",
+    "allStatuses": "전체 상태",
+    "noTickets": "티켓이 없습니다"
   }
 }

@@ -9,7 +9,11 @@
     "agencyPerformance": "أداء الجهات",
     "dailyTrend": "الاتجاه اليومي",
     "typeDistribution": "التوزيع حسب النوع",
-    "transferWarnings": "تنبيهات التحويل"
+    "transferWarnings": "تنبيهات التحويل",
+    "transferCount": "التحويلات",
+    "transferCountWarning": "تقرير المكتب المركزي مطلوب",
+    "top10Agencies": "أفضل 10 جهات حسب نسبة المعالجة",
+    "recentTrend": "الاتجاه الأخير (30 يوماً)"
   },
   "performance": {
     "title": "أداء مكاتب العلاقات",
@@ -22,18 +26,63 @@
     "satisfaction": "الرضا",
     "transfers": "التحويلات",
     "overdue": "متأخرة",
-    "lowPerformanceWarning": "نسبة المعالجة أقل من 80%"
+    "lowPerformanceWarning": "نسبة المعالجة أقل من 80%",
+    "searchAgency": "البحث عن جهة...",
+    "export": "تصدير"
+  },
+  "statistics": {
+    "title": "الإحصائيات",
+    "periodSelector": "الفترة",
+    "dateFrom": "من",
+    "dateTo": "إلى",
+    "monthlyTrend": "الاتجاه الشهري",
+    "received": "المستلمة",
+    "completed": "المعالجة",
+    "overdue": "المتأخرة",
+    "byType": "التوزيع حسب النوع",
+    "byAgency": "حسب الجهة",
+    "topAgencies": "أعلى الجهات حسب الحجم",
+    "repeatedComplaints": "الشكاوى المتكررة — أعلى 10",
+    "repeatedDesc": "مواطنون قدموا 3 شكاوى أو أكثر",
+    "citizenId": "رقم المواطن",
+    "repeatCount": "عدد التكرار",
+    "categories": "الفئات",
+    "lastComplaintAt": "آخر شكوى",
+    "totalUnresolved": "غير محلولة",
+    "longOverdue": "تأخير طويل الأمد",
+    "longOverdueDesc": "شكاوى تجاوزت 30 يوماً من التأخير",
+    "complaintId": "رقم الشكوى",
+    "type": "النوع",
+    "daysOverdue": "أيام التأخير",
+    "assignedAgency": "الجهة المكلفة",
+    "assignedOfficer": "الموظف المكلف",
+    "count": "العدد",
+    "volume": "الحجم"
   },
   "users": {
     "title": "إدارة المستخدمين",
     "name": "الاسم",
+    "nameAr": "الاسم بالعربية",
     "role": "الدور",
     "agency": "الجهة",
     "status": "الحالة",
     "active": "نشط",
     "inactive": "غير نشط",
     "changeRole": "تغيير الدور",
-    "toggleStatus": "تفعيل/إلغاء"
+    "toggleStatus": "تفعيل/إلغاء",
+    "searchPlaceholder": "البحث بالاسم...",
+    "allRoles": "جميع الأدوار",
+    "actions": "الإجراءات",
+    "roles": {
+      "CITIZEN": "مواطن",
+      "ANONYMOUS": "مجهول",
+      "BRC_OFFICER": "موظف مكتب العلاقات",
+      "BRC_MANAGER": "مدير مكتب العلاقات",
+      "BCRC_ADMIN": "مدير المكتب المركزي",
+      "DGGPC_OFFICER": "موظف الحوكمة",
+      "DGGPC_MANAGER": "مدير الحوكمة",
+      "SYS_ADMIN": "مدير النظام"
+    }
   },
   "helpdesk": {
     "title": "مكتب المساعدة",
@@ -45,7 +94,24 @@
       "online": "عبر الإنترنت"
     },
     "type": "النوع",
+    "types": {
+      "complaint_assist": "مساعدة في شكوى",
+      "general_inquiry": "استفسار عام",
+      "technical_issue": "مشكلة تقنية",
+      "status_inquiry": "متابعة ملف",
+      "other": "أخرى"
+    },
     "status": "الحالة",
-    "assignedAgent": "الموظف المكلف"
+    "statuses": {
+      "open": "مفتوح",
+      "in_progress": "قيد المعالجة",
+      "resolved": "تم الحل",
+      "closed": "مغلق"
+    },
+    "assignedAgent": "الموظف المكلف",
+    "searchPlaceholder": "البحث بالرقم أو النوع...",
+    "allChannels": "جميع القنوات",
+    "allStatuses": "جميع الحالات",
+    "noTickets": "لا توجد تذاكر"
   }
 }

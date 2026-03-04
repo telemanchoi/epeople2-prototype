@@ -9,7 +9,11 @@
     "agencyPerformance": "Performance des organismes",
     "dailyTrend": "Tendance journalière",
     "typeDistribution": "Répartition par type",
-    "transferWarnings": "Alertes de transfert"
+    "transferWarnings": "Alertes de transfert",
+    "transferCount": "Transferts",
+    "transferCountWarning": "Rapport BCRC obligatoire",
+    "top10Agencies": "Top 10 organismes par taux de traitement",
+    "recentTrend": "Tendance récente (30 jours)"
   },
   "performance": {
     "title": "Performance des BRC",
@@ -22,18 +26,63 @@
     "satisfaction": "Satisfaction",
     "transfers": "Transferts",
     "overdue": "En retard",
-    "lowPerformanceWarning": "Taux de traitement inférieur à 80%"
+    "lowPerformanceWarning": "Taux de traitement inférieur à 80%",
+    "searchAgency": "Rechercher un organisme...",
+    "export": "Exporter"
+  },
+  "statistics": {
+    "title": "Statistiques",
+    "periodSelector": "Période",
+    "dateFrom": "Du",
+    "dateTo": "Au",
+    "monthlyTrend": "Tendance mensuelle",
+    "received": "Reçues",
+    "completed": "Traitées",
+    "overdue": "En retard",
+    "byType": "Répartition par type",
+    "byAgency": "Par organisme",
+    "topAgencies": "Top organismes par volume",
+    "repeatedComplaints": "Réclamations répétées — TOP 10",
+    "repeatedDesc": "Citoyens ayant soumis 3+ réclamations",
+    "citizenId": "ID citoyen",
+    "repeatCount": "Nb de répétitions",
+    "categories": "Catégories",
+    "lastComplaintAt": "Dernière réclamation",
+    "totalUnresolved": "Non résolues",
+    "longOverdue": "Réclamations en retard prolongé",
+    "longOverdueDesc": "Réclamations dépassant 30+ jours de retard",
+    "complaintId": "N° réclamation",
+    "type": "Type",
+    "daysOverdue": "Jours de retard",
+    "assignedAgency": "Organisme assigné",
+    "assignedOfficer": "Agent assigné",
+    "count": "Nombre",
+    "volume": "Volume"
   },
   "users": {
     "title": "Gestion des utilisateurs",
     "name": "Nom",
+    "nameAr": "Nom arabe",
     "role": "Rôle",
     "agency": "Organisme",
     "status": "Statut",
     "active": "Actif",
     "inactive": "Inactif",
     "changeRole": "Changer le rôle",
-    "toggleStatus": "Activer/Désactiver"
+    "toggleStatus": "Activer/Désactiver",
+    "searchPlaceholder": "Rechercher par nom...",
+    "allRoles": "Tous les rôles",
+    "actions": "Actions",
+    "roles": {
+      "CITIZEN": "Citoyen",
+      "ANONYMOUS": "Anonyme",
+      "BRC_OFFICER": "Agent BRC",
+      "BRC_MANAGER": "Responsable BRC",
+      "BCRC_ADMIN": "Admin BCRC",
+      "DGGPC_OFFICER": "Agent DGGPC",
+      "DGGPC_MANAGER": "Responsable DGGPC",
+      "SYS_ADMIN": "Admin système"
+    }
   },
   "helpdesk": {
     "title": "Helpdesk",
@@ -45,7 +94,24 @@
       "online": "En ligne"
     },
     "type": "Type",
+    "types": {
+      "complaint_assist": "Assistance réclamation",
+      "general_inquiry": "Renseignement général",
+      "technical_issue": "Problème technique",
+      "status_inquiry": "Suivi de dossier",
+      "other": "Autre"
+    },
     "status": "Statut",
-    "assignedAgent": "Agent assigné"
+    "statuses": {
+      "open": "Ouvert",
+      "in_progress": "En cours",
+      "resolved": "Résolu",
+      "closed": "Fermé"
+    },
+    "assignedAgent": "Agent assigné",
+    "searchPlaceholder": "Rechercher par numéro ou type...",
+    "allChannels": "Tous les canaux",
+    "allStatuses": "Tous les statuts",
+    "noTickets": "Aucun ticket trouvé"
   }
 }

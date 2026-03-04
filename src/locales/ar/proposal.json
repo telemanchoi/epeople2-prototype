@@ -17,7 +17,13 @@
     "contentPlaceholder": "صف مقترحك بالتفصيل...",
     "attachments": "مستندات إضافية",
     "submit": "إرسال",
-    "submitSuccess": "تم تقديم مقترحك بنجاح"
+    "submitting": "جاري الإرسال...",
+    "submitSuccess": "تم تقديم مقترحك بنجاح",
+    "proposalId": "رقم المقترح",
+    "charCount": "{{current}} / {{max}} حرف",
+    "titleMaxLength": "200 حرف كحد أقصى",
+    "contentMaxLength": "5000 حرف كحد أقصى",
+    "backToList": "العودة لقائمة المقترحات"
   },
   "list": {
     "sortNewest": "الأحدث",

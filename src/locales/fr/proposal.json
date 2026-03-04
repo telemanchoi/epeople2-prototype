@@ -17,7 +17,13 @@
     "contentPlaceholder": "Décrivez votre proposition en détail...",
     "attachments": "Documents complémentaires",
     "submit": "Soumettre",
-    "submitSuccess": "Votre proposition a été soumise avec succès"
+    "submitting": "Soumission en cours...",
+    "submitSuccess": "Votre proposition a été soumise avec succès",
+    "proposalId": "Numéro de proposition",
+    "charCount": "{{current}} / {{max}} caractères",
+    "titleMaxLength": "200 caractères maximum",
+    "contentMaxLength": "5000 caractères maximum",
+    "backToList": "Retour à la liste des propositions"
   },
   "list": {
     "sortNewest": "Plus récentes",

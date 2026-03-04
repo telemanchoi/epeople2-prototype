@@ -22,18 +22,17 @@ import { Button } from '@/components/common/Button';
 import { Modal } from '@/components/common/Modal';
 import { Skeleton } from '@/components/common/Skeleton';
 import { EmptyState } from '@/components/common/EmptyState';
+import { TransferModal } from '@/components/features/complaint/TransferModal';
+import { DeadlineExtensionModal } from '@/components/features/complaint/DeadlineExtensionModal';
+import { SimilarCasesPanel } from '@/components/features/complaint/SimilarCasesPanel';
 import {
   useComplaint,
   useUpdateComplaintStatus,
-  useTransferComplaint,
-  useExtendDeadline,
   useJointProcess,
-  useAgencies,
 } from '@/hooks';
 import { formatDate, formatDateTime } from '@/utils/date';
 import { cn } from '@/utils/cn';
 import type { ComplaintStatus, IComplaintHistory } from '@/types';
-import { addDays, parseISO, format } from 'date-fns';
 
 const COMPLAINT_STATUSES: ComplaintStatus[] = [
   'received',
@@ -68,10 +67,7 @@ export default function ComplaintProcessPage() {
 
   // Data hooks
   const { data: complaint, isLoading, isError } = useComplaint(id);
-  const { data: agencies } = useAgencies();
   const updateStatus = useUpdateComplaintStatus();
-  const transferComplaint = useTransferComplaint();
-  const extendDeadline = useExtendDeadline();
   const jointProcess = useJointProcess();
 
   // UI state
@@ -79,20 +75,11 @@ export default function ComplaintProcessPage() {
   const [answerText, setAnswerText] = useState('');
   const [selectedTemplate, setSelectedTemplate] = useState('');
 
-  // Transfer modal state
+  // Modal/panel states
   const [showTransferModal, setShowTransferModal] = useState(false);
-  const [transferAgencyId, setTransferAgencyId] = useState('');
-  const [transferReason, setTransferReason] = useState('');
-
-  // Deadline extension modal state
   const [showExtensionModal, setShowExtensionModal] = useState(false);
-  const [extensionDays, setExtensionDays] = useState(7);
-  const [extensionReason, setExtensionReason] = useState('');
-
-  // Joint process confirmation
+  const [showSimilarCasesPanel, setShowSimilarCasesPanel] = useState(false);
   const [showJointConfirm, setShowJointConfirm] = useState(false);
-
-  // Complete confirmation
   const [showCompleteConfirm, setShowCompleteConfirm] = useState(false);
 
   // Timeline items
@@ -117,17 +104,6 @@ export default function ComplaintProcessPage() {
       variant: getTimelineVariant(h.action),
     }));
   }, [complaint?.history, lang]);
-
-  // Computed new deadline for extension
-  const newDeadline = useMemo(() => {
-    if (!complaint?.deadline) return '';
-    try {
-      const d = addDays(parseISO(complaint.deadline), extensionDays);
-      return format(d, 'yyyy-MM-dd');
-    } catch {
-      return '';
-    }
-  }, [complaint?.deadline, extensionDays]);
 
   // Handle template selection
   const handleTemplateChange = useCallback(
@@ -178,32 +154,6 @@ export default function ComplaintProcessPage() {
     });
     setSelectedStatus('');
   }, [complaint, selectedStatus, answerText, updateStatus]);
-
-  // Handle transfer submit
-  const handleTransferSubmit = useCallback(() => {
-    if (!complaint || !transferAgencyId || transferReason.length < 50) return;
-    transferComplaint.mutate({
-      id: complaint.id,
-      targetAgencyId: transferAgencyId,
-      reasonFr: transferReason,
-    });
-    setShowTransferModal(false);
-    setTransferAgencyId('');
-    setTransferReason('');
-  }, [complaint, transferAgencyId, transferReason, transferComplaint]);
-
-  // Handle deadline extension submit
-  const handleExtensionSubmit = useCallback(() => {
-    if (!complaint || !extensionReason) return;
-    extendDeadline.mutate({
-      id: complaint.id,
-      requestedAdditionalDays: extensionDays,
-      reasonFr: extensionReason,
-    });
-    setShowExtensionModal(false);
-    setExtensionDays(7);
-    setExtensionReason('');
-  }, [complaint, extensionDays, extensionReason, extendDeadline]);
 
   // Handle joint process
   const handleJointProcess = useCallback(() => {
@@ -264,7 +214,6 @@ export default function ComplaintProcessPage() {
     );
   }
 
-  const canTransfer = complaint.transferCount < 3;
   const BackIcon = isRtl ? ArrowRight : ArrowLeft;
 
   return (
@@ -565,9 +514,7 @@ export default function ComplaintProcessPage() {
               variant="ghost"
               fullWidth
               leftIcon={<Search size={16} />}
-              onClick={() => {
-                /* Placeholder - SidePanelDrawer in Phase 3 */
-              }}
+              onClick={() => setShowSimilarCasesPanel(true)}
             >
               {t('complaint:process.similarCases')}
             </Button>
@@ -585,194 +532,30 @@ export default function ComplaintProcessPage() {
         </div>
       </div>
 
-      {/* ─── Transfer Modal ─────────────────────────────── */}
-      <Modal
+      {/* ─── Transfer Modal (extracted component) ────────── */}
+      <TransferModal
         isOpen={showTransferModal}
         onClose={() => setShowTransferModal(false)}
-        title={t('complaint:process.transfer')}
-        size="md"
-        footer={
-          <>
-            <Button
-              variant="ghost"
-              onClick={() => setShowTransferModal(false)}
-            >
-              {t('common:buttons.cancel')}
-            </Button>
-            <Button
-              onClick={handleTransferSubmit}
-              disabled={
-                !canTransfer ||
-                !transferAgencyId ||
-                transferReason.length < 50
-              }
-              loading={transferComplaint.isPending}
-            >
-              {t('common:buttons.confirm')}
-            </Button>
-          </>
-        }
-      >
-        <div className="space-y-4">
-          {/* G-02: Transfer limit check */}
-          {!canTransfer && (
-            <div className="rounded-md bg-red-50 border border-red-200 p-3">
-              <p className="text-sm text-red-700 font-medium">
-                {t('complaint:process.transferLimitReached')}
-              </p>
-            </div>
-          )}
+        complaintId={complaint.id}
+        currentTransferCount={complaint.transferCount}
+      />
 
-          {/* Target agency */}
-          <div>
-            <label
-              className="block text-sm font-medium text-gray-700 mb-1"
-              htmlFor="transfer-agency"
-            >
-              {t('complaint:process.targetAgency')}
-            </label>
-            <select
-              id="transfer-agency"
-              value={transferAgencyId}
-              onChange={(e) => setTransferAgencyId(e.target.value)}
-              disabled={!canTransfer}
-              className="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:border-primary-500 focus:ring-primary-500 disabled:bg-gray-100"
-            >
-              <option value="">{t('complaint:process.selectAgency')}</option>
-              {agencies?.map((agency) => (
-                <option key={agency.id} value={agency.id}>
-                  {lang === 'ar' ? agency.nameAr : agency.nameFr}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Reason */}
-          <div>
-            <label
-              className="block text-sm font-medium text-gray-700 mb-1"
-              htmlFor="transfer-reason"
-            >
-              {t('complaint:process.transferReasonLabel')}
-            </label>
-            <textarea
-              id="transfer-reason"
-              value={transferReason}
-              onChange={(e) => setTransferReason(e.target.value)}
-              disabled={!canTransfer}
-              rows={4}
-              placeholder={t('complaint:process.transferReasonHint')}
-              className={cn(
-                'w-full rounded-md border border-gray-300 p-3 text-sm focus:border-primary-500 focus:ring-primary-500 resize-y disabled:bg-gray-100',
-                isRtl && 'text-right'
-              )}
-            />
-            <p
-              className={cn(
-                'mt-1 text-xs',
-                transferReason.length < 50
-                  ? 'text-orange-600'
-                  : 'text-green-600'
-              )}
-            >
-              {t('complaint:process.transferCharsCount', {
-                count: transferReason.length,
-              })}
-            </p>
-          </div>
-        </div>
-      </Modal>
-
-      {/* ─── Deadline Extension Modal ───────────────────── */}
-      <Modal
+      {/* ─── Deadline Extension Modal (extracted component) ── */}
+      <DeadlineExtensionModal
         isOpen={showExtensionModal}
         onClose={() => setShowExtensionModal(false)}
-        title={t('complaint:process.extendDeadline')}
-        size="md"
-        footer={
-          <>
-            <Button
-              variant="ghost"
-              onClick={() => setShowExtensionModal(false)}
-            >
-              {t('common:buttons.cancel')}
-            </Button>
-            <Button
-              onClick={handleExtensionSubmit}
-              disabled={!extensionReason || extensionDays <= 0}
-              loading={extendDeadline.isPending}
-            >
-              {t('common:buttons.confirm')}
-            </Button>
-          </>
-        }
-      >
-        <div className="space-y-4">
-          {/* Current deadline */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              {t('complaint:process.currentDeadline')}
-            </label>
-            <p className="text-sm text-gray-800 bg-gray-50 rounded-md px-3 py-2 border border-gray-200">
-              {complaint.deadline
-                ? formatDate(complaint.deadline, lang)
-                : '-'}
-            </p>
-          </div>
+        complaintId={complaint.id}
+        currentDeadline={complaint.deadline}
+      />
 
-          {/* Additional days */}
-          <div>
-            <label
-              className="block text-sm font-medium text-gray-700 mb-1"
-              htmlFor="extension-days"
-            >
-              {t('complaint:process.additionalDays')}
-            </label>
-            <input
-              id="extension-days"
-              type="number"
-              min={1}
-              max={60}
-              value={extensionDays}
-              onChange={(e) =>
-                setExtensionDays(Math.max(1, parseInt(e.target.value, 10) || 1))
-              }
-              className="w-full rounded-md border border-gray-300 py-2 px-3 text-sm focus:border-primary-500 focus:ring-primary-500"
-            />
-          </div>
-
-          {/* New deadline */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              {t('complaint:process.newDeadline')}
-            </label>
-            <p className="text-sm text-primary-700 bg-primary-50 rounded-md px-3 py-2 border border-primary-200 font-medium">
-              {newDeadline || '-'}
-            </p>
-          </div>
-
-          {/* Reason */}
-          <div>
-            <label
-              className="block text-sm font-medium text-gray-700 mb-1"
-              htmlFor="extension-reason"
-            >
-              {t('complaint:process.extensionReason')}
-            </label>
-            <textarea
-              id="extension-reason"
-              value={extensionReason}
-              onChange={(e) => setExtensionReason(e.target.value)}
-              rows={3}
-              placeholder={t('complaint:process.extensionReasonPlaceholder')}
-              className={cn(
-                'w-full rounded-md border border-gray-300 p-3 text-sm focus:border-primary-500 focus:ring-primary-500 resize-y',
-                isRtl && 'text-right'
-              )}
-            />
-          </div>
-        </div>
-      </Modal>
+      {/* ─── Similar Cases Panel (G-07) ──────────────────── */}
+      <SimilarCasesPanel
+        isOpen={showSimilarCasesPanel}
+        onClose={() => setShowSimilarCasesPanel(false)}
+        complaintId={complaint.id}
+        categoryL2Code={complaint.categoryPath?.l2?.code ?? ''}
+        regionCode={complaint.regionCode ?? ''}
+      />
 
       {/* ─── Joint Process Confirmation Modal ────────────── */}
       <Modal
