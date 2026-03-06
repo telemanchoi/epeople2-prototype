@@ -1,5 +1,6 @@
 import { useMutation } from '@tanstack/react-query';
 import { useAuthStore } from '@/stores';
+import { apiFetch } from '@/utils/api';
 import type { IAuthSession, IApiResponse } from '@/types';
 
 interface LoginCredentials {
@@ -19,7 +20,7 @@ export function useLogin() {
 
   return useMutation({
     mutationFn: async (credentials: LoginCredentials) => {
-      const res = await fetch('/api/auth/login', {
+      const res = await apiFetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(credentials),
@@ -49,7 +50,7 @@ export function useLogout() {
 
   return useMutation({
     mutationFn: async () => {
-      const res = await fetch('/api/auth/logout', {
+      const res = await apiFetch('/api/auth/logout', {
         method: 'POST',
       });
       if (!res.ok) {

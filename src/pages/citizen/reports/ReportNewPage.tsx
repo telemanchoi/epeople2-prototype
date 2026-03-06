@@ -136,49 +136,56 @@ export default function ReportNewPage() {
 
       {/* Step 1: Identity Choice */}
       {step === 'identity' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Named Card */}
-          <button
-            type="button"
-            onClick={() => handleIdentityChoice(false)}
-            className={cn(
-              'flex flex-col items-center gap-3 p-6 rounded-lg border-2 transition-all',
-              'hover:border-primary-500 hover:shadow-md',
-              'border-gray-200 bg-white'
-            )}
-          >
-            <div className="p-3 rounded-full bg-green-50">
-              <Shield size={32} className="text-green-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900">
-              {t('report:form.named')}
-            </h3>
-            <p className="text-sm text-gray-500 text-center">
-              {t('report:form.namedDescription')}
-            </p>
-          </button>
+        <fieldset>
+          <legend className="sr-only">{t('report:form.identityChoice')}</legend>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Named Card */}
+            <button
+              type="button"
+              role="radio"
+              aria-checked={!formData.isAnonymous}
+              onClick={() => handleIdentityChoice(false)}
+              className={cn(
+                'flex flex-col items-center gap-3 p-6 rounded-lg border-2 transition-all cursor-pointer',
+                'hover:border-primary-500 hover:shadow-md',
+                'border-gray-200 bg-white'
+              )}
+            >
+              <div className="p-3 rounded-full bg-green-50">
+                <Shield size={32} className="text-green-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900">
+                {t('report:form.named')}
+              </h3>
+              <p className="text-sm text-gray-500 text-center">
+                {t('report:form.namedDescription')}
+              </p>
+            </button>
 
-          {/* Anonymous Card */}
-          <button
-            type="button"
-            onClick={() => handleIdentityChoice(true)}
-            className={cn(
-              'flex flex-col items-center gap-3 p-6 rounded-lg border-2 transition-all',
-              'hover:border-primary-500 hover:shadow-md',
-              'border-gray-200 bg-white'
-            )}
-          >
-            <div className="p-3 rounded-full bg-amber-50">
-              <ShieldOff size={32} className="text-amber-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900">
-              {t('report:form.anonymous')}
-            </h3>
-            <p className="text-sm text-gray-500 text-center">
-              {t('report:form.anonymousDescription')}
-            </p>
-          </button>
-        </div>
+            {/* Anonymous Card */}
+            <button
+              type="button"
+              role="radio"
+              aria-checked={formData.isAnonymous}
+              onClick={() => handleIdentityChoice(true)}
+              className={cn(
+                'flex flex-col items-center gap-3 p-6 rounded-lg border-2 transition-all cursor-pointer',
+                'hover:border-primary-500 hover:shadow-md',
+                'border-gray-200 bg-white'
+              )}
+            >
+              <div className="p-3 rounded-full bg-amber-50">
+                <ShieldOff size={32} className="text-amber-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900">
+                {t('report:form.anonymous')}
+              </h3>
+              <p className="text-sm text-gray-500 text-center">
+                {t('report:form.anonymousDescription')}
+              </p>
+            </button>
+          </div>
+        </fieldset>
       )}
 
       {/* Step 2: Form */}
@@ -217,9 +224,10 @@ export default function ReportNewPage() {
                 <button
                   key={ct}
                   type="button"
+                  aria-pressed={formData.type === ct}
                   onClick={() => handleTypeSelect(ct)}
                   className={cn(
-                    'flex flex-col items-center gap-2 p-4 rounded-lg border-2 transition-all text-center',
+                    'flex flex-col items-center gap-2 p-4 rounded-lg border-2 transition-all text-center cursor-pointer',
                     formData.type === ct
                       ? 'border-primary-600 bg-primary-50 shadow-sm'
                       : 'border-gray-200 bg-white hover:border-gray-300'
@@ -253,7 +261,7 @@ export default function ReportNewPage() {
                   targetAgencyId: e.target.value,
                 }))
               }
-              className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
             >
               <option value="">{t('report:form.selectAgency')}</option>
               {(agencies ?? []).map((ag) => (
@@ -286,7 +294,7 @@ export default function ReportNewPage() {
                     incidentDate: e.target.value,
                   }))
                 }
-                className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
+                className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
               />
             </div>
             <div>
@@ -310,7 +318,7 @@ export default function ReportNewPage() {
                   }))
                 }
                 placeholder={t('report:form.locationPlaceholder')}
-                className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
+                className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
               />
             </div>
           </div>
@@ -337,7 +345,7 @@ export default function ReportNewPage() {
                 }))
               }
               placeholder={t('report:form.contentPlaceholder')}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none resize-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm resize-none"
             />
           </div>
 
@@ -407,7 +415,7 @@ export default function ReportNewPage() {
           <div className="space-y-4 max-w-md mx-auto">
             {/* Report ID */}
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">
+              <p className="text-sm uppercase tracking-wider text-gray-500 mb-1">
                 {t('report:form.reportId')}
               </p>
               <p className="text-lg font-mono font-bold text-gray-900">
@@ -417,7 +425,7 @@ export default function ReportNewPage() {
 
             {/* Tracking Code */}
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">
+              <p className="text-sm uppercase tracking-wider text-gray-500 mb-1">
                 {t('report:form.trackingCode')}
               </p>
               <div
@@ -432,8 +440,8 @@ export default function ReportNewPage() {
                 <button
                   type="button"
                   onClick={handleCopyToken}
-                  className="p-1.5 rounded hover:bg-gray-200 transition-colors"
-                  title={t('report:form.copyToken')}
+                  className="p-1.5 rounded hover:bg-gray-200 transition-colors cursor-pointer"
+                  aria-label={t('report:form.copyToken')}
                 >
                   {copied ? (
                     <Check size={16} className="text-green-600" />
@@ -455,7 +463,7 @@ export default function ReportNewPage() {
                     size={16}
                     className="text-amber-600"
                   />
-                  <p className="text-xs font-semibold text-amber-800 uppercase tracking-wider">
+                  <p className="text-sm font-semibold text-amber-800 uppercase tracking-wider">
                     {t('report:form.trackingCode')}
                   </p>
                 </div>
@@ -471,8 +479,8 @@ export default function ReportNewPage() {
                   <button
                     type="button"
                     onClick={handleCopyToken}
-                    className="p-1.5 rounded hover:bg-amber-100 transition-colors"
-                    title={t('report:form.copyToken')}
+                    className="p-1.5 rounded hover:bg-amber-100 transition-colors cursor-pointer"
+                    aria-label={t('report:form.copyToken')}
                   >
                     {copied ? (
                       <Check size={16} className="text-green-600" />

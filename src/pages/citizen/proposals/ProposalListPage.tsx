@@ -142,18 +142,20 @@ export default function ProposalListPage() {
         )}
       >
         {/* Sort Tabs */}
-        <div className="flex items-center gap-1 bg-gray-100 rounded-lg p-1">
+        <div role="tablist" className="flex items-center gap-1 bg-gray-100 rounded-lg p-1">
           {(['newest', 'mostLiked', 'underReview'] as SortOption[]).map(
             (opt) => (
               <button
                 key={opt}
                 type="button"
+                role="tab"
+                aria-selected={sortOption === opt}
                 onClick={() => {
                   setSortOption(opt);
                   setPage(1);
                 }}
                 className={cn(
-                  'px-3 py-1.5 text-sm rounded-md transition-colors',
+                  'px-3 py-1.5 text-sm rounded-md transition-colors cursor-pointer',
                   sortOption === opt
                     ? 'bg-white shadow-sm font-medium text-primary-700'
                     : 'text-gray-600 hover:text-gray-900'
@@ -174,6 +176,7 @@ export default function ProposalListPage() {
             setCategoryFilter(e.target.value);
             setPage(1);
           }}
+          aria-label={t('proposal:list.allCategories')}
           className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
         >
           <option value="">{t('proposal:list.allCategories')}</option>
@@ -222,6 +225,7 @@ export default function ProposalListPage() {
             size="sm"
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page <= 1}
+            aria-label={t('common:buttons.previous')}
           >
             {t('common:buttons.previous')}
           </Button>
@@ -236,6 +240,7 @@ export default function ProposalListPage() {
             size="sm"
             onClick={() => setPage((p) => p + 1)}
             disabled={page >= pagination.totalPages}
+            aria-label={t('common:buttons.next')}
           >
             {t('common:buttons.next')}
           </Button>
@@ -277,6 +282,7 @@ function ProposalCard({
     <div
       role="button"
       tabIndex={0}
+      aria-label={title}
       onClick={onClick}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') onClick();
@@ -329,6 +335,13 @@ function ProposalCard({
               ? 'text-red-500 hover:bg-red-50'
               : 'text-gray-400 hover:text-red-400 hover:bg-gray-50'
           )}
+          aria-label={
+            !isAuthenticated
+              ? t('proposal:detail.loginToLike')
+              : proposal.isLikedByMe
+                ? `${t('proposal:detail.unlike')} (${proposal.likeCount})`
+                : `${t('proposal:detail.like')} (${proposal.likeCount})`
+          }
           title={
             !isAuthenticated
               ? t('proposal:detail.loginToLike')

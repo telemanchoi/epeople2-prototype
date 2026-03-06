@@ -28,25 +28,25 @@ export default function CitizenHomePage() {
   const quickMenuItems = [
     {
       labelKey: 'buttons.newComplaint',
-      icon: <FileText size={24} />,
+      icon: <FileText aria-hidden="true" size={24} />,
       path: '/citizen/complaints/new',
       color: 'bg-primary-50 text-primary-700 border-primary-200',
     },
     {
       labelKey: 'nav.complaints',
-      icon: <ListChecks size={24} />,
+      icon: <ListChecks aria-hidden="true" size={24} />,
       path: '/citizen/complaints',
       color: 'bg-blue-50 text-blue-700 border-blue-200',
     },
     {
       labelKey: 'nav.reports',
-      icon: <Flag size={24} />,
+      icon: <Flag aria-hidden="true" size={24} />,
       path: '/citizen/reports/new',
       color: 'bg-red-50 text-red-700 border-red-200',
     },
     {
       labelKey: 'nav.proposals',
-      icon: <Lightbulb size={24} />,
+      icon: <Lightbulb aria-hidden="true" size={24} />,
       path: '/citizen/proposals',
       color: 'bg-amber-50 text-amber-700 border-amber-200',
     },
@@ -78,7 +78,7 @@ export default function CitizenHomePage() {
           <h1 className="text-2xl md:text-3xl font-bold text-white mb-3">
             {t('home.heroTitle')}
           </h1>
-          <p className="text-primary-100 text-sm md:text-base mb-6 leading-relaxed">
+          <p className="text-white/90 text-sm md:text-base mb-6 leading-relaxed">
             {t('home.heroSubtitle')}
           </p>
           <Button
@@ -92,13 +92,13 @@ export default function CitizenHomePage() {
           </Button>
         </div>
         {/* Decorative circles */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/3" />
-        <div className="absolute bottom-0 right-24 w-40 h-40 bg-white/5 rounded-full translate-y-1/3" />
+        <div aria-hidden="true" className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/3" />
+        <div aria-hidden="true" className="absolute bottom-0 right-24 w-40 h-40 bg-white/5 rounded-full translate-y-1/3" />
       </section>
 
       {/* Quick Menu */}
       <section>
-        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', isRtl ? 'text-right' : 'text-left')}>
+        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', 'text-left rtl:text-right')}>
           {t('home.quickMenu')}
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -109,7 +109,7 @@ export default function CitizenHomePage() {
               onClick={() => navigate(item.path)}
               className={cn(
                 'flex flex-col items-center gap-3 p-6 rounded-xl border-2 transition-all',
-                'hover:shadow-md hover:-translate-y-0.5',
+                'cursor-pointer hover:shadow-md hover:-translate-y-0.5',
                 item.color
               )}
             >
@@ -124,7 +124,7 @@ export default function CitizenHomePage() {
 
       {/* KPI Summary */}
       <section>
-        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', isRtl ? 'text-right' : 'text-left')}>
+        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', 'text-left rtl:text-right')}>
           {t('home.kpi')}
         </h2>
         {statsLoading ? (
@@ -165,7 +165,7 @@ export default function CitizenHomePage() {
 
       {/* Recent Notices */}
       <section>
-        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', isRtl ? 'text-right' : 'text-left')}>
+        <h2 className={cn('text-lg font-semibold text-gray-900 mb-4', 'text-left rtl:text-right')}>
           {t('home.notices')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -181,12 +181,12 @@ export default function CitizenHomePage() {
                 )}
               >
                 <Megaphone size={16} className="text-primary-600 shrink-0" />
-                <span className="text-xs text-gray-400">{notice.date}</span>
+                <span className="text-xs text-gray-600">{notice.date}</span>
               </div>
-              <h3 className={cn('text-sm font-semibold text-gray-900 mb-2', isRtl ? 'text-right' : 'text-left')}>
+              <h3 className={cn('text-sm font-semibold text-gray-900 mb-2', 'text-left rtl:text-right')}>
                 {t(notice.titleKey)}
               </h3>
-              <p className={cn('text-xs text-gray-600 leading-relaxed', isRtl ? 'text-right' : 'text-left')}>
+              <p className={cn('text-sm text-gray-600 leading-relaxed', 'text-left rtl:text-right')}>
                 {t(notice.contentKey)}
               </p>
             </div>

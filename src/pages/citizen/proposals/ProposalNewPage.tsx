@@ -152,7 +152,7 @@ export default function ProposalNewPage() {
           />
           <p
             className={cn(
-              'mt-1 text-xs',
+              'mt-1 text-sm',
               title.length > TITLE_MAX ? 'text-red-600' : 'text-gray-400'
             )}
           >
@@ -214,7 +214,7 @@ export default function ProposalNewPage() {
           />
           <p
             className={cn(
-              'mt-1 text-xs',
+              'mt-1 text-sm',
               content.length > CONTENT_MAX ? 'text-red-600' : 'text-gray-400'
             )}
           >
@@ -248,11 +248,14 @@ export default function ProposalNewPage() {
         >
           <Button
             variant="ghost"
+            className="cursor-pointer"
             onClick={() => navigate('/citizen/proposals')}
           >
             {t('common:buttons.cancel')}
           </Button>
           <Button
+            variant="primary"
+            className="cursor-pointer"
             onClick={handleSubmit}
             disabled={!isValid}
             loading={submitProposal.isPending}

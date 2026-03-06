@@ -1,11 +1,12 @@
 import { useQuery } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type { IApiResponse, ICategory } from '@/types';
 
 export function useCategories() {
   return useQuery({
     queryKey: ['categories'],
     queryFn: async () => {
-      const res = await fetch('/api/categories');
+      const res = await apiFetch('/api/categories');
       if (!res.ok) {
         throw new Error(`Failed to fetch categories: ${res.status}`);
       }

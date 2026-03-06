@@ -5,7 +5,7 @@ export default function Footer() {
   const { t } = useTranslation('common');
 
   return (
-    <footer className="bg-gray-800 text-gray-300">
+    <footer className="bg-gray-800 text-gray-200">
       {/* Main Footer */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -16,15 +16,15 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <span className="text-gray-400">BCRC - Bureau Central des Relations avec le Citoyen</span>
+                <span className="text-gray-300">BCRC - Bureau Central des Relations avec le Citoyen</span>
               </li>
               <li>
-                <span className="text-gray-400">Kasbah, Tunis 1006</span>
+                <span className="text-gray-300">Kasbah, Tunis 1006</span>
               </li>
               <li>
                 <a
                   href="tel:+21671000000"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   +216 71 000 000
                 </a>
@@ -32,7 +32,7 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:contact@bcrc.gov.tn"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   contact@bcrc.gov.tn
                 </a>
@@ -43,13 +43,13 @@ export default function Footer() {
           {/* Column 2: Quick Links */}
           <div>
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-              {t('nav.home')}
+              {t('footer.quickLinks') || t('nav.home')}
             </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-1 text-sm">
               <li>
                 <Link
                   to="/citizen/complaints/new"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('buttons.newComplaint')}
                 </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/citizen/reports/new"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('buttons.newReport')}
                 </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/citizen/proposals"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('nav.proposals')}
                 </Link>
@@ -73,7 +73,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/citizen/complaints"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('nav.complaints')}
                 </Link>
@@ -86,11 +86,11 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
               {t('footer.accessibility')}
             </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-1 text-sm">
               <li>
                 <Link
                   to="#"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('footer.privacy')}
                 </Link>
@@ -98,7 +98,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="#"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="inline-block py-1.5 text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer"
                 >
                   {t('footer.accessibility')}
                 </Link>
@@ -111,7 +111,7 @@ export default function Footer() {
       {/* Copyright Bar */}
       <div className="border-t border-gray-700">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4">
-          <p className="text-xs text-gray-500 text-center">
+          <p className="text-sm text-gray-400 text-center">
             {t('footer.copyright')}
           </p>
         </div>

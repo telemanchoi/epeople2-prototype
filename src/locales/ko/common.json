@@ -10,7 +10,8 @@
     "worklist": "워크리스트",
     "helpdesk": "헬프데스크",
     "users": "사용자 관리",
-    "performance": "BRC 성과"
+    "performance": "BRC 성과",
+    "notifications": "알림"
   },
   "buttons": {
     "submit": "제출",
@@ -33,7 +34,13 @@
     "logout": "로그아웃",
     "newComplaint": "새 민원",
     "newReport": "새 신고",
-    "newProposal": "새 제안"
+    "newProposal": "새 제안",
+    "changeLanguage": "언어 변경",
+    "userMenu": "사용자 메뉴",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "toggleSidebar": "사이드바 토글",
+    "closeSidebar": "사이드바 닫기"
   },
   "pagination": {
     "showing": "{{total}}개 중 {{from}}~{{to}} 표시",
@@ -91,6 +98,7 @@
     "contact": "BCRC 연락처",
     "privacy": "개인정보 처리방침",
     "accessibility": "접근성",
-    "copyright": "© 2024 BCRC - 중앙시민관계국"
+    "copyright": "© 2024 BCRC - 중앙시민관계국",
+    "quickLinks": "빠른 링크"
   }
 }

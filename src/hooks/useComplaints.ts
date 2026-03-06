@@ -1,4 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type {
   IApiResponse,
   IComplaintSummary,
@@ -76,7 +77,7 @@ export function useComplaints(filters?: ComplaintFilters) {
           }
         }
       }
-      const res = await fetch(`/api/complaints?${params.toString()}`);
+      const res = await apiFetch(`/api/complaints?${params.toString()}`);
       if (!res.ok) {
         throw new Error(`Failed to fetch complaints: ${res.status}`);
       }
@@ -91,7 +92,7 @@ export function useComplaint(id: string | undefined) {
   return useQuery({
     queryKey: ['complaints', id],
     queryFn: async () => {
-      const res = await fetch(`/api/complaints/${id}`);
+      const res = await apiFetch(`/api/complaints/${id}`);
       if (!res.ok) {
         throw new Error(`Failed to fetch complaint: ${res.status}`);
       }
@@ -110,7 +111,7 @@ export function useSubmitComplaint() {
 
   return useMutation({
     mutationFn: async (data: ComplaintFormData) => {
-      const res = await fetch('/api/complaints', {
+      const res = await apiFetch('/api/complaints', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
@@ -131,7 +132,7 @@ export function useUpdateComplaintStatus() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: StatusUpdatePayload) => {
-      const res = await fetch(`/api/complaints/${id}/status`, {
+      const res = await apiFetch(`/api/complaints/${id}/status`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -155,7 +156,7 @@ export function useTransferComplaint() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: TransferPayload) => {
-      const res = await fetch(`/api/complaints/${id}/transfer`, {
+      const res = await apiFetch(`/api/complaints/${id}/transfer`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -179,7 +180,7 @@ export function useExtendDeadline() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: ExtendDeadlinePayload) => {
-      const res = await fetch(`/api/complaints/${id}/extend-deadline`, {
+      const res = await apiFetch(`/api/complaints/${id}/extend-deadline`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -203,7 +204,7 @@ export function useJointProcess() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: JointProcessPayload) => {
-      const res = await fetch(`/api/complaints/${id}/joint-process`, {
+      const res = await apiFetch(`/api/complaints/${id}/joint-process`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -227,7 +228,7 @@ export function useSubmitSatisfaction() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: SatisfactionPayload) => {
-      const res = await fetch(`/api/complaints/${id}/satisfaction`, {
+      const res = await apiFetch(`/api/complaints/${id}/satisfaction`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

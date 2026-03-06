@@ -10,7 +10,8 @@
     "worklist": "قائمة المهام",
     "helpdesk": "مكتب المساعدة",
     "users": "إدارة المستخدمين",
-    "performance": "أداء مكاتب العلاقات"
+    "performance": "أداء مكاتب العلاقات",
+    "notifications": "الإشعارات"
   },
   "buttons": {
     "submit": "إرسال",
@@ -33,7 +34,13 @@
     "logout": "تسجيل الخروج",
     "newComplaint": "شكوى جديدة",
     "newReport": "بلاغ جديد",
-    "newProposal": "مقترح جديد"
+    "newProposal": "مقترح جديد",
+    "changeLanguage": "تغيير اللغة",
+    "userMenu": "قائمة المستخدم",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "toggleSidebar": "إظهار/إخفاء الشريط الجانبي",
+    "closeSidebar": "إغلاق الشريط الجانبي"
   },
   "pagination": {
     "showing": "عرض {{from}} إلى {{to}} من {{total}}",
@@ -91,6 +98,7 @@
     "contact": "اتصل بالمكتب المركزي",
     "privacy": "سياسة الخصوصية",
     "accessibility": "إمكانية الوصول",
-    "copyright": "© 2024 المكتب المركزي للعلاقة مع المواطن"
+    "copyright": "© 2024 المكتب المركزي للعلاقة مع المواطن",
+    "quickLinks": "روابط سريعة"
   }
 }

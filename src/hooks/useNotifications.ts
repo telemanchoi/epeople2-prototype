@@ -1,11 +1,12 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type { IApiResponse, INotification } from '@/types';
 
 export function useNotifications() {
   return useQuery({
     queryKey: ['notifications'],
     queryFn: async () => {
-      const res = await fetch('/api/notifications');
+      const res = await apiFetch('/api/notifications');
       if (!res.ok) {
         throw new Error(`Failed to fetch notifications: ${res.status}`);
       }
@@ -21,7 +22,7 @@ export function useMarkNotificationRead() {
 
   return useMutation({
     mutationFn: async (id: string) => {
-      const res = await fetch(`/api/notifications/${id}/read`, {
+      const res = await apiFetch(`/api/notifications/${id}/read`, {
         method: 'PATCH',
       });
       if (!res.ok) {
@@ -42,7 +43,7 @@ export function useMarkAllNotificationsRead() {
 
   return useMutation({
     mutationFn: async () => {
-      const res = await fetch('/api/notifications/read-all', {
+      const res = await apiFetch('/api/notifications/read-all', {
         method: 'PATCH',
       });
       if (!res.ok) {

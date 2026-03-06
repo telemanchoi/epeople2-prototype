@@ -89,7 +89,7 @@ export default function ComplaintListPage() {
         header: tC('table.id'),
         width: '140px',
         render: (item) => (
-          <span className="font-mono text-xs text-gray-700">{item.id}</span>
+          <span className="font-mono text-sm text-gray-700">{item.id}</span>
         ),
       },
       {
@@ -118,7 +118,7 @@ export default function ComplaintListPage() {
         key: 'assignedAgency',
         header: tC('table.agency'),
         render: (item) => (
-          <span className="text-xs text-gray-600 truncate block max-w-[180px]">
+          <span className="text-sm text-gray-600 truncate block max-w-[180px]">
             {lang === 'ar'
               ? item.assignedAgency.nameAr
               : item.assignedAgency.nameFr}
@@ -137,7 +137,7 @@ export default function ComplaintListPage() {
         header: tC('table.submittedAt'),
         width: '120px',
         render: (item) => (
-          <span className="text-xs text-gray-500">
+          <span className="text-sm text-gray-600">
             {formatDate(item.submittedAt, lang)}
           </span>
         ),
@@ -149,7 +149,6 @@ export default function ComplaintListPage() {
 
   const selectClass = cn(
     'px-3 py-2 border border-gray-300 rounded-lg text-sm bg-white',
-    'focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500',
     isRtl ? 'text-right' : 'text-left'
   );
 
@@ -187,6 +186,7 @@ export default function ComplaintListPage() {
             <input
               type="text"
               placeholder={tC('list.searchPlaceholder')}
+              aria-label={tC('list.searchPlaceholder')}
               value={search}
               onChange={(e) => {
                 setSearch(e.target.value);
@@ -207,6 +207,7 @@ export default function ComplaintListPage() {
               setStatusFilter(e.target.value as ComplaintStatus | '');
               setPage(1);
             }}
+            aria-label={tC('list.allStatuses')}
             className={selectClass}
           >
             <option value="">{tC('list.allStatuses')}</option>
@@ -224,6 +225,7 @@ export default function ComplaintListPage() {
               setTypeFilter(e.target.value as ComplaintType | '');
               setPage(1);
             }}
+            aria-label={tC('list.allTypes')}
             className={selectClass}
           >
             <option value="">{tC('list.allTypes')}</option>
@@ -242,6 +244,7 @@ export default function ComplaintListPage() {
               setDateFrom(e.target.value);
               setPage(1);
             }}
+            aria-label={tC('list.dateRange') || 'Date from'}
             className={selectClass}
             placeholder={tC('list.dateRange')}
           />
@@ -254,6 +257,7 @@ export default function ComplaintListPage() {
               setDateTo(e.target.value);
               setPage(1);
             }}
+            aria-label={'Date to'}
             className={selectClass}
           />
         </div>

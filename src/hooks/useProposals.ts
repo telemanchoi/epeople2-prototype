@@ -1,4 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type {
   IApiResponse,
   IProposalSummary,
@@ -49,7 +50,7 @@ export function useProposals(filters?: ProposalFilters) {
           }
         }
       }
-      const res = await fetch(`/api/proposals?${params.toString()}`);
+      const res = await apiFetch(`/api/proposals?${params.toString()}`);
       if (!res.ok) {
         throw new Error(`Failed to fetch proposals: ${res.status}`);
       }
@@ -64,7 +65,7 @@ export function useProposal(id: string | undefined) {
   return useQuery({
     queryKey: ['proposals', id],
     queryFn: async () => {
-      const res = await fetch(`/api/proposals/${id}`);
+      const res = await apiFetch(`/api/proposals/${id}`);
       if (!res.ok) {
         throw new Error(`Failed to fetch proposal: ${res.status}`);
       }
@@ -83,7 +84,7 @@ export function useSubmitProposal() {
 
   return useMutation({
     mutationFn: async (data: SubmitProposalPayload) => {
-      const res = await fetch('/api/proposals', {
+      const res = await apiFetch('/api/proposals', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
@@ -104,7 +105,7 @@ export function useToggleLike() {
 
   return useMutation({
     mutationFn: async (id: string) => {
-      const res = await fetch(`/api/proposals/${id}/like`, {
+      const res = await apiFetch(`/api/proposals/${id}/like`, {
         method: 'POST',
       });
       if (!res.ok) {
@@ -123,7 +124,7 @@ export function useReviewProposal() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: ReviewProposalPayload) => {
-      const res = await fetch(`/api/proposals/${id}/review`, {
+      const res = await apiFetch(`/api/proposals/${id}/review`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

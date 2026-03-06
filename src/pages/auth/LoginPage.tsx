@@ -90,8 +90,9 @@ export default function LoginPage() {
               key={lang}
               type="button"
               onClick={() => handleLanguageChange(lang)}
+              aria-pressed={i18n.language === lang}
               className={cn(
-                'px-3 py-1.5 text-xs font-medium rounded-md transition-colors',
+                'min-w-[44px] min-h-[44px] px-3 py-1.5 text-xs font-medium rounded-md transition-colors cursor-pointer',
                 i18n.language === lang
                   ? 'bg-primary-700 text-white'
                   : 'text-gray-600 hover:bg-gray-100'
@@ -114,7 +115,7 @@ export default function LoginPage() {
             <h1 className="text-2xl font-bold text-gray-900">
               {tCommon('appName')}
             </h1>
-            <p className="mt-1 text-sm text-gray-500">
+            <p className="mt-1 text-sm text-gray-600">
               {tAuth('login.subtitle')}
             </p>
           </div>
@@ -146,8 +147,7 @@ export default function LoginPage() {
                   required
                   autoComplete="username"
                   className={cn(
-                    'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm',
-                    'focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500',
+                    'w-full px-3 py-2 border border-gray-300 rounded-lg text-base',
                     'placeholder:text-gray-400',
                     isRtl ? 'text-right' : 'text-left'
                   )}
@@ -176,8 +176,7 @@ export default function LoginPage() {
                     required
                     autoComplete="current-password"
                     className={cn(
-                      'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm',
-                      'focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500',
+                      'w-full px-3 py-2 border border-gray-300 rounded-lg text-base',
                       'placeholder:text-gray-400',
                       isRtl ? 'text-right pr-3 pl-10' : 'text-left pl-3 pr-10'
                     )}
@@ -186,11 +185,12 @@ export default function LoginPage() {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
+                    aria-label={showPassword ? tAuth('login.hidePassword') : tAuth('login.showPassword')}
+                    aria-pressed={showPassword}
                     className={cn(
-                      'absolute top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600',
+                      'absolute top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 cursor-pointer',
                       isRtl ? 'left-3' : 'right-3'
                     )}
-                    tabIndex={-1}
                   >
                     {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
                   </button>
@@ -200,7 +200,7 @@ export default function LoginPage() {
               {/* Error message */}
               {error && (
                 <div
-                  className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2"
+                  className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-3 py-2"
                   role="alert"
                 >
                   {error}
@@ -225,7 +225,7 @@ export default function LoginPage() {
                   <div className="w-full border-t border-gray-200" />
                 </div>
                 <div className="relative flex justify-center">
-                  <span className="bg-white px-3 text-xs text-gray-400 uppercase">
+                  <span className="bg-white px-3 text-xs text-gray-600 uppercase">
                     {tCommon('form.selectOption')}
                   </span>
                 </div>
@@ -256,9 +256,10 @@ export default function LoginPage() {
                   key={account.id}
                   type="button"
                   onClick={() => handleTestAccountClick(account)}
+                  aria-label={tAuth('login.fillTestAccount', { id: account.id, role: tAuth(`roles.${account.roleKey}`) })}
                   className={cn(
                     'w-full flex items-center justify-between px-3 py-2 bg-white rounded-lg border border-amber-200',
-                    'text-xs hover:bg-amber-100 transition-colors',
+                    'text-xs hover:bg-amber-100 transition-colors cursor-pointer',
                     isRtl && 'flex-row-reverse'
                   )}
                 >

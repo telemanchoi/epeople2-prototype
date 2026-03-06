@@ -132,7 +132,7 @@ export default function ComplaintDetailPage() {
           type="button"
           onClick={() => navigate('/citizen/complaints')}
           className={cn(
-            'inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 mb-4',
+            'inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 mb-4 cursor-pointer',
             isRtl && 'flex-row-reverse'
           )}
         >
@@ -239,7 +239,7 @@ export default function ComplaintDetailPage() {
         {/* Content */}
         <div className="mt-6 pt-4 border-t border-gray-100">
           <p className={cn(
-            'text-xs font-medium text-gray-500 uppercase mb-2',
+            'text-sm font-medium text-gray-500 uppercase mb-2',
             isRtl ? 'text-right' : 'text-left'
           )}>
             {tC('form.content')}
@@ -298,10 +298,10 @@ export default function ComplaintDetailPage() {
                 </div>
                 <button
                   type="button"
-                  className="p-1.5 text-gray-500 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors shrink-0"
-                  title={tCommon('buttons.download')}
+                  className="p-1.5 text-gray-500 hover:text-primary-600 hover:bg-primary-50 rounded transition-colors shrink-0 cursor-pointer"
+                  aria-label={tCommon('buttons.download')}
                 >
-                  <Download size={16} />
+                  <Download size={16} aria-hidden="true" />
                 </button>
               </li>
             ))}
@@ -349,32 +349,37 @@ export default function ComplaintDetailPage() {
             {tC('detail.satisfactionPrompt')}
           </p>
 
-          <div className={cn(
-            'flex items-center gap-1 mb-4',
-            isRtl && 'flex-row-reverse justify-end'
-          )}>
-            {[1, 2, 3, 4, 5].map((score) => (
-              <button
-                key={score}
-                type="button"
-                onClick={() => setRating(score)}
-                onMouseEnter={() => setHoverRating(score)}
-                onMouseLeave={() => setHoverRating(0)}
-                className="p-1 transition-transform hover:scale-110"
-                aria-label={`${score}/5`}
-              >
-                <Star
-                  size={28}
-                  className={cn(
-                    'transition-colors',
-                    (hoverRating || rating) >= score
-                      ? 'fill-amber-400 text-amber-400'
-                      : 'text-gray-300'
-                  )}
-                />
-              </button>
-            ))}
-          </div>
+          <fieldset className="mb-4">
+            <legend className="sr-only">{tC('detail.satisfaction')}</legend>
+            <div className={cn(
+              'flex items-center gap-1',
+              isRtl && 'flex-row-reverse justify-end'
+            )}>
+              {[1, 2, 3, 4, 5].map((score) => (
+                <button
+                  key={score}
+                  type="button"
+                  onClick={() => setRating(score)}
+                  onMouseEnter={() => setHoverRating(score)}
+                  onMouseLeave={() => setHoverRating(0)}
+                  className="p-1 transition-transform hover:scale-110 cursor-pointer"
+                  aria-label={`${score}/5`}
+                  aria-pressed={rating === score}
+                >
+                  <Star
+                    size={28}
+                    aria-hidden="true"
+                    className={cn(
+                      'transition-colors',
+                      (hoverRating || rating) >= score
+                        ? 'fill-amber-400 text-amber-400'
+                        : 'text-gray-300'
+                    )}
+                  />
+                </button>
+              ))}
+            </div>
+          </fieldset>
 
           <Button
             variant="primary"
@@ -398,11 +403,15 @@ export default function ComplaintDetailPage() {
             {tC('detail.satisfactionSubmitted')}
           </p>
           {complaint.satisfactionDetail && (
-            <div className={cn('flex items-center gap-1 mt-2', isRtl && 'flex-row-reverse justify-end')}>
+            <div
+              className={cn('flex items-center gap-1 mt-2', isRtl && 'flex-row-reverse justify-end')}
+              aria-label={`${complaint.satisfactionDetail.score}/5`}
+            >
               {[1, 2, 3, 4, 5].map((score) => (
                 <Star
                   key={score}
                   size={20}
+                  aria-hidden="true"
                   className={cn(
                     score <= complaint.satisfactionDetail!.score
                       ? 'fill-amber-400 text-amber-400'
@@ -450,7 +459,7 @@ function InfoRow({
 }) {
   return (
     <div className={cn(isRtl ? 'text-right' : 'text-left')}>
-      <dt className="text-xs font-medium text-gray-500 uppercase">{label}</dt>
+      <dt className="text-sm font-medium text-gray-500 uppercase">{label}</dt>
       <dd
         className={cn(
           'text-sm text-gray-900 mt-0.5',
@@ -461,6 +470,7 @@ function InfoRow({
         {warning && (
           <AlertTriangle
             size={14}
+            aria-hidden="true"
             className="inline-block ml-1 rtl:mr-1 rtl:ml-0 text-amber-600"
           />
         )}

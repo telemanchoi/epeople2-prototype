@@ -10,7 +10,8 @@
     "worklist": "Liste de travail",
     "helpdesk": "Helpdesk",
     "users": "Gestion des utilisateurs",
-    "performance": "Performance des BRC"
+    "performance": "Performance des BRC",
+    "notifications": "Notifications"
   },
   "buttons": {
     "submit": "Soumettre",
@@ -33,7 +34,13 @@
     "logout": "Se déconnecter",
     "newComplaint": "Nouvelle réclamation",
     "newReport": "Nouveau signalement",
-    "newProposal": "Nouvelle proposition"
+    "newProposal": "Nouvelle proposition",
+    "changeLanguage": "Changer de langue",
+    "userMenu": "Menu utilisateur",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "toggleSidebar": "Afficher/masquer le panneau latéral",
+    "closeSidebar": "Fermer le panneau latéral"
   },
   "pagination": {
     "showing": "Affichage de {{from}} à {{to}} sur {{total}}",
@@ -91,6 +98,7 @@
     "contact": "Contact BCRC",
     "privacy": "Politique de confidentialité",
     "accessibility": "Accessibilité",
-    "copyright": "© 2024 BCRC - Bureau Central des Relations avec le Citoyen"
+    "copyright": "© 2024 BCRC - Bureau Central des Relations avec le Citoyen",
+    "quickLinks": "Liens rapides"
   }
 }

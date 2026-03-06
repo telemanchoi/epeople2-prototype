@@ -1,4 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type {
   IApiResponse,
   ICorruptionReportSummary,
@@ -55,7 +56,7 @@ export function useSubmitReport() {
 
   return useMutation({
     mutationFn: async (data: SubmitReportPayload) => {
-      const res = await fetch('/api/reports', {
+      const res = await apiFetch('/api/reports', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
@@ -81,7 +82,7 @@ export function useTrackReport(code: string | undefined) {
       if (code) {
         params.set('token', code);
       }
-      const res = await fetch(`/api/reports/track?${params.toString()}`);
+      const res = await apiFetch(`/api/reports/track?${params.toString()}`);
       if (!res.ok) {
         throw new Error(`Failed to track report: ${res.status}`);
       }
@@ -105,7 +106,7 @@ export function useReports(filters?: ReportFilters) {
           }
         }
       }
-      const res = await fetch(`/api/reports?${params.toString()}`);
+      const res = await apiFetch(`/api/reports?${params.toString()}`);
       if (!res.ok) {
         throw new Error(`Failed to fetch reports: ${res.status}`);
       }
@@ -123,7 +124,7 @@ export function useUpdateReportStatus() {
 
   return useMutation({
     mutationFn: async ({ id, ...payload }: UpdateReportStatusPayload) => {
-      const res = await fetch(`/api/reports/${id}/status`, {
+      const res = await apiFetch(`/api/reports/${id}/status`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

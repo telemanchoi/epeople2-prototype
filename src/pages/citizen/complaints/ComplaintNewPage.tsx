@@ -242,49 +242,53 @@ function Step1TypeSelection() {
 
   return (
     <div>
-      <h2
-        className={cn(
-          'text-lg font-semibold text-gray-900 mb-2',
-          isRtl ? 'text-right' : 'text-left'
-        )}
-      >
-        {tC('form.selectType')}
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-        {COMPLAINT_TYPES.map((type) => {
-          const Icon = ICON_MAP[type];
-          const isSelected = formData.type === type;
+      <fieldset>
+        <legend
+          className={cn(
+            'text-lg font-semibold text-gray-900 mb-2',
+            isRtl ? 'text-right' : 'text-left'
+          )}
+        >
+          {tC('form.selectType')}
+        </legend>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          {COMPLAINT_TYPES.map((type) => {
+            const Icon = ICON_MAP[type];
+            const isSelected = formData.type === type;
 
-          return (
-            <button
-              key={type}
-              type="button"
-              onClick={() => updateFormData({ type })}
-              className={cn(
-                'flex flex-col items-center gap-3 p-5 rounded-xl border-2 transition-all text-center',
-                TYPE_STYLE[type],
-                isSelected && TYPE_SELECTED[type]
-              )}
-            >
-              <Icon
-                size={32}
-                className={cn(TYPE_ICON_COLOR[type])}
-              />
-              <div>
-                <p className="font-semibold text-gray-900 text-sm">
-                  {tC(`types.${type}`)}
-                </p>
-                <p className="text-xs text-gray-600 mt-1 leading-relaxed">
-                  {tC(`typeDescriptions.${type}`)}
-                </p>
-                <p className="text-xs font-medium text-gray-500 mt-2">
-                  SLA: {tC(`sla.${type}`)}
-                </p>
-              </div>
-            </button>
-          );
-        })}
-      </div>
+            return (
+              <button
+                key={type}
+                type="button"
+                role="radio"
+                aria-checked={isSelected}
+                onClick={() => updateFormData({ type })}
+                className={cn(
+                  'flex flex-col items-center gap-3 p-5 rounded-xl border-2 transition-all text-center cursor-pointer',
+                  TYPE_STYLE[type],
+                  isSelected && TYPE_SELECTED[type]
+                )}
+              >
+                <Icon
+                  size={32}
+                  className={cn(TYPE_ICON_COLOR[type])}
+                />
+                <div>
+                  <p className="font-semibold text-gray-900 text-sm">
+                    {tC(`types.${type}`)}
+                  </p>
+                  <p className="text-sm text-gray-600 mt-1 leading-relaxed">
+                    {tC(`typeDescriptions.${type}`)}
+                  </p>
+                  <p className="text-xs font-medium text-gray-500 mt-2">
+                    SLA: {tC(`sla.${type}`)}
+                  </p>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </fieldset>
     </div>
   );
 }
@@ -346,6 +350,7 @@ function Step2CategorySelection() {
       {/* L1 */}
       <div>
         <label
+          htmlFor="category-l1"
           className={cn(
             'block text-sm font-medium text-gray-700 mb-1',
             isRtl ? 'text-right' : 'text-left'
@@ -354,6 +359,7 @@ function Step2CategorySelection() {
           {tC('form.categoryL1')}
         </label>
         <select
+          id="category-l1"
           value={formData.categoryL1}
           onChange={(e) =>
             updateFormData({
@@ -377,6 +383,7 @@ function Step2CategorySelection() {
       {l2Options.length > 0 && (
         <div>
           <label
+            htmlFor="category-l2"
             className={cn(
               'block text-sm font-medium text-gray-700 mb-1',
               isRtl ? 'text-right' : 'text-left'
@@ -385,6 +392,7 @@ function Step2CategorySelection() {
             {tC('form.categoryL2')}
           </label>
           <select
+            id="category-l2"
             value={formData.categoryL2}
             onChange={(e) =>
               updateFormData({
@@ -408,6 +416,7 @@ function Step2CategorySelection() {
       {l3Options.length > 0 && (
         <div>
           <label
+            htmlFor="category-l3"
             className={cn(
               'block text-sm font-medium text-gray-700 mb-1',
               isRtl ? 'text-right' : 'text-left'
@@ -416,6 +425,7 @@ function Step2CategorySelection() {
             {tC('form.categoryL3')}
           </label>
           <select
+            id="category-l3"
             value={formData.categoryL3}
             onChange={(e) =>
               updateFormData({ categoryL3: e.target.value })
@@ -475,7 +485,7 @@ function Step3ContentEntry() {
 
   const inputClass = cn(
     'w-full px-3 py-2.5 border border-gray-300 rounded-lg text-sm',
-    'focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500',
+    'focus:border-primary-500',
     'placeholder:text-gray-400',
     isRtl ? 'text-right' : 'text-left'
   );
@@ -506,6 +516,7 @@ function Step3ContentEntry() {
           type="text"
           maxLength={200}
           placeholder={tC('form.titlePlaceholder')}
+          aria-describedby="error-titleFr"
           className={cn(inputClass, errors.titleFr && 'border-red-500')}
           {...register('titleFr', {
             onChange: (e) => updateFormData({ titleFr: e.target.value }),
@@ -518,7 +529,7 @@ function Step3ContentEntry() {
           )}
         >
           {errors.titleFr && (
-            <span className="text-xs text-red-600">{tCommon('form.required')}</span>
+            <span id="error-titleFr" className="text-xs text-red-600">{tCommon('form.required')}</span>
           )}
           <span className={cn('text-xs text-gray-400', !errors.titleFr && 'ml-auto rtl:mr-auto rtl:ml-0')}>
             {titleValue.length}/200
@@ -536,6 +547,7 @@ function Step3ContentEntry() {
           rows={6}
           maxLength={2000}
           placeholder={tC('form.contentPlaceholder')}
+          aria-describedby="error-contentFr"
           className={cn(inputClass, 'resize-none', errors.contentFr && 'border-red-500')}
           {...register('contentFr', {
             onChange: (e) => updateFormData({ contentFr: e.target.value }),
@@ -548,7 +560,7 @@ function Step3ContentEntry() {
           )}
         >
           {errors.contentFr && (
-            <span className="text-xs text-red-600">{tCommon('form.required')}</span>
+            <span id="error-contentFr" className="text-xs text-red-600">{tCommon('form.required')}</span>
           )}
           <span className={cn('text-xs text-gray-400', !errors.contentFr && 'ml-auto rtl:mr-auto rtl:ml-0')}>
             {contentValue.length}/2000

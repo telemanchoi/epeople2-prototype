@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { NavLink, Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown, Globe, LogOut, User } from 'lucide-react';
@@ -40,6 +40,14 @@ export default function Header() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Close dropdowns on Escape
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      setLangDropdownOpen(false);
+      setUserDropdownOpen(false);
+    }
+  }, []);
+
   const navItems = [
     { to: '/citizen', label: t('nav.home'), end: true },
     { to: '/citizen/complaints', label: t('nav.complaints'), end: false },
@@ -56,28 +64,28 @@ export default function Header() {
   const currentLang = languages.find((l) => l.code === language);
 
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-40" onKeyDown={handleKeyDown}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
+          {/* Logo — use span instead of h1 to avoid duplicate h1 */}
           <div className="flex items-center gap-3 rtl:gap-3">
-            <Link to="/citizen" className="flex items-center gap-2 rtl:gap-2">
+            <Link to="/citizen" className="flex items-center gap-2 rtl:gap-2 cursor-pointer">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary-700 text-white font-bold text-sm">
                 eP
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg font-bold text-primary-700 leading-tight">
+                <span className="text-lg font-bold text-primary-700 leading-tight block">
                   {t('appName')}
-                </h1>
-                <p className="text-[10px] text-gray-500 leading-tight">
+                </span>
+                <span className="text-xs text-gray-600 leading-tight block">
                   {t('appSubtitle')}
-                </p>
+                </span>
               </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-1 rtl:gap-1">
+          <nav className="hidden md:flex items-center gap-1 rtl:gap-1" aria-label={t('nav.home')}>
             {navItems.map((item) => (
               <NavLink
                 key={item.to}
@@ -85,10 +93,10 @@ export default function Header() {
                 end={item.end}
                 className={({ isActive }) =>
                   cn(
-                    'px-3 py-2 rounded-md text-sm font-medium transition-colors',
+                    'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 cursor-pointer',
                     isActive
-                      ? 'bg-primary-50 text-primary-700'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                      ? 'bg-primary-50 text-primary-700 font-semibold'
+                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-100'
                   )
                 }
               >
@@ -103,34 +111,36 @@ export default function Header() {
             <div ref={langRef} className="relative">
               <button
                 onClick={() => setLangDropdownOpen((v) => !v)}
-                className="flex items-center gap-1.5 rtl:gap-1.5 px-2.5 py-1.5 rounded-md text-sm text-gray-600 hover:bg-gray-100 transition-colors"
-                aria-label={t('language.' + language)}
+                className="flex items-center gap-1.5 rtl:gap-1.5 min-h-[44px] px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+                aria-label={`${t('language.' + language)} — ${t('buttons.changeLanguage') || 'Change language'}`}
+                aria-expanded={langDropdownOpen}
+                aria-haspopup="listbox"
               >
-                <Globe size={16} />
+                <Globe size={16} aria-hidden="true" />
                 <span className="hidden sm:inline">{currentLang?.label}</span>
-                <ChevronDown size={14} />
+                <ChevronDown size={14} aria-hidden="true" />
               </button>
               {langDropdownOpen && (
-                <div className="absolute end-0 mt-1 w-40 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50">
-                  <div className="py-1">
-                    {languages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => {
-                          setLanguage(lang.code);
-                          setLangDropdownOpen(false);
-                        }}
-                        className={cn(
-                          'block w-full px-4 py-2 text-sm text-start transition-colors',
-                          language === lang.code
-                            ? 'bg-primary-50 text-primary-700 font-medium'
-                            : 'text-gray-700 hover:bg-gray-50'
-                        )}
-                      >
-                        {lang.label}
-                      </button>
-                    ))}
-                  </div>
+                <div className="absolute end-0 mt-1 w-40 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50" role="listbox" aria-label={t('buttons.changeLanguage') || 'Language'}>
+                  {languages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      role="option"
+                      aria-selected={language === lang.code}
+                      onClick={() => {
+                        setLanguage(lang.code);
+                        setLangDropdownOpen(false);
+                      }}
+                      className={cn(
+                        'block w-full px-4 py-2.5 text-sm text-start transition-colors duration-200 cursor-pointer',
+                        language === lang.code
+                          ? 'bg-primary-50 text-primary-700 font-medium'
+                          : 'text-gray-700 hover:bg-gray-100'
+                      )}
+                    >
+                      {lang.label}
+                    </button>
+                  ))}
                 </div>
               )}
             </div>
@@ -140,26 +150,30 @@ export default function Header() {
               <div ref={userRef} className="relative">
                 <button
                   onClick={() => setUserDropdownOpen((v) => !v)}
-                  className="flex items-center gap-2 rtl:gap-2 px-3 py-1.5 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors"
+                  className="flex items-center gap-2 rtl:gap-2 min-h-[44px] px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+                  aria-label={`${user.name} — ${t('buttons.userMenu') || 'User menu'}`}
+                  aria-expanded={userDropdownOpen}
+                  aria-haspopup="menu"
                 >
                   <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary-100 text-primary-700 text-xs font-semibold">
                     {user.name.charAt(0).toUpperCase()}
                   </div>
                   <span className="hidden sm:inline font-medium">{user.name}</span>
-                  <ChevronDown size={14} />
+                  <ChevronDown size={14} aria-hidden="true" />
                 </button>
                 {userDropdownOpen && (
-                  <div className="absolute end-0 mt-1 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50">
+                  <div className="absolute end-0 mt-1 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50" role="menu">
                     <div className="px-4 py-3 border-b border-gray-100">
                       <p className="text-sm font-medium text-gray-900">{user.name}</p>
-                      <p className="text-xs text-gray-500">{user.role}</p>
+                      <p className="text-xs text-gray-600">{user.role}</p>
                     </div>
                     <div className="py-1">
                       <button
                         onClick={handleLogout}
-                        className="flex w-full items-center gap-2 rtl:gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors text-start"
+                        role="menuitem"
+                        className="flex w-full items-center gap-2 rtl:gap-2 px-4 py-2.5 text-sm text-red-700 hover:bg-red-50 transition-colors duration-200 text-start cursor-pointer"
                       >
-                        <LogOut size={16} />
+                        <LogOut size={16} aria-hidden="true" />
                         {t('buttons.logout')}
                       </button>
                     </div>
@@ -169,9 +183,9 @@ export default function Header() {
             ) : (
               <Link
                 to="/auth/login"
-                className="flex items-center gap-1.5 rtl:gap-1.5 px-4 py-2 rounded-md bg-primary-700 text-white text-sm font-medium hover:bg-primary-800 transition-colors"
+                className="flex items-center gap-1.5 rtl:gap-1.5 min-h-[44px] px-4 py-2 rounded-md bg-cta-500 text-white text-sm font-medium hover:bg-cta-600 transition-colors duration-200 cursor-pointer"
               >
-                <User size={16} />
+                <User size={16} aria-hidden="true" />
                 <span>{t('buttons.login')}</span>
               </Link>
             )}
@@ -179,10 +193,12 @@ export default function Header() {
             {/* Mobile Menu Toggle */}
             <button
               onClick={() => setMobileMenuOpen((v) => !v)}
-              className="md:hidden flex items-center justify-center w-9 h-9 rounded-md text-gray-600 hover:bg-gray-100 transition-colors"
-              aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+              className="md:hidden flex items-center justify-center min-w-[44px] min-h-[44px] rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+              aria-label={mobileMenuOpen ? t('buttons.closeMenu') || 'Close menu' : t('buttons.openMenu') || 'Open menu'}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-nav"
             >
-              {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+              {mobileMenuOpen ? <X size={20} aria-hidden="true" /> : <Menu size={20} aria-hidden="true" />}
             </button>
           </div>
         </div>
@@ -190,8 +206,8 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white">
-          <nav className="px-4 py-3 space-y-1">
+        <div id="mobile-nav" className="md:hidden border-t border-gray-200 bg-white">
+          <nav className="px-4 py-3 space-y-1" aria-label={t('nav.home')}>
             {navItems.map((item) => (
               <NavLink
                 key={item.to}
@@ -200,10 +216,10 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
                 className={({ isActive }) =>
                   cn(
-                    'block px-3 py-2 rounded-md text-sm font-medium transition-colors',
+                    'block px-3 py-3 rounded-md text-sm font-medium transition-colors duration-200 cursor-pointer',
                     isActive
-                      ? 'bg-primary-50 text-primary-700'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                      ? 'bg-primary-50 text-primary-700 font-semibold'
+                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-100'
                   )
                 }
               >

@@ -269,14 +269,14 @@ export default function ProposalDetailPage() {
           >
             {proposal.review.result === 'accepted' ? (
               <>
-                <CheckCircle2 size={20} className="text-green-600" />
+                <CheckCircle2 size={20} className="text-green-600" aria-hidden="true" />
                 <Badge variant="success">
                   {t('proposal:statuses.accepted')}
                 </Badge>
               </>
             ) : (
               <>
-                <XCircle size={20} className="text-red-600" />
+                <XCircle size={20} className="text-red-600" aria-hidden="true" />
                 <Badge variant="error">
                   {t('proposal:statuses.rejected')}
                 </Badge>
@@ -330,7 +330,14 @@ export default function ProposalDetailPage() {
                   {latestProgress}%
                 </span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div
+                className="w-full bg-gray-200 rounded-full h-3"
+                role="progressbar"
+                aria-valuenow={latestProgress}
+                aria-valuemin={0}
+                aria-valuemax={100}
+                aria-label={t('proposal:detail.progress')}
+              >
                 <div
                   className={cn(
                     'h-3 rounded-full transition-all duration-500',
@@ -379,6 +386,7 @@ export default function ProposalDetailPage() {
           <CheckCircle2
             size={32}
             className="text-green-600 mx-auto mb-2"
+            aria-hidden="true"
           />
           <p className="text-sm font-medium text-green-800">
             {t('proposal:statuses.implemented')}

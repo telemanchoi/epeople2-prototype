@@ -1,4 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
+import { apiFetch } from '@/utils/api';
 import type {
   IApiResponse,
   IStatisticsOverview,
@@ -35,7 +36,7 @@ export function useStatisticsOverview(filters?: StatisticsFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/overview?${params.toString()}`
       );
       if (!res.ok) {
@@ -62,7 +63,7 @@ export function useTrend(filters?: TrendFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/trend?${params.toString()}`
       );
       if (!res.ok) {
@@ -87,7 +88,7 @@ export function useByType(filters?: StatisticsFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/by-type?${params.toString()}`
       );
       if (!res.ok) {
@@ -114,7 +115,7 @@ export function useByAgency(filters?: StatisticsFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/by-agency?${params.toString()}`
       );
       if (!res.ok) {
@@ -141,7 +142,7 @@ export function useRepeatedComplaints(filters?: StatisticsFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/repeated-complaints?${params.toString()}`
       );
       if (!res.ok) {
@@ -169,7 +170,7 @@ export function useLongOverdue(filters?: StatisticsFilters) {
           }
         }
       }
-      const res = await fetch(
+      const res = await apiFetch(
         `/api/statistics/long-overdue?${params.toString()}`
       );
       if (!res.ok) {

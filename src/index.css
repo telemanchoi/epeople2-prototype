@@ -4,6 +4,39 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-gray-800 antialiased;
+    @apply bg-[#F8FAFC] text-[#020617] antialiased;
+  }
+
+  /* Global focus ring: 3px for WCAG AAA */
+  *:focus-visible {
+    @apply outline-none ring-[3px] ring-cta-500/50 ring-offset-1;
+  }
+
+  /* Font family based on lang/dir */
+  html[lang='ar'] body {
+    font-family: 'Noto Sans Arabic', Arial, sans-serif;
+  }
+
+  html[lang='fr'] body,
+  html[lang='ko'] body,
+  html:not([lang='ar']) body {
+    font-family: 'Inter', Arial, sans-serif;
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Font loading: prevent FOIT */
+  @font-face {
+    font-display: swap;
   }
 }

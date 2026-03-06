@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, Bell, Globe, ChevronDown, LogOut } from 'lucide-react';
@@ -55,6 +55,14 @@ export default function BackofficeHeader() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Close dropdowns on Escape
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      setLangDropdownOpen(false);
+      setUserDropdownOpen(false);
+    }
+  }, []);
+
   const handleLogout = () => {
     logout();
     setUserDropdownOpen(false);
@@ -67,22 +75,23 @@ export default function BackofficeHeader() {
     const path = '/' + pathSegments.slice(0, index + 1).join('/');
     const labelKey = BREADCRUMB_MAP[segment];
     const label = labelKey ? t(labelKey) : segment;
-    return { label, path };
+    const isLast = index === pathSegments.length - 1;
+    return { label, path, isLast };
   });
 
   const currentLang = languages.find((l) => l.code === language);
 
   return (
-    <header className="bg-white border-b border-gray-200 px-4 sm:px-6">
+    <header className="bg-white border-b border-gray-200 px-4 sm:px-6" onKeyDown={handleKeyDown}>
       <div className="flex h-16 items-center justify-between">
         {/* Left: Sidebar toggle + Breadcrumb */}
         <div className="flex items-center gap-3 rtl:gap-3">
           <button
             onClick={toggleSidebar}
-            className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md text-gray-500 hover:bg-gray-100 transition-colors"
-            aria-label="Toggle sidebar"
+            className="lg:hidden flex items-center justify-center min-w-[44px] min-h-[44px] rounded-md text-gray-600 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+            aria-label={t('buttons.toggleSidebar') || 'Toggle sidebar'}
           >
-            <Menu size={20} />
+            <Menu size={20} aria-hidden="true" />
           </button>
 
           {/* Breadcrumb */}
@@ -91,12 +100,12 @@ export default function BackofficeHeader() {
               {breadcrumbs.map((crumb, index) => (
                 <li key={crumb.path} className="flex items-center gap-1.5 rtl:gap-1.5">
                   {index > 0 && (
-                    <span className="text-gray-300 rtl:rotate-180">/</span>
+                    <span className="text-gray-300 rtl:rotate-180" aria-hidden="true">/</span>
                   )}
-                  {index === breadcrumbs.length - 1 ? (
-                    <span className="font-medium text-gray-900">{crumb.label}</span>
+                  {crumb.isLast ? (
+                    <span className="font-medium text-gray-900" aria-current="page">{crumb.label}</span>
                   ) : (
-                    <span className="text-gray-500">{crumb.label}</span>
+                    <span className="text-gray-600">{crumb.label}</span>
                   )}
                 </li>
               ))}
@@ -108,12 +117,12 @@ export default function BackofficeHeader() {
         <div className="flex items-center gap-2 rtl:gap-2">
           {/* Notification Bell */}
           <button
-            className="relative flex items-center justify-center w-9 h-9 rounded-md text-gray-500 hover:bg-gray-100 transition-colors"
-            aria-label="Notifications"
+            className="relative flex items-center justify-center min-w-[44px] min-h-[44px] rounded-md text-gray-600 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+            aria-label={`${t('nav.notifications') || 'Notifications'} (${unreadCount})`}
           >
-            <Bell size={20} />
+            <Bell size={20} aria-hidden="true" />
             {unreadCount > 0 && (
-              <span className="absolute -top-0.5 -end-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-500 px-1 text-[10px] font-bold text-white">
+              <span className="absolute -top-0.5 -end-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-500 px-1 text-[10px] font-bold text-white" aria-hidden="true">
                 {unreadCount}
               </span>
             )}
@@ -123,34 +132,36 @@ export default function BackofficeHeader() {
           <div ref={langRef} className="relative">
             <button
               onClick={() => setLangDropdownOpen((v) => !v)}
-              className="flex items-center gap-1.5 rtl:gap-1.5 px-2.5 py-1.5 rounded-md text-sm text-gray-600 hover:bg-gray-100 transition-colors"
-              aria-label={t('language.' + language)}
+              className="flex items-center gap-1.5 rtl:gap-1.5 min-h-[44px] px-3 py-2 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+              aria-label={`${t('language.' + language)} — ${t('buttons.changeLanguage') || 'Change language'}`}
+              aria-expanded={langDropdownOpen}
+              aria-haspopup="listbox"
             >
-              <Globe size={16} />
+              <Globe size={16} aria-hidden="true" />
               <span className="hidden sm:inline">{currentLang?.label}</span>
-              <ChevronDown size={14} />
+              <ChevronDown size={14} aria-hidden="true" />
             </button>
             {langDropdownOpen && (
-              <div className="absolute end-0 mt-1 w-40 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50">
-                <div className="py-1">
-                  {languages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      onClick={() => {
-                        setLanguage(lang.code);
-                        setLangDropdownOpen(false);
-                      }}
-                      className={cn(
-                        'block w-full px-4 py-2 text-sm text-start transition-colors',
-                        language === lang.code
-                          ? 'bg-primary-50 text-primary-700 font-medium'
-                          : 'text-gray-700 hover:bg-gray-50'
-                      )}
-                    >
-                      {lang.label}
-                    </button>
-                  ))}
-                </div>
+              <div className="absolute end-0 mt-1 w-40 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50" role="listbox" aria-label={t('buttons.changeLanguage') || 'Language'}>
+                {languages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    role="option"
+                    aria-selected={language === lang.code}
+                    onClick={() => {
+                      setLanguage(lang.code);
+                      setLangDropdownOpen(false);
+                    }}
+                    className={cn(
+                      'block w-full px-4 py-2.5 text-sm text-start transition-colors duration-200 cursor-pointer',
+                      language === lang.code
+                        ? 'bg-primary-50 text-primary-700 font-medium'
+                        : 'text-gray-700 hover:bg-gray-100'
+                    )}
+                  >
+                    {lang.label}
+                  </button>
+                ))}
               </div>
             )}
           </div>
@@ -160,25 +171,29 @@ export default function BackofficeHeader() {
             <div ref={userRef} className="relative">
               <button
                 onClick={() => setUserDropdownOpen((v) => !v)}
-                className="flex items-center gap-2 rtl:gap-2 px-2 py-1.5 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors"
+                className="flex items-center gap-2 rtl:gap-2 min-h-[44px] px-2 py-2 rounded-md text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+                aria-label={`${user.name} — ${t('buttons.userMenu') || 'User menu'}`}
+                aria-expanded={userDropdownOpen}
+                aria-haspopup="menu"
               >
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary-100 text-primary-700 text-xs font-semibold">
                   {user.name.charAt(0).toUpperCase()}
                 </div>
                 <div className="hidden sm:block text-start">
                   <p className="text-sm font-medium leading-tight">{user.name}</p>
-                  <p className="text-[10px] text-gray-500 leading-tight">{user.role}</p>
+                  <p className="text-xs text-gray-600 leading-tight">{user.role}</p>
                 </div>
-                <ChevronDown size={14} />
+                <ChevronDown size={14} aria-hidden="true" />
               </button>
               {userDropdownOpen && (
-                <div className="absolute end-0 mt-1 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50">
+                <div className="absolute end-0 mt-1 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 z-50" role="menu">
                   <div className="py-1">
                     <button
                       onClick={handleLogout}
-                      className="flex w-full items-center gap-2 rtl:gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors text-start"
+                      role="menuitem"
+                      className="flex w-full items-center gap-2 rtl:gap-2 px-4 py-2.5 text-sm text-red-700 hover:bg-red-50 transition-colors duration-200 text-start cursor-pointer"
                     >
-                      <LogOut size={16} />
+                      <LogOut size={16} aria-hidden="true" />
                       {t('buttons.logout')}
                     </button>
                   </div>

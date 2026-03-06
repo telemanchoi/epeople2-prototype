@@ -1,3 +1,4 @@
+import { useEffect, useCallback } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
@@ -29,6 +30,21 @@ export default function Sidebar() {
   const user = getUser();
   const userRole = user?.role;
 
+  // Close sidebar on Escape key
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && sidebarOpen) {
+        toggleSidebar();
+      }
+    },
+    [sidebarOpen, toggleSidebar]
+  );
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [handleKeyDown]);
+
   // Determine base path for menu items
   const isAdminRoute = location.pathname.startsWith('/admin');
 
@@ -36,37 +52,37 @@ export default function Sidebar() {
     {
       to: isAdminRoute ? '/admin' : '/backoffice',
       label: t('nav.backoffice'),
-      icon: <LayoutDashboard size={20} />,
+      icon: <LayoutDashboard size={20} aria-hidden="true" />,
       roles: ['BRC_OFFICER', 'BRC_MANAGER', 'BCRC_ADMIN', 'DGGPC_OFFICER', 'DGGPC_MANAGER'],
     },
     {
       to: '/backoffice/worklist',
       label: t('nav.worklist'),
-      icon: <ListTodo size={20} />,
+      icon: <ListTodo size={20} aria-hidden="true" />,
       roles: ['BRC_OFFICER', 'BRC_MANAGER', 'BCRC_ADMIN'],
     },
     {
       to: '/backoffice/statistics',
       label: t('nav.statistics'),
-      icon: <BarChart3 size={20} />,
+      icon: <BarChart3 size={20} aria-hidden="true" />,
       roles: ['BCRC_ADMIN'],
     },
     {
       to: '/backoffice/helpdesk',
       label: t('nav.helpdesk'),
-      icon: <Headphones size={20} />,
+      icon: <Headphones size={20} aria-hidden="true" />,
       roles: ['BRC_OFFICER', 'BRC_MANAGER', 'BCRC_ADMIN'],
     },
     {
       to: '/admin/performance',
       label: t('nav.performance'),
-      icon: <Building2 size={20} />,
+      icon: <Building2 size={20} aria-hidden="true" />,
       roles: ['BCRC_ADMIN'],
     },
     {
       to: '/admin/users',
       label: t('nav.users'),
-      icon: <Users size={20} />,
+      icon: <Users size={20} aria-hidden="true" />,
       roles: ['BCRC_ADMIN'],
     },
   ];
@@ -76,13 +92,13 @@ export default function Sidebar() {
     {
       to: '/backoffice',
       label: t('nav.backoffice'),
-      icon: <LayoutDashboard size={20} />,
+      icon: <LayoutDashboard size={20} aria-hidden="true" />,
       roles: ['DGGPC_OFFICER', 'DGGPC_MANAGER'],
     },
     {
       to: '/citizen/reports/new',
       label: t('nav.reports'),
-      icon: <BarChart3 size={20} />,
+      icon: <BarChart3 size={20} aria-hidden="true" />,
       roles: ['DGGPC_OFFICER', 'DGGPC_MANAGER'],
     },
   ];
@@ -105,6 +121,7 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <aside
+        aria-label={t('nav.backoffice') || 'Backoffice navigation'}
         className={cn(
           'fixed lg:static inset-y-0 start-0 z-50 flex w-64 flex-col bg-white border-e border-gray-200 transition-transform duration-200 ease-in-out',
           sidebarOpen ? 'translate-x-0 rtl:-translate-x-0' : '-translate-x-full rtl:translate-x-full lg:translate-x-0 rtl:lg:-translate-x-0'
@@ -117,21 +134,21 @@ export default function Sidebar() {
               eP
             </div>
             <div>
-              <h2 className="text-sm font-bold text-primary-700">{t('appName')}</h2>
-              <p className="text-[10px] text-gray-500">{t('nav.backoffice')}</p>
+              <span className="text-sm font-bold text-primary-700 block">{t('appName')}</span>
+              <span className="text-xs text-gray-600 block">{t('nav.backoffice')}</span>
             </div>
           </div>
           <button
             onClick={toggleSidebar}
-            className="lg:hidden flex items-center justify-center w-8 h-8 rounded-md text-gray-500 hover:bg-gray-100 transition-colors"
-            aria-label="Close sidebar"
+            className="lg:hidden flex items-center justify-center min-w-[44px] min-h-[44px] rounded-md text-gray-600 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
+            aria-label={t('buttons.closeSidebar') || 'Close sidebar'}
           >
-            <X size={18} />
+            <X size={18} aria-hidden="true" />
           </button>
         </div>
 
         {/* Navigation */}
-        <nav className="flex-1 overflow-y-auto px-3 py-4">
+        <nav className="flex-1 overflow-y-auto px-3 py-4" aria-label={t('nav.backoffice') || 'Backoffice'}>
           <ul className="space-y-1">
             {visibleItems.map((item) => (
               <li key={item.to}>
@@ -139,17 +156,16 @@ export default function Sidebar() {
                   to={item.to}
                   end={item.to === '/backoffice' || item.to === '/admin'}
                   onClick={() => {
-                    // Close sidebar on mobile after navigation
                     if (window.innerWidth < 1024) {
                       toggleSidebar();
                     }
                   }}
                   className={({ isActive }) =>
                     cn(
-                      'flex items-center gap-3 rtl:gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors',
+                      'flex items-center gap-3 rtl:gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 cursor-pointer',
                       isActive
                         ? 'bg-primary-700 text-white'
-                        : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                        : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900'
                     )
                   }
                 >
@@ -163,14 +179,14 @@ export default function Sidebar() {
 
         {/* Sidebar Footer: User Info */}
         {user && (
-          <div className="border-t border-gray-200 px-4 py-3">
+          <div className="border-t border-gray-200 px-4 py-3" aria-label={t('buttons.userMenu') || 'User info'}>
             <div className="flex items-center gap-3 rtl:gap-3">
               <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-100 text-primary-700 text-xs font-semibold shrink-0">
                 {user.name.charAt(0).toUpperCase()}
               </div>
               <div className="min-w-0">
                 <p className="text-sm font-medium text-gray-900 truncate">{user.name}</p>
-                <p className="text-xs text-gray-500 truncate">{user.role}</p>
+                <p className="text-xs text-gray-600 truncate">{user.role}</p>
               </div>
             </div>
           </div>
